@@ -3,14 +3,20 @@ import fs from 'fs';
 import path from 'path';
 import { pinyin } from 'pinyin-pro';
 
-// Excel 文件路径
-const excelPath = path.resolve('E:\\营销号', '网站类别.xlsx');
+// Excel 文件路径：优先使用环境变量，否则使用默认路径
+const defaultExcelPath = path.resolve(process.cwd(), 'data-src/网站类别.xlsx');
+const excelPath = process.env.EXCEL_PATH ? path.resolve(process.cwd(), process.env.EXCEL_PATH) : defaultExcelPath;
 
 // 输出目录
-const outputDir = path.resolve(__dirname, '../data');
+const outputDir = path.resolve(process.cwd(), 'data');
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
+
+// 打印使用的 Excel 路径
+console.log('=== 数据构建脚本 ===');
+console.log(`EXCEL_PATH: ${excelPath}`);
+console.log(`输出目录: ${outputDir}\n`);
 
 // 生成安全的 slug（只包含字母数字和连字符）
 function generateSlug(text: string): string {
@@ -50,7 +56,16 @@ function isValidTitle(value: any): boolean {
   return value.trim().length > 0;
 }
 
-console.log('Reading Excel file:', excelPath);
+// 检查 Excel 文件是否存在
+if (!fs.existsSync(excelPath)) {
+  console.error(`❌ 错误: Excel 文件不存在: ${excelPath}`);
+  console.error(`\n解决方案:`);
+  console.error(`1. 确保 data-src/网站类别.xlsx 文件存在于仓库根目录`);
+  console.error(`2. 或者设置环境变量: EXCEL_PATH=path/to/your/file.xlsx`);
+  process.exit(1);
+}
+
+console.log(`Reading Excel file: ${excelPath}`);
 
 // 读取工作簿
 const workbook = XLSX.readFile(excelPath);
@@ -167,4 +182,4 @@ Object.entries(categories).forEach(([category, items]) => {
 });
 console.log(`\n总条目数: ${totalItems}`);
 console.log(`被跳过的无效条目数: ${skippedItems}`);
-console.log('\n数据文件生成完成!');
+console.log('\n✅ 数据文件生成完成!');

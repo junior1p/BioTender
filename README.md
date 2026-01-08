@@ -11,6 +11,7 @@
 - 全站搜索与分类筛选
 - 响应式设计，移动端适配
 - SEO 优化，包含 sitemap.xml
+- GitHub Actions 自动部署
 
 ## 快速开始
 
@@ -28,7 +29,7 @@ npm install
 npm run build-data
 ```
 
-数据来源：`E:\营销号\网站类别.xlsx`
+数据来源：`data-src/网站类别.xlsx`
 
 生成的文件：
 - `/data/categories.json` - 分类数据
@@ -47,34 +48,44 @@ npm run dev
 
 ```bash
 npm run build
-npm start
 ```
 
-## 更新 Excel 数据
+静态文件会输出到 `out/` 目录。
 
-1. 编辑 `E:\营销号\网站类别.xlsx`
+## 更新数据
+
+### 方式一：更新 Excel 源文件
+
+1. 替换 `data-src/网站类别.xlsx` 文件
 2. 运行 `npm run build-data` 重新生成数据
-3. 刷新页面即可看到更新
+3. 提交并推送到 GitHub，Actions 会自动部署
 
-## 部署到 Vercel
-
-### 方式一：通过 Vercel CLI
+### 方式二：使用环境变量（自定义 Excel 路径）
 
 ```bash
-npm install -g vercel
-vercel
+EXCEL_PATH=path/to/your/file.xlsx npm run build-data
 ```
 
-### 方式二：通过 Vercel Dashboard
+## 部署到 GitHub Pages
 
-1. 将代码推送到 GitHub
-2. 在 [Vercel](https://vercel.com) 导入项目
-3. Vercel 会自动检测 Next.js 并构建部署
+项目已配置 GitHub Actions 自动部署：
 
-**注意**：部署前需要修改以下文件中的域名：
+1. 推送代码到 `main` 分支
+2. GitHub Actions 自动运行构建
+3. 部署完成后访问：https://junior1p.github.io/BioTender/
 
-- `app/sitemap.ts` - 修改 `baseUrl`
-- `app/robots.ts` - 修改 `sitemap` URL
+### 开启 GitHub Pages
+
+首次部署需要手动开启：
+
+1. 访问仓库设置：https://github.com/junior1p/BioTender/settings/pages
+2. 在 "Source" 下拉菜单中选择 **"GitHub Actions"**
+3. 保存设置
+
+### 查看部署状态
+
+访问 Actions 页面查看部署日志：
+https://github.com/junior1p/BioTender/actions
 
 ## 项目结构
 
@@ -94,9 +105,14 @@ biotender/
 │   ├── categories.json
 │   ├── category-slugs.json
 │   └── links.json
+├── data-src/              # 数据源文件
+│   └── 网站类别.xlsx      # Excel 源文件
 ├── scripts/               # 构建脚本
 │   ├── build-data.ts     # 数据构建脚本
 │   └── inspect-excel.ts  # Excel 检查脚本
+├── .github/
+│   └── workflows/
+│       └── deploy.yml    # GitHub Actions 配置
 └── public/               # 静态资源
 ```
 
@@ -107,6 +123,7 @@ biotender/
 - **样式**: TailwindCSS 4
 - **数据解析**: xlsx
 - **拼音转换**: pinyin-pro
+- **部署**: GitHub Pages
 
 ## 数据解析规则
 

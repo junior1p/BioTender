@@ -30,6 +30,8 @@ jobs:
 
       - name: Build data
         run: npm run build-data
+        env:
+          EXCEL_PATH: data-src/网站类别.xlsx
 
       - name: Build
         run: npm run build
