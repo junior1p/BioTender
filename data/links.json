@@ -1,0 +1,5072 @@
+[
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "Alphafold3 conda安装",
+    "url": "https://mp.weixin.qq.com/s/OYKLiP0S98jZ8nxrKVHi2w"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "一文带你全面了解蛋白质大语言模型（Protein LLMs）的前沿进展",
+    "url": "https://mp.weixin.qq.com/s/fcd_7kEPbEySkqWOealXjg"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "实战干货｜一键部署蛋白模型训练和筛选系统",
+    "url": "https://mp.weixin.qq.com/s/0mWTPHXJyMdQKwuq-H96cw"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "这篇综述把AI+蛋白质设计讲明白了，科研狗别再乱查资料了！",
+    "url": "https://mp.weixin.qq.com/s/v1lWikcRTMIByw0Qj6cMBw"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "蛋白质结构预测与设计入门：传统算法到AI方法全解析",
+    "url": "https://mp.weixin.qq.com/s/ZPtR-F1Jj-IOui9BFogLcA"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "【结构预测新时代】AlphaFold详解：从1到3，看深度学习如何破解蛋白质折叠之谜！",
+    "url": "https://mp.weixin.qq.com/s/u8wMDBYouZPdnVd4PIIVXQ"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "一文读懂AlphaFold2的结构预测核心模块：从序列到蛋白三维结构的“魔法之旅”",
+    "url": "https://mp.weixin.qq.com/s/W-MAlu_SVVB_2loHMdO8vw"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "深度学习入门指南：教你一步步搞懂虚拟筛选与分子动力学中的AI玩法",
+    "url": "https://mp.weixin.qq.com/s/T5uXXgKwC-WbmfATtRGuyg"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "瑞士团队发布RAG-ESM模型：蛋白AI模型首次以“同源检索”增强结构与功能保真",
+    "url": "https://mp.weixin.qq.com/s/v9MCzA4tJ_GXCWuUrYAo2w"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "三步用好 AlphaFold2：从序列到结构，一气呵成",
+    "url": "https://mp.weixin.qq.com/s/-tt1oif29rhby03-QQhiWw"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "结构靠谱吗？教你读懂 AlphaFold2 的 pLDDT 和 PAE 打分机制",
+    "url": "https://mp.weixin.qq.com/s/MIMJd-XSMxrEq9-R0GLVng"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "MIT博士讲座视频｜带你了解蛋白-肽结构预测的那些AI套路",
+    "url": "https://mp.weixin.qq.com/s/By_OdyF1h1D7KOc7NwkVhw"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "ICLR 2025 药物发现篇论文全览｜从分子生成到蛋白建模，AI如何改写分子科学格局？",
+    "url": "https://mp.weixin.qq.com/s/dOqAuFJKWEGwRVeubLJK2A"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "ICLR 2025 药物设计板块全景综述｜蛋白设计×药物生成：124 篇论文揭示结构智能的未来范式",
+    "url": "https://mp.weixin.qq.com/s/WBfmevJ-rKJb478VUZtSFw"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "【超详细】AlphaFold 3 全架构可视化解读｜含创新点对比 AlphaFold 2",
+    "url": "https://mp.weixin.qq.com/s/cHINrerpiyjTkhEHcIuQpQ"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "别再盲配电脑了！主流蛋白模型本地部署硬件要求全解析",
+    "url": "https://mp.weixin.qq.com/s/hQ1AlHFrTDZBheHINynOSQ"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "重构酶设计逻辑：RFdiffusion2 原子级活性位点建模讲座回顾",
+    "url": "https://mp.weixin.qq.com/s/BssLToI4El5qYnjy7n4vHg"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "RFdiffusion + AlphaFold2全流程实战：生成→筛选→验证LCN2结合蛋白",
+    "url": "https://mp.weixin.qq.com/s/2DZevlCUL0rMkSwNOmDeag"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "AI助力小分子药物研发：方法全景与落地难点梳理",
+    "url": "https://mp.weixin.qq.com/s/oGcsXLZcRta341cgNN46qg"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "AI 如何预测“前所未有”的蛋白互作？一文看尽 de novo PPI 的最新进展",
+    "url": "https://mp.weixin.qq.com/s/ZlGjMfZoRbpwSiRiZxvtcg"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "Boltz‑2 讲座答疑合集：开发者亲自回应亲和力预测难题、结构误差困境与未来方向",
+    "url": "https://mp.weixin.qq.com/s/6M765QZhocVoCjm5yGkW0A"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "DockQ全解析：蛋白互作质量评估金标尺",
+    "url": "https://mp.weixin.qq.com/s/JZG2vbfC7es4bAqWHpz7ag"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "Boltz-2 模型讲座回放上线",
+    "url": "https://mp.weixin.qq.com/s/xLR27RbfOWk54rHDf8wSrQ"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "AI 如何“设计蛋白质”？| 一文看尽最强蛋白 AI 工具图鉴",
+    "url": "https://mp.weixin.qq.com/s/F--Be4d_NeulhYMkmA44Jg"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "6 月 AI 生物大事件汇总：模型、平台、智能体集体爆发！",
+    "url": "https://mp.weixin.qq.com/s/UKDCdbYZgdRV9DgNzxnblQ"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "ChatGPT科研全流程指南：一份实战级AI科研路线图",
+    "url": "https://mp.weixin.qq.com/s/G6bfswMSHaLmoqdlMm7nFw"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "EMBO 实训课来袭：AI 驱动蛋白质设计，五天集训 + 实战 Hackathon",
+    "url": "https://mp.weixin.qq.com/s/mqvhTLOytQNMTugDR6OiTA"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "Nature 综述 | AI蛋白设计如何真正落地作物系统？一文讲透！",
+    "url": "https://mp.weixin.qq.com/s/IVTi81Vtty17Nvi7AWlk8A"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "你会问才有AI神助攻！超实用ChatGPT科研提示词大全（中英对照版）",
+    "url": "https://mp.weixin.qq.com/s/w4lzwbmx8HUdc-5EPiFgRQ"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "一文看懂：Transformer蛋白语言模型全景图谱（2025最新版）",
+    "url": "https://mp.weixin.qq.com/s/hRWOiTlk0BgA3I4rN8E3dQ"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "ICML 2025「AI for Life Sciences」Workshop全览：70篇论文，七大方向",
+    "url": "https://mp.weixin.qq.com/s/EtFgcSMvxFa2Npmtc1wlIA"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "BindCraft MIT 现场报告回顾：一击即中蛋白结合物设计",
+    "url": "https://mp.weixin.qq.com/s/Q0wJQpsILoFa-9hYuJqw5g"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "入门级综述｜AI蛋白binder设计的前世今生",
+    "url": "https://mp.weixin.qq.com/s/uFtqyJL1QCupMqdhhjQCEQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "教程/系列",
+    "slug": "jiao-cheng-xi-lie",
+    "title": "回望2025，AI生物学真正跨越临界点的一年——年度最强汇总！",
+    "url": "https://mp.weixin.qq.com/s/YioY7ySqgQYsVkBpFGjgOw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ProteinMPNN（官网内容解读）",
+    "url": "https://mp.weixin.qq.com/s/HBBahlPVLo9V1ihUXHmb2A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白质改造工具-RFDiffusion-基本功能介绍",
+    "url": "https://mp.weixin.qq.com/s/fUfrJVY1L8MWjnS11vokFw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "RFpeptides：新一代活性肽设计工具",
+    "url": "https://mp.weixin.qq.com/s/1Oa2d8sBTDJQejFUbcfaiw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白质表面设计工具|Privileged Residues",
+    "url": "https://mp.weixin.qq.com/s/O6ZEocgpRiIYKpkxks640g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "chai-1 | 完爆Alphafold？？？",
+    "url": "https://mp.weixin.qq.com/s/5ZA326rlrwUta-WKL0nQxA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3翻车了吗？",
+    "url": "https://mp.weixin.qq.com/s/g3woi4I1J1GQAV6Yu4gz3Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold拓展工具--AFsample2",
+    "url": "https://mp.weixin.qq.com/s/lF-AC72ovR4NCzvRq133GA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "EVOLVEpro--蛋白定向进化",
+    "url": "https://mp.weixin.qq.com/s/eZt_6-NjPhxjAI3JDgCc-A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "FAPLM-蛋白模型加速神器",
+    "url": "https://mp.weixin.qq.com/s/wxax_YkXbQjpYqpZJF2jIA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "COLAV：蛋白质动态研究的开源革命",
+    "url": "https://mp.weixin.qq.com/s/Hh_EAjTp7jeOe7QCHQDBzw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "UniIF--分子逆折叠",
+    "url": "https://mp.weixin.qq.com/s/WrnH7a1EBzefoS5qz1F9Ow"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "actifpTM--让AlphaFold2预测更精准！",
+    "url": "https://mp.weixin.qq.com/s/ym5GeHda1b02u2qE7FvBxg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "OmegaFold过时了？",
+    "url": "https://mp.weixin.qq.com/s/qAOWA36JL2Qdy4KeBfvYBQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "SSEmb模型：蛋白质变异效应预测的新利器",
+    "url": "https://mp.weixin.qq.com/s/sg2vIF0OtOw98iboODsgFQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "DiffSBDD |药物设计新概念",
+    "url": "https://mp.weixin.qq.com/s/7bG2GW3eCIaKhAXM4gHFZQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Protenix |国产蛋白模型崛起",
+    "url": "https://mp.weixin.qq.com/s/-G9itFG3RwR05tv-IeX5MA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "国产开源蛋白模型Protenix：全面解析技术报告",
+    "url": "https://mp.weixin.qq.com/s/yEMNKT_1qnRxO96A65Rgng"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "《Nature》|MaSIF-neosurf 蛋白-配体模型",
+    "url": "https://mp.weixin.qq.com/s/xv1UzhXul3gPCOr2KxZO5w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "NVIDIA发布GenMol：AI药物发现新工具",
+    "url": "https://mp.weixin.qq.com/s/4DlP8KYBooHMa2xzy3Dbww"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "LevSeq：定向进化与机器学习新工具",
+    "url": "https://mp.weixin.qq.com/s/BCF7QMA13gxh6NzFawRDKA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "BioChatter：开启大语言模型在生物医学领域的新时代",
+    "url": "https://mp.weixin.qq.com/s/waNPBvnuA8kAwI3vjawZxw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Science | ProtGPS：AI驱动的蛋白质定位",
+    "url": "https://mp.weixin.qq.com/s/xZ3N0bUHvHw4atrIhfQYRA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Foldseek-Multimer 让计算效率提升千倍！",
+    "url": "https://mp.weixin.qq.com/s/tDWWKTh_mo_YrMdrP6x_TQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Nature | AlphaFold预测无序蛋白",
+    "url": "https://mp.weixin.qq.com/s/8VpCxwGYouRiBgGyh-sjpw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold-Multimer：蛋白相互作用预测的机遇与挑战",
+    "url": "https://mp.weixin.qq.com/s/vqcBIk-Lba79wPUX0loqnQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold2 的盲点：侧链预测偏差揭秘",
+    "url": "https://mp.weixin.qq.com/s/FM2hRpQ536-sScpwPQ1TyA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 还能这样用？实验引导蛋白质结构预测新突破！",
+    "url": "https://mp.weixin.qq.com/s/HDHx4Nj-NaPA-ctCn1g2jA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "基于AlphaFold的CyclicBoltz1:精准预测环肽",
+    "url": "https://mp.weixin.qq.com/s/UIdfs8kWQ_sr7hvPPjzo_g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "微软最新 AI 研究：用深度学习解析蛋白质动态，BioEmu 让分子模拟进入 AI 时代！",
+    "url": "https://mp.weixin.qq.com/s/0mRq0-N2YaPC7NIWvKiSSg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ChromoGen：AI破解染色质折叠",
+    "url": "https://mp.weixin.qq.com/s/lm8R0O77Qk7I3yZfzmj0WQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "STARLING：秒级预测无序蛋白",
+    "url": "https://mp.weixin.qq.com/s/Myx3Z6uuOhoEH1DK9uCItw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold 还能这么用？突破蛋白片段预测，实现高通量抑制剂筛选！",
+    "url": "https://mp.weixin.qq.com/s/dE1SxJciPRiLkEhApSG36A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 在药物筛选中的新突破：虚拟筛选效果大幅提升",
+    "url": "https://mp.weixin.qq.com/s/XgsdGXFH3e9qQ07NxaVXiA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ActSeek：精准挖掘 AlphaFold 数据库中的功能蛋白，揭示酶与药物脱靶新天地",
+    "url": "https://mp.weixin.qq.com/s/mgDK5--6gpiF0ZqCl6x--w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ProCeSa：突破传统方法的蛋白热稳定性智能预测框架",
+    "url": "https://mp.weixin.qq.com/s/nomnog0f-rTzyjtrCOFkUQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ROCKET：基于AlphaFold先验和实验数据优化蛋白质结构预测的创新方法",
+    "url": "https://mp.weixin.qq.com/s/KBmaqaYU3DR5VoqEhnTOZg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "清华大学推出EPT：跨领域3D分子AI模型，加速新药研发与蛋白研究",
+    "url": "https://mp.weixin.qq.com/s/a8E4jyffv_LvJcVv9xm7Gg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 之后，AI 还能如何提升蛋白-配体结合预测",
+    "url": "https://mp.weixin.qq.com/s/WA9NtBlG8ozxLW5ElxzG1A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "卡内基大学研究评估：AlphaFold精准预测 GPCR 结构",
+    "url": "https://mp.weixin.qq.com/s/_hiqWd6tosOV-c79TVKjTA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "David Baker团队Nature在线重磅发布：Seq2Symm颠覆蛋白对称性预测！",
+    "url": "https://mp.weixin.qq.com/s/aynV2Y2A5Oqr6367zLM42Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "英伟达联合 MIT 最新发布 Proteína：AI 生成蛋白结构，精准操控折叠，掀起生物设计革命！",
+    "url": "https://mp.weixin.qq.com/s/8BH-yIsdt2qOiQsd1dJ4VA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "重磅！上海交大团队突破蛋白质-DNA相互作用预测，ProDMM模型引领合成生物学新篇章！",
+    "url": "https://mp.weixin.qq.com/s/jDtdM5QnVd0EVbXK_e_y5g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AF3Complex：颠覆AlphaFold 3 的终极进化！",
+    "url": "https://mp.weixin.qq.com/s/lxo5qawFsFIxqiVNtvEFNw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3能精准预测RNA结构吗？巴黎萨克雷大学最新评估？",
+    "url": "https://mp.weixin.qq.com/s/QiDLD4SmgSbZs7ZjViu3_g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "麻省理工联合英伟达颠覆蛋白设计！ProtComposer用3D椭球“绘制”生命分子新蓝图",
+    "url": "https://mp.weixin.qq.com/s/-qVG-8kY07aoKvZHd61hYg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "麻省理工最新突破！MINT模型揭秘蛋白质相互作用，助力精准医疗与新药开发",
+    "url": "https://mp.weixin.qq.com/s/kyw1idmJrTvlVFhWdS2UHg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "听懂人话的蛋白模型：当AI成为“生物学家”，用自然语言破解生命的密码，揭开DNA、RNA与蛋白质的神秘对话！",
+    "url": "https://mp.weixin.qq.com/s/MKkCqqS8dnudEh23Ug5wxw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白质结构预测迎来新王者？ESMFold用语言模型颠覆传统，AlphaFold的地位还稳吗",
+    "url": "https://mp.weixin.qq.com/s/LLevSwtxqV6ARsrjCh8Qtw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold、Protenix、Chai-1、Boltz-1——谁才是蛋白-短肽预测的最强王者？",
+    "url": "https://mp.weixin.qq.com/s/3xzYJ3quoXyO2yA_kIBj3w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "香港中文大学（深圳）团队发布SCOPE-DTI，AI直击新药研发痛点，破解药物-靶点匹配难题！",
+    "url": "https://mp.weixin.qq.com/s/_-Aq1KM582zbd6lhzSNwUA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "密苏里大学重塑蛋白质解析新纪元：冷冻电镜+AlphaFold3，破解结构生物学终极难题",
+    "url": "https://mp.weixin.qq.com/s/W8dyw859-JuMAmDgwyi6Gg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold2又迎来升级！耶路撒冷-麻省理工团队推出全新actifpTM评分方法，精准解析蛋白-肽互作",
+    "url": "https://mp.weixin.qq.com/s/iLGeZlgYz3xLKRhtGUKidA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "打破AlphaFold 3、Boltz-1和Chai-1之间的壁垒！利物浦大学团队推出ABCFold，让AI结构预测更简单",
+    "url": "https://mp.weixin.qq.com/s/FefSZ4lw1qzLVoxU8RbUDg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold 3预测D-肽翻车！杜克大学团队揭秘：AI竟然“误判”手性，高达 51% 预测像是在掷硬币？",
+    "url": "https://mp.weixin.qq.com/s/5EdYTT3RDujPXh0Z2sj9ug"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "非编码突变也能“看”懂？AlphaFold 3新玩法让转录因子绑定预测更精准！",
+    "url": "https://mp.weixin.qq.com/s/K9HxzOEBRxArPErryBU-1w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "重磅！VantAI发布划时代Neo-1，AI第一次真正掌握“生物分子的语言”",
+    "url": "https://mp.weixin.qq.com/s/O_nXO6w7Flq-3PpAiWiZjw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "MIT&哈佛团队联手出击，小模型Lyra颠覆生物序列预测“游戏规则”",
+    "url": "https://mp.weixin.qq.com/s/vz4GCDwwgmpUld-10WIoHw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "圣彼得堡大学震撼发布新一代蛋白质结合预测神器：PCANN模型登场，刷新蛋白质结合亲和力预测精度",
+    "url": "https://mp.weixin.qq.com/s/4DSwZMlSV0lqSfRPCGG42A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "扩散模型也能建模蛋白质？InstaDeep团队用Latent Diffusion打开蛋白AI新思路",
+    "url": "https://mp.weixin.qq.com/s/0gCmA4bP565R8NCJa1PARA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "交大重磅出击！首创CHIEF深度集成模型，功能蛋白设计成功率100%，颠覆AI结构生物学认知！",
+    "url": "https://mp.weixin.qq.com/s/MfiLdZWCRtGh1YVcmX45Dw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold结构太“脏”？交大E3former横空出世，一招化解蛋白质表示学习的鲁棒性危机！",
+    "url": "https://mp.weixin.qq.com/s/UzAVOqRm_BpeyzW7jJ0XLg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "“AI读懂蛋白语言”：阿拉巴马大学重磅综述揭示蛋白质表示学习五大技术进化路径",
+    "url": "https://mp.weixin.qq.com/s/SAwSLlHSyTtAbv2u4sf1sg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold不仅预测结构，还揭示折叠奥秘：华沙大学解锁250万蛋白“套索拓扑”，首次发现超螺旋与打结共存的奇异构象！",
+    "url": "https://mp.weixin.qq.com/s/LZOK3yeME7SetlAyJUH_eA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3，不只是结构预测",
+    "url": "https://mp.weixin.qq.com/s/a3AIhALF3JvjS9BMOKYhCQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "仅用一张3090显卡，南京理工大学造出“轻量版AlphaFold”！蛋白结构预测进入“低门槛”时代！",
+    "url": "https://mp.weixin.qq.com/s/mORrNxFt-CnAwYMNJiLTpA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "苏州大学联合北京大学发布ProtTeX模型：让大语言模型“读懂”蛋白结构，实现功能预测与可控设计",
+    "url": "https://mp.weixin.qq.com/s/91e7fze15JH4QwQcrXXHqw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "模型做得很漂亮，但离实验太远？交大发布VENUSFACTORY，让AI真正服务蛋白科研",
+    "url": "https://mp.weixin.qq.com/s/ow3eISwYFaWoTribE86iPA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "清华、字节、人大联合发布UniMoMo：首个通吃小分子、抗体、多肽的3D生成模型！",
+    "url": "https://mp.weixin.qq.com/s/LITGtujwXW0KIPUp0eyFSA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Nature Methods 在线发布！David Baker团队推出 LigandMPNN，精准建模蛋白-配体相互作用",
+    "url": "https://mp.weixin.qq.com/s/OshUlSiJzApm2RU8iO9Upw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "湖北大学用一套模型让AI看懂蛋白的“语言”和“形状”—推动蛋白功能注释从粗略匹配迈向智能理解！",
+    "url": "https://mp.weixin.qq.com/s/Vjr8pm2ETrJXbAz2TqJn0g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "浙江工业大学 × 西湖大学联合发布DeepSCFold模型：从蛋白序列精准推断结构互补性",
+    "url": "https://mp.weixin.qq.com/s/aicfV33qP7rmNI1B7VYXaA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "精准预测蛋白质与金属离子结合，范德堡大学团队打造SuperMetal模型",
+    "url": "https://mp.weixin.qq.com/s/XXoDs2hTddOZaSAiWatV7Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold2不只是画结构，它还能识别抗药突变！江苏理工用AI判断药物还能不能用",
+    "url": "https://mp.weixin.qq.com/s/3WfUkkGdag3EJRJlFmvGXA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "登顶《Nature Biotechnology》！蛋白成像通量实现重大突破，魏茨曼团队发布AI赋能的CombPlex技术",
+    "url": "https://mp.weixin.qq.com/s/SJFj5zV8_5GH7Jf06iUPAw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "首次引入AlphaFold结构信息！哈工大提出MSNGO，攻克多物种蛋白功能注释难题",
+    "url": "https://mp.weixin.qq.com/s/jIU4rZ4W31_lez02czMfUw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "首次实验验证！西湖大学Pinal模型从自然语言生成蛋白序列，并成功验证其具有酶活性功能！！！！",
+    "url": "https://mp.weixin.qq.com/s/q7LxfXNF8qCjUaVL8Pka9A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI梦中折叠蛋白：耶鲁团队打造生成式世界模型，挑战传统MD模拟！",
+    "url": "https://mp.weixin.qq.com/s/hRFIkvBnMK8tWwIBAR8pyg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "质谱界的ChatGPT来了！InstaDeep × DTU推出InstaNovo，看谱、猜肽、还能修正",
+    "url": "https://mp.weixin.qq.com/s/rkfsRlzknniPPrR0-UouUg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白进化2.0：不试错、不筛选，AI直接在潜意识里造神",
+    "url": "https://mp.weixin.qq.com/s/GkDK3yhXFFDROm4L6VgPfA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Nature Methods重磅｜清华发布百亿参数蛋白大模型，xTrimoPGLM统一理解与设计",
+    "url": "https://mp.weixin.qq.com/s/7IQ2RmieIwy8cP9Kgq_yBg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "南农团队发布MKFGO：融合语言模型、互作网络和DNA，精准预测蛋白功能！",
+    "url": "https://mp.weixin.qq.com/s/-GuZc0WcLuiT3yWZ2yeUbA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "用主动学习预测蛋白结构？Sanofi团队提出DEWDROP新策略，效果超AlphaFold选样！",
+    "url": "https://mp.weixin.qq.com/s/LtZc2H8jHyErPPayqqXEGA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "72种模型、11个景观告诉你：蛋白质设计最大坑，其实在冷启动！",
+    "url": "https://mp.weixin.qq.com/s/eUymV_Cs9L39IPmTo7B1aw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "不是AlphaFold，不是ProtGPT！InstaDeep用Bayesian Flow模型杀入蛋白设计C位",
+    "url": "https://mp.weixin.qq.com/s/R4kyftRm7R6XXagkcPc4jQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "硅谷 MP4 模型登场：AI 用自然语言写出会表达的蛋白，稳定性还超高",
+    "url": "https://mp.weixin.qq.com/s/xEO8qZTUJCiPR4rc-__ypw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "MIT团队重磅发布蛋白设计新框架：BoltzDesign1，反向操作结构预测模型！",
+    "url": "https://mp.weixin.qq.com/s/kFAiHuLnU0nHGFuRvND-bQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold之后，AI如何“设计”蛋白质？| 解读伯克利BAIR团队最新模型 PLAID",
+    "url": "https://mp.weixin.qq.com/s/6IiwVY7HF-d10B_tuB31Ug"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI预测蛋白结构不准？这项研究发现“噪声”反而让亲和力预测更准了！",
+    "url": "https://mp.weixin.qq.com/s/qB3QtCJwyKn5H_c3uq-vKw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "颠覆结构依赖！Prot42：AI如何用“语言”设计高亲和力蛋白结合物？",
+    "url": "https://mp.weixin.qq.com/s/Qef3BNJLXTG4dCB_iYN3Qw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "哈佛团队发布ATOMICA：从原子层次统一理解分子相互作用！",
+    "url": "https://mp.weixin.qq.com/s/rPt1bMMRIF69OPOQP2Ds3g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "让AI“看见”蛋白质的修饰！杜克大学发布PTM-Mamba模型，引领下一代蛋白功能建模",
+    "url": "https://mp.weixin.qq.com/s/Rm6BpQsJ2WiQojXjIoBbiA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3真能助力新药发现？Baylor团队全面评估揭示关键边界！",
+    "url": "https://mp.weixin.qq.com/s/TWB0z-3htkF_yx2NpOUdFA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Baker团队炸场！RFdiffusion2能从原子坐标直接“写出酶”，还真能干活！",
+    "url": "https://mp.weixin.qq.com/s/33vyZV93x6niLSPBzDlfQQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "FeNNix-Bio1攻克原子级分子动力学：AI一体建模反应性、自由能与蛋白折叠",
+    "url": "https://mp.weixin.qq.com/s/ga6Cx7n47tpDZEeV1f3vnQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "德国格赖夫斯瓦尔德大学团队发布 af3cli：一键生成 AlphaFold3 输入文件，结构预测再无门槛！",
+    "url": "https://mp.weixin.qq.com/s/imImN-IaxXtXxkb4PPoCjg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Duke×Cornell发布duAb新工具，AI设计肽精准稳定癌症关键蛋白p53",
+    "url": "https://mp.weixin.qq.com/s/DiMlVLrp5YrVQRSPnXP1tw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "浙江大学团队推出PepPCBench，揭示AlphaFold3预测肽结构的局限",
+    "url": "https://mp.weixin.qq.com/s/84-ESQE92tUU5DgMTZ1vUg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "不是最稳就被选！最新研究揭示AlphaFold2预测偏好“进化真相”:构象其实可被诱导出来！",
+    "url": "https://mp.weixin.qq.com/s/bZxhQwRD9PzHfG-9oMNFCQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "浙大发布全新蛋白生成模型ProtFlow：压缩语言模型潜空间，一步生成高质量蛋白!!",
+    "url": "https://mp.weixin.qq.com/s/kY-bOuiU0KKEzlaeYT0inA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3首秀：在CASP16挑战中表现如何",
+    "url": "https://mp.weixin.qq.com/s/IGS1A35Aj6MYuEagk0RXNA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ProGen3发布！从抗体到基因剪刀，AI蛋白生成能力全线进化",
+    "url": "https://mp.weixin.qq.com/s/WevCxLRoNz_pToKJne7DZA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "浙工大团队发布 MeDCycFold 模型：一键预测“难搞”环肽结构，速度提升 49 倍！",
+    "url": "https://mp.weixin.qq.com/s/qMJ8QhP-OUDxjjlJdW1nrg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold2还能干啥？哥本哈根-牛津团队开发AF2χ，揭示蛋白侧链柔性新维度！",
+    "url": "https://mp.weixin.qq.com/s/72FYULMnkW4iqzpwIz1XIw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "哥大团队更新力作！ESMDance 横空出世，AI 首次捕捉蛋白动态揭示突变效应",
+    "url": "https://mp.weixin.qq.com/s/1aeUp5Du2OqGaD2jtu75YA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI 为绿色农药开发赋能：中国农大团队构建真菌 CDA 抑制剂精准筛选模型",
+    "url": "https://mp.weixin.qq.com/s/4Y-AdrKfbd5B13nAcnTTsg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ProteinMPNN 解码新突破：CAPE-Beam 实现低免疫原性蛋白设计",
+    "url": "https://mp.weixin.qq.com/s/IebTaxexm7S4B8CbpD538Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "别只看ipTM了！AI预测蛋白复合物的新评分体系来了",
+    "url": "https://mp.weixin.qq.com/s/AOfbw5gNA6pS3LiK1PmR5g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "字节跳动重磅发布 APM 模型：多链蛋白全原子生成正式迈入 AI 时代！",
+    "url": "https://mp.weixin.qq.com/s/8asEyW7mDqmRyKFqOZ7NRw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "为什么没人觉得AlphaFold有意识？",
+    "url": "https://mp.weixin.qq.com/s/_pGRicU-UYxLLAufTJ5ECg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "比利时VIB团队评估AlphaFold3预测蛋白磷酸化构象变化能力",
+    "url": "https://mp.weixin.qq.com/s/pMrMTT23k0jX_jgQ_k889w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "密苏里大学发布 MPBind 模型：首个融合蛋白语言模型与 EGNN 的多任务结合位点预测框架",
+    "url": "https://mp.weixin.qq.com/s/XyYHb_1BRWSpk4pUlZhhuA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "哈工大发布THLANet模型：无结构精准预测TCR识别，助力癌症免疫治疗",
+    "url": "https://mp.weixin.qq.com/s/tIpo952g_SBUTWIQtUAi1g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蒙特利尔AI团队重磅发布：用语言模型生成蛋白构象，速度快百倍！",
+    "url": "https://mp.weixin.qq.com/s/VlbmPih1X4oxGfNyzUH3fQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ChatGPT也懂蛋白结构？UCLA联合Meta 发布ProteinGPT，蛋白结构与功能可对话！",
+    "url": "https://mp.weixin.qq.com/s/x7_4REA8scqeql0otMrKcQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold只是开始！Rutgers团队提出AI预测蛋白质动态结构新范式",
+    "url": "https://mp.weixin.qq.com/s/-vWZPghSALvR5Zd8hrmEpQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI蛋白设计大逃杀：BindCraft、RFdiffusion、Cradle谁能胜出",
+    "url": "https://mp.weixin.qq.com/s/r8HEY5VqzGlUIIy5RV1HoQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "爆改蛋白质功能预测！这个团队把“图神经网络+AI大模型”玩明白了",
+    "url": "https://mp.weixin.qq.com/s/G8_tM2VEypQgRWP6dM4lDQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "最新开源！蛋白结构标记神器 AminoAseed + StructTokenBench 全面来袭",
+    "url": "https://mp.weixin.qq.com/s/x0vlpglHJUcuEPaMyq4ZIQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AIDO.ModelGenerator 上线：开启 AI 生物建模新纪元！",
+    "url": "https://mp.weixin.qq.com/s/KhlH3CaSJbQbDcT1u75MZg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI首次全流程生成H5N1抗体！Frankies平台正式发布",
+    "url": "https://mp.weixin.qq.com/s/RE5uYSOEIKwh8efJNd0TDg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "MultiFOLD2与ModFOLDdock2登场：蛋白质复合体结构预测与质量评估新标准",
+    "url": "https://mp.weixin.qq.com/s/yvnMvKi0tqlc7TZrm0BX-w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "FoldScript登场：专为AI生成3D蛋白模型打造的极速分析平台",
+    "url": "https://mp.weixin.qq.com/s/fprK7brFfXG5Q58j2Bbb1w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Boltz-1升级版Boltz-1x重磅发布：推动AI驱动蛋白建模与生成创",
+    "url": "https://mp.weixin.qq.com/s/i3NKdz8YrQN9qd7KsHEI1g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "中科大与北大联合推出 BioMiner 系统，加速蛋白-配体生物活性数据自动化提取",
+    "url": "https://mp.weixin.qq.com/s/QsOBCDZofamVetnTKXJtCA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ColabFold重大升级：正式开源环状肽建模功能！",
+    "url": "https://mp.weixin.qq.com/s/HoD-UKw1HgUQ02B8JmrJ3g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "PPI-ID：让蛋白互作预测更精准高效的一款轻量化工具",
+    "url": "https://mp.weixin.qq.com/s/WrkWvzHneYBgRvEMoSZhNA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "解码 8 亿蛋白质结构，AFESM 揭示了结构宇宙的新边界",
+    "url": "https://mp.weixin.qq.com/s/VHb3V2NgA1q5wcS4LP66NA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "六个氨基酸，难倒 AI 群英会？",
+    "url": "https://mp.weixin.qq.com/s/9DPCj1ucaY8Ufg4LfHwS0w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI 构建新一代亲和力预测框架：PPI-Graphomer 重塑 PPI 建模范式！",
+    "url": "https://mp.weixin.qq.com/s/4pf006kO9_LC6uYCkyKn4w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold 又立功！这款新工具精准识别噬菌体蛋白结构域，还能发现无序区",
+    "url": "https://mp.weixin.qq.com/s/hffuZ9RbD786rjJDpCQxuw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "超越ESM3！全新CoFlow模型颠覆蛋白设计范式：结构与序列同步生成",
+    "url": "https://mp.weixin.qq.com/s/hLIK4SJ7nVuINz1fQIrBew"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "突破AlphaFold！OriginFlow实现高效功能蛋白生成",
+    "url": "https://mp.weixin.qq.com/s/P1hoC6Qd65rY0HFKVqlIdg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "突破AlphaFold的“静态限制”！DiffPIE模型首次实现蛋白质在环境作用下的动态构象生成！",
+    "url": "https://mp.weixin.qq.com/s/ywg4pGFQQEzYLjlC43n5FA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "突破AlphaFold盲区！斯坦福新方法高效预测蛋白多重构象，揭秘动态结构奥秘",
+    "url": "https://mp.weixin.qq.com/s/D9-4TX06UJf_yuLNgJOKTw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "DeepMolecules重磅发布：只要有序列，就能预测酶底物、转运特性和催化参数的全能AI工具！",
+    "url": "https://mp.weixin.qq.com/s/oNUQC7-Sdu1-FMF1_hateA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "三维太复杂？FlatProt上线：用二维“展平”蛋白质结构，精准比对一目了然！",
+    "url": "https://mp.weixin.qq.com/s/gGHnX2uJU8LKJ68esWcuQw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "上海科技大学最新力作PhysDock：AI预测蛋白-配体复合物迈入“物理真实”时代！",
+    "url": "https://mp.weixin.qq.com/s/5Y97s5OZSX3vwkjDhp1yjA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "精准操控蛋白构象与功能！斯坦福发布Conformational Biasing设计策略",
+    "url": "https://mp.weixin.qq.com/s/je6r6UEEx9Vqr6cT2sF8HQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "智源研究院重磅发布OC2：首个可建模蛋白质构象景观的生成式基础模型！",
+    "url": "https://mp.weixin.qq.com/s/-t9V8Y_k4AtVlPrJAzgCIw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ProteinMPNN做的不是逆折叠！Sergey手撕AI蛋白设计圈错误定义",
+    "url": "https://mp.weixin.qq.com/s/Z7CrV0Q01hFZ6j3U6VK1OQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "匹兹堡 × 浙工大团队推出EpiMII模型：MHC-II表位设计精准度超ProteinMPNN 4.2倍",
+    "url": "https://mp.weixin.qq.com/s/xVm7bCtpQxhgOPUFeR3s6A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "突破AlphaFold2极限！浙江工业大学M‑DeepAssembly，刷新多结构域蛋白预测上限",
+    "url": "https://mp.weixin.qq.com/s/Eu__rP85xBG6d0sEkNb_VA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 全面领先！CASP16 评估揭示 AI 药物设计新时代",
+    "url": "https://mp.weixin.qq.com/s/Xlqwrx0_6xdUkHQk342F6w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "HADDOCK3发布！后AlphaFold时代最强结构建模平台全面解析",
+    "url": "https://mp.weixin.qq.com/s/P8sXYdjtfIitXAvgXV57gw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "一站式蛋白结构分析神器再升级！ProteinsPlus 2025 全新工具与工作流详解",
+    "url": "https://mp.weixin.qq.com/s/r4rHkwWmFsjlA2Tn7g8okw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "结构比对新时代！GTalign-web 发布：在 2500 万蛋白中飞速找出真正的同源者",
+    "url": "https://mp.weixin.qq.com/s/NyeuRSVbeaWXm86ZQ3RqnQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold2不仅能“折蛋白”，还能精准找出受力才露面的真实绑定位点！",
+    "url": "https://mp.weixin.qq.com/s/PxwqcfqqVYIKsnr_AjRHXQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "“打败 AlphaFold 的 Loop 预测神器”？浙江大学重磅发布 AutoLoop！",
+    "url": "https://mp.weixin.qq.com/s/aSPUgiSwD6Y8o0xhzxY3Bg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "SaprotHub打造蛋白质建模的开源协作新生态：OPMC推动蛋白语言模型社区共建共享",
+    "url": "https://mp.weixin.qq.com/s/dsm84oxSbJ_Sh6jdALWpGQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "从 ID 到结构一键直达！AlphaFold 结构批量下载终于有解法了！",
+    "url": "https://mp.weixin.qq.com/s/Lwx00S-F6pIdH6jx-ujeug"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "序列到结构、再到能量变化：ProBASS联手ESM2+ESM-IF1，解决蛋白突变预测难题！",
+    "url": "https://mp.weixin.qq.com/s/8yapMcPH4JDjtkLl6PLEzA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "一个大模型，搞定预测、设计、筛选、重构！GeoFlow-V2重新定义蛋白生成AI",
+    "url": "https://mp.weixin.qq.com/s/wi86jG8qd011tOrgcDgj6Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "纳米抗体设计的 AI 突破！nanoFOLD 开启“逆折叠”驱动的精准序列生成时代",
+    "url": "https://mp.weixin.qq.com/s/ljsQJoOISUImSU7MEdJ3Cg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold跑不动长蛋白？LightNobel提出新方案，显存降低百倍、速度提升八倍",
+    "url": "https://mp.weixin.qq.com/s/5Wsp2NSWKOud6mWYZLBACA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "从设计到合成一步到位！新框架 Saturn 实现“可控反应生成”，AI 分子设计进入实用时代！",
+    "url": "https://mp.weixin.qq.com/s/D1krJs4oaNZU0wNhG6yklA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "扩散模型造药新纪元！DiffSMol登场，一键生成“精准匹配”三维新药",
+    "url": "https://mp.weixin.qq.com/s/bnFmo8rJ7gHR5pMyAAuvog"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "结构比对新纪元：SoftAlign 刷新蛋白结构数据库的“搜索速度与精度边界”",
+    "url": "https://mp.weixin.qq.com/s/Y3TtOmg5R4o0GnZTbrLnQA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "刷满设计分=真智能？Protein FID直击蛋白生成AI模型“假优越”",
+    "url": "https://mp.weixin.qq.com/s/4Mnsn0z0sohlHcr9wbag_A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ProteinMPNN+AbLang：结构模型为何在 CDR 抗体设计上“翻车”？语言模型如何拯救？",
+    "url": "https://mp.weixin.qq.com/s/MaQlpKd-sIqzMzZErPEq1Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold 开始“种田”了！ 人工智能蛋白设计提升田间大豆油含量",
+    "url": "https://mp.weixin.qq.com/s/dyMyyynNj25DcUzOFY3sJw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "打破预训练边界，FunBind 重塑蛋白功能预测范式",
+    "url": "https://mp.weixin.qq.com/s/gKYoeFdCwmYljQdA_5umdQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "从结构看进化：科学家构建病毒 AlphaFold 数据库，揭示跨界保守蛋白折叠",
+    "url": "https://mp.weixin.qq.com/s/r33C21UFPkDveUlcPGeqOg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 评分引擎上线：AF3Score，让结构评估快、准、稳",
+    "url": "https://mp.weixin.qq.com/s/UGH2jmojVOygkKRb-tO8MA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "InstaNovo-P：为磷酸化而生的Transformer模型",
+    "url": "https://mp.weixin.qq.com/s/9L17ikL0H8byfZ-DcqW3Vw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "DPAC模型登场：仅靠序列也能预测蛋白-DNA 结合",
+    "url": "https://mp.weixin.qq.com/s/kqN223JnQy9uKyx2kkUmqg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ProteinMPNN升级版？浙工团队推出HighMPNN让环肽设计不再“靠运气”",
+    "url": "https://mp.weixin.qq.com/s/np4zVad0D9XqCOwMIJBAow"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "交大团队重磅发布VENUSX：蛋白功能AI 迈入“微观可解释”时代！",
+    "url": "https://mp.weixin.qq.com/s/JhhLTK0rXhlOmu6Zs4gCDQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "天然产物三维预测神器来了！NatGen 精准破解立体结构难题",
+    "url": "https://mp.weixin.qq.com/s/IA_USEt4cM_ivkw-iXVY3Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "mTM-align2：用“逆折叠+对比学习”精准搜索蛋白质结构",
+    "url": "https://mp.weixin.qq.com/s/Q5ziRIu0QS-TlfrKbhPJMA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "从氨基酸到自然语言｜Prot2Text-V2 如何用大模型“讲出”蛋白质的功能？",
+    "url": "https://mp.weixin.qq.com/s/paILsBb_2WVpkNLasyp3Rw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "继ProtTeX之后，苏大联合北大再推蛋白问答系统Prot2Chat",
+    "url": "https://mp.weixin.qq.com/s/8l_PIFAx8It7qPKLcdwNew"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "如果AlphaFold能帮你预测结构，它也能告诉你如何结晶吗？",
+    "url": "https://mp.weixin.qq.com/s/-G1xI445YZOG18cQAKCY2g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold的盲区，RareFold的主场：29种非天然氨基酸全建模无压力",
+    "url": "https://mp.weixin.qq.com/s/O85MmICDQ86IP781LfDEng"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 能否“破解”非天然环肽结构？首个系统评估来了",
+    "url": "https://mp.weixin.qq.com/s/nn-7MFqBJuTdbApfOGBzgA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "《Nature Biotechnology》重磅发表：D-I-TASSER挑战AlphaFold王座",
+    "url": "https://mp.weixin.qq.com/s/-sJY6vxWHRS5CzUIB2XNNw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "融合ESM-2与基因组特征，LLAMP精准预测抗菌肽活性",
+    "url": "https://mp.weixin.qq.com/s/Ar0pUB5IoBkac5MszgJkvw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "PRODVA：只用0.02%训练数据，华东师大新模型把蛋白设计卷出新高度",
+    "url": "https://mp.weixin.qq.com/s/uOJwtRHMcc7YsWK97V9F7Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "UniMoMo v2 全能升级：构建真正通用的 3D 分子生成模型",
+    "url": "https://mp.weixin.qq.com/s/_ItJZf43UCsy3nadYtb3-w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "功能蛋白质设计，第一个通用评估基准：华师大PDFBench 重磅发布",
+    "url": "https://mp.weixin.qq.com/s/QUXKvg05Q5vXJnWfq7qWow"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "字节跳动推出CPSDE模型：首个支持任意环化方式的全原子肽生成平台",
+    "url": "https://mp.weixin.qq.com/s/_ou_6NziN3qm7Of-D1tl-A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "复旦上交FoldBench评测平台，AlphaFold 3一骑绝尘，抗原预测仍是难点",
+    "url": "https://mp.weixin.qq.com/s/L56ssdH6gXPEfUzfqKYddQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "百度团队重磅上线 HelixDesign-Binder：蛋白结合物设计一体化平台",
+    "url": "https://mp.weixin.qq.com/s/JD2WetENsGtQRSDquTRB7g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "NSMB | AlphaFold应用场景解析：补全Cryo-EM无法解析的IDR区段，精确指导点突变实验",
+    "url": "https://mp.weixin.qq.com/s/VhTjQoC58KorC1aya1vL0A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "不再迷信 ipTM，MIT推出BindEnergyCraft革新蛋白设计",
+    "url": "https://mp.weixin.qq.com/s/NffWEnsw0iAvuQaYa5i33g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 能搞定分子胶预测吗？北大团队首评五大共折叠方法",
+    "url": "https://mp.weixin.qq.com/s/SG9OKS0oWwbiHq1zltgVmg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Protenix-v0.5.0 发布：字节跳动重塑蛋白质复合物结构预测新标准",
+    "url": "https://mp.weixin.qq.com/s/tr1QxGenR9snvtWIaoJHTw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "宾大发布YuelDesign：首个专为柔性结合位点设计的分子生成模型",
+    "url": "https://mp.weixin.qq.com/s/kEp8m9204dw7yJk8TXA9Gg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 不只是预测结构，它还能帮你筛药？清华团队重磅提出 AlphaRank",
+    "url": "https://mp.weixin.qq.com/s/LkGAol0U-guSDoKzrXxnIA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "结构预测不用上服务器！ChimeraX内置Boltz模型，个人电脑也能轻松跑",
+    "url": "https://mp.weixin.qq.com/s/vJBisVj0aAYZpsf3JhqFrA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "山东大学创新模型 trRosettaX2-Dynamics，推动蛋白结构预测走向动态时代",
+    "url": "https://mp.weixin.qq.com/s/lK6FdCy2EEENm7GRlZescg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "BoltzDesign1 正式开源更新！AI 蛋白设计进入“可视化”时代",
+    "url": "https://mp.weixin.qq.com/s/2H71etxlX7nHfHJdhWbLHQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白表达能被“预测”吗？",
+    "url": "https://mp.weixin.qq.com/s/coOHcIFXCt6t6yjcdCbOXw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "为什么别人用 AlphaFold 预测结构比你准？他们偷偷用了这个“模型大礼包”",
+    "url": "https://mp.weixin.qq.com/s/TrBRORyFNw8zDbmnn5TYOg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3能把结构折得完美，CASP16却发现：AI还不会判断哪个结构才真正可用！",
+    "url": "https://mp.weixin.qq.com/s/8BXXcsrIJqz9JQNjvYlpOA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "北大发布UniSite：一次性看清蛋白所有结合位点，不再错过任何一个",
+    "url": "https://mp.weixin.qq.com/s/In_Ej0cKnuBw-g7CNMYMAA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "MIT 联合团队发布 Boltz-2 模型，AI 预测小分子亲和力的新突破！",
+    "url": "https://mp.weixin.qq.com/s/zS4FKcya6DuG5qjfbixdUw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3能不能预测对变构结合？答案竟藏在你喂给它的MSA里！",
+    "url": "https://mp.weixin.qq.com/s/A-Ii6iHnTg8ggXavmz2eKg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "结构预测不再“猜一猜”：CryoBoltz 让 AI 读懂冷冻电镜",
+    "url": "https://mp.weixin.qq.com/s/rtDC81zaCKUq6MLzWtecpA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Boltz-2 正式登陆 Rowan 平台，蛋白-配体亲和力预测一键搞定！",
+    "url": "https://mp.weixin.qq.com/s/gWVzbG6LTLNfCGeQIysdQw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold2 预测的结构，真的是蛋白在体内的“真实形态”吗？",
+    "url": "https://mp.weixin.qq.com/s/1PY9439pTYDbda_94S8eNA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "病毒如何“伪装成人类”？AlphaFold 揭示宿主-病原体的结构骗术",
+    "url": "https://mp.weixin.qq.com/s/A-TcXkrvyCAiz0apXpXWXA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "别再被高pLDDT分数骗了！AlphaFold2偏爱理想结构，UCSF团队出手修正！",
+    "url": "https://mp.weixin.qq.com/s/kTzEX1JR-VRQTZs16UruxQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI分子设计再进化，清华MolJO引领多模态结构优化",
+    "url": "https://mp.weixin.qq.com/s/sYiNEXPbjcVBZTyh48KUKA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "中科院药物所发布PBCNet2.0：国产AI模型实现突变识别与亲和力精准预测",
+    "url": "https://mp.weixin.qq.com/s/RviU59cCmfUhF4iflGOhpA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "计算化学联合研究中心发布SAKE-PP，解决AlphaFold结构打分最大盲区",
+    "url": "https://mp.weixin.qq.com/s/O2TzMw9HSSIRLW-Yq7QDbw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Boltz-2 到底是什么？为什么 AI 药物设计圈都在用它？",
+    "url": "https://mp.weixin.qq.com/s/JG5mp5hPxJ2gVnkpDwgWNA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白质无序区也有“结构信号”？AlphaFold帮你找到微弱互动",
+    "url": "https://mp.weixin.qq.com/s/NpDSIWrUgszkhZW0Z55frw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ChatNT：首个支持DNA/RNA/蛋白的生物ChatGPT来了！",
+    "url": "https://mp.weixin.qq.com/s/kXd3k30tutofiQRyC7BgFQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold已经够强了？那你可能还没见过“结构预测加强版”MULTICOM！",
+    "url": "https://mp.weixin.qq.com/s/QONWbh5LPUt2Kcg7mV536A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "NVIDIA 推出 Boltz-2 在线预测平台，蛋白结构预测一键搞定！支持API调用！！！！",
+    "url": "https://mp.weixin.qq.com/s/1Vcp6WHMXdnNWvIbBYM5yw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "InstructPro震撼登场：自然语言驱动的小分子结合蛋白设计平台横空出世！",
+    "url": "https://mp.weixin.qq.com/s/0tKfAIYYYJsWaTAiLUbaPg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "一键交互，AI生成结合抗体！Diffuse发布革命性蛋白设计平台DiffuseSandbox",
+    "url": "https://mp.weixin.qq.com/s/C9gcu98ZuNM6qj6Mq_1TVA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 终于加上「互动式 pAE 图」了，但这其实我们早就用上了",
+    "url": "https://mp.weixin.qq.com/s/ZpuZJ7Vf6ATa37eZ7qc_aw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "逆折叠模型如何“零样本”预测蛋白稳定性？丹麦团队给出了热力学解释",
+    "url": "https://mp.weixin.qq.com/s/Ruq6AvzzWwXBxlNwAGUO_Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "“高分”的骗局：GEMS 揭穿蛋白-配体打分模型的作弊真相！",
+    "url": "https://mp.weixin.qq.com/s/HRAco2zr5QmA4ul2uaklKw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "让 AlphaFold3 都甘拜下风？PIONEER2.0 为 48%蛋白互作预测打开新大门",
+    "url": "https://mp.weixin.qq.com/s/Ex0FSDq56e1pEFdYSF4q5g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Sci Adv | AbEpiTope-1.0发布，AI精准识别抗原表位",
+    "url": "https://mp.weixin.qq.com/s/WDYrBxBsdc8X2hICgVxYDw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "澳门理工大学发布PPIKB：蛋白互作数据集成平台全面上线",
+    "url": "https://mp.weixin.qq.com/s/o8PwtVVqm1s4xWaEisE7hQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI协同建模序列+结构，PPDiff提升蛋白-蛋白设计成功率",
+    "url": "https://mp.weixin.qq.com/s/VrfGYVVXcClHPoyrohb7Ag"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "北大团队推出DVE-stability模型：用蛋白序列精准预测突变稳定性",
+    "url": "https://mp.weixin.qq.com/s/NkNvZQMfzUysMA4nrF7onQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白也能“精心设计”？看看 AlphaDesign 如何用 AI 打造“定制蛋白”",
+    "url": "https://mp.weixin.qq.com/s/BLAN_q0CFv8f_Ox_AqU2ng"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "预测更精准，结构更真实：DistPepFold如何进化AlphaFold对接能力",
+    "url": "https://mp.weixin.qq.com/s/UELajLhYwRCr0iDvkpzkkg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "RocketSHP 一秒预测蛋白动态全貌",
+    "url": "https://mp.weixin.qq.com/s/5C0cwBKBkV_xaRo3utb_Bw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "NanoBinder：AI与Rosetta协同工作的抗体预测工具",
+    "url": "https://mp.weixin.qq.com/s/pY3xzR1SWjdbVOSp-qp4kQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "阿里达摩院发布：LucaOne登上《NMI》，打通DNA到蛋白的AI模型",
+    "url": "https://mp.weixin.qq.com/s/Sakdm7noSOlL-nX7eMvkNQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白和核酸的 AI 共修之路：OmniBioTE 开启多组学建模新时代",
+    "url": "https://mp.weixin.qq.com/s/jiHao7eOedGk-eHtBW4iKw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "修补 AlphaFold“评分盲区”？Dunbrack 团队给出了新答案",
+    "url": "https://mp.weixin.qq.com/s/t7l42f9b2i9PB6XZdhcjBQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ProteinZero：蛋白AI也能自己进化升级",
+    "url": "https://mp.weixin.qq.com/s/TmXJLQFYE8gtJsawW9QWNQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "PoET-2 全解析：支持插入缺失预测，OpenProtein.AI 如何用小模型颠覆蛋白质设计",
+    "url": "https://mp.weixin.qq.com/s/sVnljPtr54dKmHnL2qG-3Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ProtoBind-Diff：不依赖三维结构的蛋白序列驱动配体生成新解法",
+    "url": "https://mp.weixin.qq.com/s/tVisPWpE1AmpLotOYGblgg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "BLAST 找不到，Foldseek看不懂，AI 上场！Gaia 用上下文搞定功能注释",
+    "url": "https://mp.weixin.qq.com/s/a70iMysUklw7sv_Ol6apnQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "SAIR：AI生成结构 + 实验活性，构建最大蛋白-小分子数据集",
+    "url": "https://mp.weixin.qq.com/s/XZOUj49No3Ezntc3K9GGSA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "百图生科&西湖大学联合发布PFMBench：最全蛋白大模型评测体系",
+    "url": "https://mp.weixin.qq.com/s/l8ik3zvDW0c81pRgq39xGA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Boltz-2 vs FEP？别急着站队，它们或许应该并肩作战",
+    "url": "https://mp.weixin.qq.com/s/nk9vRr2Dj7E5U_4iQEYfBQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold 3在DNA纳米结构预测中的系统评估与局限性分析",
+    "url": "https://mp.weixin.qq.com/s/qorkTiFeo5U64BJvXwDbkg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "北大团队发布OmniESI：面向酶-底物相互作用的AI预测模型",
+    "url": "https://mp.weixin.qq.com/s/ABphYLtPE_ijHJXSuU52ew"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold2 最准，ESMFold 最快？三款蛋白结构预测软件实测对比来了",
+    "url": "https://mp.weixin.qq.com/s/kZZfscpvDJqKu18Zi2LUgA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold核心更新模块开放优化：Triangle Multiplicative Update竞赛启动",
+    "url": "https://mp.weixin.qq.com/s/xc8yUqipTKlr_rNeGHcSyQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "《Nature Machine Intelligence》发表清华新模型TopoDiff：突破β折叠结构设计瓶颈",
+    "url": "https://mp.weixin.qq.com/s/qApL3xQhL9dHvPGVT3dfuw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold 能预测蛋白-肽复合物吗？MIT 最新研究揭示真相",
+    "url": "https://mp.weixin.qq.com/s/R1n3Fkw18YrP6JqBTTiSog"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白质局部结构怎么建模？用原子级大模型就够了",
+    "url": "https://mp.weixin.qq.com/s/rPfpgeHu1R4HVlN7QXDiAg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "结构预测进入“质检时代”：ContrastQA 帮你选对蛋白复合物",
+    "url": "https://mp.weixin.qq.com/s/QDEXyEE1vTOVtA187CaYKQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AbRank：助力AI模型准确识别抗体亲和力差异",
+    "url": "https://mp.weixin.qq.com/s/pHDX_USbBeQ40Z0ed9JSYQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI 学会“挑能量低的蛋白”：上海交大发布 EnerBridge-DPO 新模型",
+    "url": "https://mp.weixin.qq.com/s/RPIS2GfuhMyxOuZnx55ahw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Boltz-2 × SynFlowNet：从结构预测到生成新药的一站式闭环",
+    "url": "https://mp.weixin.qq.com/s/v3z3jfdyS2wAbQCnFeNg9g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI破解环肽对接难题，CABS-dock 实现全场景模拟",
+    "url": "https://mp.weixin.qq.com/s/E0cM2f3mM-BNhTpH9sVyWA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "利用 AlphaFold3 建模，解码 PGAM1 在癌细胞中的激活过程",
+    "url": "https://mp.weixin.qq.com/s/Hc1jBYT1KhoIU5GT4clkWQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Chai-2 来了！OpenAI 支持的抗体生成模型，打出 19% 命中率王炸",
+    "url": "https://mp.weixin.qq.com/s/S7PZ7e8l7d69B5pYkPCd-A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "病毒“语言大模型”LucaVirus，能听懂病毒在说什么",
+    "url": "https://mp.weixin.qq.com/s/eY7GQtT1lIvc36ze-KCnzQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Nature Cancer | 用 AI 预测免疫疗效与副作用：德州大学团队发布抗体结合力大模型 Cmai",
+    "url": "https://mp.weixin.qq.com/s/LIEyIrymCrONhtpkYSoJxg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "EC-Bench标准出炉：重新定义酶功能预测的评估体系",
+    "url": "https://mp.weixin.qq.com/s/xVO_KgYAlOMhGcdtAP6FwQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "破解本征无序蛋白难题，bAIes让AlphaFold预测结构“动”起来",
+    "url": "https://mp.weixin.qq.com/s/CpaxLuPHMUcF9hwRVGtrfA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "结构分析新利器：FunCLAN如何识别蛋白构象变换？",
+    "url": "https://mp.weixin.qq.com/s/EXoZvQtqjFPpxzw7TxJ5EQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 太“吃显卡”？看看这个加速神器 MegaFold！",
+    "url": "https://mp.weixin.qq.com/s/DC3WtjvoIxNEdpf8t-fUmQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "侧链也有话语权：LD-FPG精准建模蛋白质侧链动态与全原子细节",
+    "url": "https://mp.weixin.qq.com/s/Y2SNE2THaTWvfWlXrXv7pQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "上交×港科大联合发布 PRO-LDM：GFP 亮度提升 127 倍！实现蛋白功能定制化设计",
+    "url": "https://mp.weixin.qq.com/s/_fL9_ETPhVV5YUZMFNkLYg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Nat. Commun. | AlphaFold 的“隐藏技能”：预测蛋白的多重形态！",
+    "url": "https://mp.weixin.qq.com/s/_yTvACNk2XJlwXF8oIZhWg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Sci Rep | AlphaFold太慢？IBM团队教你“蒸馏”出0.03秒结构评分器！",
+    "url": "https://mp.weixin.qq.com/s/A-Lo1_EZaMwPE9mEuXG01Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Boltz-2 重绘人类互作组：蛋白复合物建模进入高通量时代",
+    "url": "https://mp.weixin.qq.com/s/3IhRbcgmCjWw0MLphd0GMQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "复旦 × 斯坦福联手揭秘：AlphaFold真懂“物理”吗？",
+    "url": "https://mp.weixin.qq.com/s/EYthOK1p3Nwg-pUwCLbDWg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "百度发布全流程抗体设计工具，HelixDesign-Antibody强势登场",
+    "url": "https://mp.weixin.qq.com/s/f2SIepGB3fgmzcc9zeGLxw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "华中科大薛志东团队 | SSAlign：让蛋白结构检索快上 770 倍的新利器",
+    "url": "https://mp.weixin.qq.com/s/tKK7imaVMBHunWgArc47eA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "纳米抗体设计成功率提升至19.5%，FoldCraft 重构 de novo binder 能力边界",
+    "url": "https://mp.weixin.qq.com/s/OvuVnUsUrzmO3OlVrWiytQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "北师大联合团队发布 TDFold：AI视觉扩散模型跨界攻克蛋白结构预测",
+    "url": "https://mp.weixin.qq.com/s/MLLiPN4egr6dhXygkzYr5g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Chai-2 模型正式上线 bioRxiv，零样本抗体设计进入实用时代",
+    "url": "https://mp.weixin.qq.com/s/rxPX_y0WZq08w9hz68Rn3w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 的对手来了！新模型 IntFold 开启“可控蛋白预测”时代",
+    "url": "https://mp.weixin.qq.com/s/iNSSnhDKFSCWhsc5hhKKkw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "没有 MSA 怎么办？ProTact 用几何和物理重新定义蛋白互作预测！",
+    "url": "https://mp.weixin.qq.com/s/6aIpFRbufAmBwARti6n0rw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "DrugDomain 2.0 正式发布：结构域-药物互作的全景图谱",
+    "url": "https://mp.weixin.qq.com/s/y5UjSCoyKXigV1v77z0F5A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "斯坦福团队破解蛋白突变预测瓶颈：STAB-DDG 模型性能/速度双突破",
+    "url": "https://mp.weixin.qq.com/s/X3SKQE6mIIx5INRZhbEY9A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Python 也能“发现新酶反应”？看 EnzyMS 如何帮酶催化研究提速 3 倍！",
+    "url": "https://mp.weixin.qq.com/s/Z2yXr14U0nsw22c-1fM2Ow"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "PLMDA-PPI：华中科大打造跨物种蛋白互作预测利器",
+    "url": "https://mp.weixin.qq.com/s/jOhDp7U0qlp-HvJCo1VXdQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 升级插件 SiteAF3 登场：精准对接药物结合位点，效率更高！",
+    "url": "https://mp.weixin.qq.com/s/as8SnzmbTSgOcbTCsLZusw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "浙工大张贵军团队推出AlphaFlex，精准捕捉蛋白多构象！",
+    "url": "https://mp.weixin.qq.com/s/HY6BRH4R-uPhZU0DTZwDzQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "一文看懂AF3、AF2、Boltz-1、Chai-1在抗体建模中的真实表现",
+    "url": "https://mp.weixin.qq.com/s/Ndchu-pkIQpTjTqWykS4lg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Boltz-2 v2.2.0 正式发布：结构-亲和力一体模型再升级",
+    "url": "https://mp.weixin.qq.com/s/5hpmAD67DEwBHijJld1y_g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "中科院合成所发布EZpred：突破同源序列利用瓶颈，显著提升酶功能预测",
+    "url": "https://mp.weixin.qq.com/s/vP8nZqmAprXryvq1nnfVTQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "清华×华深智药发布Pocket2Mol：从口袋出发的3D药物生成模型",
+    "url": "https://mp.weixin.qq.com/s/y5H3Ov_tgEgqcaEMFa-mKQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "专为抗体设计而生，Epi4Ab定义抗体-抗原“接触点”",
+    "url": "https://mp.weixin.qq.com/s/2JdaLSBMvhIss5aGwoeuow"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "NVIDIA再出手：全原子蛋白生成模型La-Proteina震撼登场",
+    "url": "https://mp.weixin.qq.com/s/pPM3Mbjw9uE6TTox2Dq_9g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "结构、功能、进化一次搞定？清华&上海人工智能实验室发布AMix-1打通蛋白设计全流程",
+    "url": "https://mp.weixin.qq.com/s/CQeuQvPAfKU1-uwmAy94yw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "字节跳动 × 清华重磅发布 Protenix-Mini：用蛋白语言模型替代MSA，结构预测又快又准",
+    "url": "https://mp.weixin.qq.com/s/rqS57NHJe-YdNDMRkGPKDg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "TT-Boltz 重磅发布：单芯片运行 Boltz-2，AI药物筛选再提速！",
+    "url": "https://mp.weixin.qq.com/s/34YTztSfZD4Gi__4y-IGVw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI预测植物“免疫力”？UC伯克利团队开发新模型mamp-ml，准确率高达73%！",
+    "url": "https://mp.weixin.qq.com/s/QHLh_VcCF-_CmOcB7zO8zg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Nat. Commun. | DeepTernary：TPD药物设计的AI加速引擎",
+    "url": "https://mp.weixin.qq.com/s/7Pt9vtL2T8Mtaqhle9UBdw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "RFdiffusion官方文档（测试版）上线啦！！",
+    "url": "https://mp.weixin.qq.com/s/b43WLv9eHq5lQVpwKgMQBA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "结构打分的“新金标”：NVIDIA × Schrödinger发布ToxBench 数据集与 DualBind 模型",
+    "url": "https://mp.weixin.qq.com/s/LRZo5C_r5_zNbGVp1XbmHA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "浙大×百度联手打造！BioScore通用评分模型，让蛋白、核酸、小分子统统一网打尽！",
+    "url": "https://mp.weixin.qq.com/s/zo5DY9D5bQy4Xs1JDiYzHQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Nat. Commun.｜上交AI模型VenusMine精准发现97倍活性的PET降解酶KbPETase",
+    "url": "https://mp.weixin.qq.com/s/BnMeXkijG2aQQPaIs7YBtA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白质比对速度提升400倍，精准度超越顶级工具！FAMSA2强势来袭！",
+    "url": "https://mp.weixin.qq.com/s/GFjgSJ9a_7JRLNRio69YNg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "5个月打造的Latent-X，凭什么能让AI蛋白设计直接命中靶点？",
+    "url": "https://mp.weixin.qq.com/s/26o7Sh7eSKNTT5KbuXcr8A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "什么都不用装！OmniFold直接打包AlphaFold3、Chai-1、Boltz-2、RFdiffusion，一键跑全套！！",
+    "url": "https://mp.weixin.qq.com/s/LNWJTEIHQUIDKdL_wmswMw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "全盲AI肽设计登上Nature子刊！EvoBind2不靠结构照样高亲和！",
+    "url": "https://mp.weixin.qq.com/s/1lbrzwnJip6BiAITOHNT7g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "江南大学团队蛋白质从头设计的突破性应用！GPlad技术让蛋白降解精准无比！",
+    "url": "https://mp.weixin.qq.com/s/ih4Pm7FdMjwfUvjwfUW1Lg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ICML 2025 | 全原子逆折叠模型ADFLIP发布：支持多构象+非蛋白配体的序列设计方法",
+    "url": "https://mp.weixin.qq.com/s/s0xS5GHrdYrTzn7hB6GnWA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "NVIDIA药物AI模型GenMol正式开源，打通AI药物生成全流程",
+    "url": "https://mp.weixin.qq.com/s/3GBhHA54dU3f-ti98PJu_A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AIDO.ModelGenerator：多模态生物大模型的统一开发平台",
+    "url": "https://mp.weixin.qq.com/s/PLtCdEYPSDDL8SXJswQrJw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "上交团队发布AlphaGEM：用蛋白结构预测功能，重建332种酵母代谢图谱！",
+    "url": "https://mp.weixin.qq.com/s/2xPrnhaqokXSzVr2ZUsFQw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "开源模型BindCraft爆改肽类药物设计：一键生成高亲和力短肽",
+    "url": "https://mp.weixin.qq.com/s/GmsjyVzLaYRhG6BbNK_Q-g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaBind：只需一轮实验，抗体亲和力最高提升74倍！",
+    "url": "https://mp.weixin.qq.com/s/1YBageV7ekwYjnD4Xaeb6g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold真的让科学家更强了吗？",
+    "url": "https://mp.weixin.qq.com/s/oBkvFyASGTIbnQbiUncyWQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Missense3D-PTMdb：精准突变识别新利器",
+    "url": "https://mp.weixin.qq.com/s/bWgiXI2Uos8xOHDIeer1_A"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "重磅！Bacformer揭秘细菌进化语言，AI一键设计新菌种！",
+    "url": "https://mp.weixin.qq.com/s/v8PriJD095UFr_FgFrPrsQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AF2不倒，Chai-1崛起：七大AI模型抗体-抗原预测实测结果出炉！",
+    "url": "https://mp.weixin.qq.com/s/PmktR4bBCjrZI8kQtcF1rQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "百图生科爆款新模ProteinReasoner！轻量大模型竟干翻ESM3！",
+    "url": "https://mp.weixin.qq.com/s/DeITc3ScDCjHR9f-fH7GAQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "ProteinMPNN 过时了？DynamicMPNN 正式接棒多态设计未来！",
+    "url": "https://mp.weixin.qq.com/s/YkJMi5Xe5AsTUtqjK7knPg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "浙工大张贵军团队MViewEMA刷新蛋白评估上限！结构预测进入“挑模型”时代！",
+    "url": "https://mp.weixin.qq.com/s/YZqKUxTS59qIxkhCiJUDMg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白语言模型学了十年，还不如搞个实验教它！",
+    "url": "https://mp.weixin.qq.com/s/0Ltt2HcA1F383M5cRR4yag"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白复合物预测更准了！AF3Complex 正式发表上线《Bioinformatics》",
+    "url": "https://mp.weixin.qq.com/s/yTHM8pjW1PD9uJVZ-x951w"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3又又又又又翻车了？",
+    "url": "https://mp.weixin.qq.com/s/R8FE5Sh_DMLjr-T5KgRIlw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "C3PI 模型，蛋白交互预测不再靠“背答案”",
+    "url": "https://mp.weixin.qq.com/s/0mnRR3PorXM3yMw9TCV_tw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "无需模板、无需配体，MotifGen基于结构预测结合基序",
+    "url": "https://mp.weixin.qq.com/s/QMjFy1ihSvPdHM0rFT3wwQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "突破20种氨基酸限制！NCFlow开启肽药设计新纪元",
+    "url": "https://mp.weixin.qq.com/s/tAN5-0UqopIEZvxi_btxXw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Boltz-2 NIM更新啦！亲和力预测功能正式上线！",
+    "url": "https://mp.weixin.qq.com/s/Skt3-9njXRlGXpvRP-3bQA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "MIT 蛋白小模型吊打全场，终于有人反内卷了",
+    "url": "https://mp.weixin.qq.com/s/RIuosE6spPLYgJ5l7-UzvQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "DEERFold登场：让AlphaFold“读懂”蛋白多态性",
+    "url": "https://mp.weixin.qq.com/s/BcnqFDB_frB4H-CCIMbcCg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "跨物种也能预测蛋白互作？港科大新模型HIPPO做到了！",
+    "url": "https://mp.weixin.qq.com/s/lzx_U8gAZ7qzETFCYBOZPA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "浙大陈铭团队上线HPInet，输入FASTA预测人-菌互作！",
+    "url": "https://mp.weixin.qq.com/s/RzBlhv9bivF6kKeey-7g7Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI自动识别蛋白结构的“柔性区域”？ProProtein真的做到了",
+    "url": "https://mp.weixin.qq.com/s/_M9j4nUydrkoAHvsJzk0FQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI 结构注释工具 Phold，引爆噬菌体研究新周期",
+    "url": "https://mp.weixin.qq.com/s/PT9viRUSPn37SuscVFVuXA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "BOLD-GPCRs：AI 预测 GPCR 药物靶点的新工具",
+    "url": "https://mp.weixin.qq.com/s/8mYeUwYsXuReG9zWSDfBVQ"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "专盯“顽固环”的打分神器——ELEN来了！",
+    "url": "https://mp.weixin.qq.com/s/KV3Ei3pU9DVmSKhElC3f8Q"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Nature Biotech正式刊登PepMLM，AI无结构精准造高亲和多肽",
+    "url": "https://mp.weixin.qq.com/s/y7_a8W-IEuU4F1nNm5dN6g"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3被反超？中科大周少华&熊鹏团队RNA大模型三级结构预测更胜一筹",
+    "url": "https://mp.weixin.qq.com/s/WbF9wB5AwUNF1rn2rpmkYw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "什么？？RosettaFold 出 3 了？！Baker×DiMaio 团队合作之作",
+    "url": "https://mp.weixin.qq.com/s/X3smLBmmNkbDj_OzmVertA"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "百度HelixVS：CPU跑出GPU速度，AI虚拟筛选提速13倍！",
+    "url": "https://mp.weixin.qq.com/s/kqdujWJ7ViHzHqRZ11dlng"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "字节跳动发布 PXDesign：快、准、狠的蛋白结合物设计平台",
+    "url": "https://mp.weixin.qq.com/s/xEbwuPO_attWA-DtoQsAFg"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "哥大 AI 模型 PreMode 上线：蛋白突变解读从此更精准",
+    "url": "https://mp.weixin.qq.com/s/ujj-SWCr2iR_uiKlKVnYmw"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI能设计跨膜蛋白了？TMDiffusion：首个全原子跨膜蛋白设计扩散模型",
+    "url": "https://mp.weixin.qq.com/s/ux1HDaJtAlIVrnGeux0F0A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "CASP16 模型质量评估大揭秘：谁能精准挑出好模型？",
+    "url": "https://mp.weixin.qq.com/s/JaviupE5HUl5pLl7n32aUA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "预测蛋白稳定性的新工具：ProStab",
+    "url": "https://mp.weixin.qq.com/s/exgLX5UebdJ3UGV3vz6YvA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "只看序列，AI 也能看出蛋白互作？ProteomeLM 震撼登场！",
+    "url": "https://mp.weixin.qq.com/s/NXvsJh2erC02iySW9r4rvQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "不做实验也能训练AI？rbio-1开辟生物推理新路径",
+    "url": "https://mp.weixin.qq.com/s/VCV70cnlY8NUXCFGPQfWMw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "RFdiffusion2 正式开源！",
+    "url": "https://mp.weixin.qq.com/s/e40Tllz1VGxnwfdyemRm2A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "植物也有了自己的ChatGPT？PlantDeBERTa来了，专为植物科研量身打造的AI模型！",
+    "url": "https://mp.weixin.qq.com/s/dF0GZgKOrZSG0Kk-Mqzhog?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "DynaRepo：首个宏观分子动力学开放库上线，助力AI理解分子如何“动”起来！",
+    "url": "https://mp.weixin.qq.com/s/8zncxXn7iZZ1WviDhRu-lA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "CoMET：用生成式AI预测你的健康未来",
+    "url": "https://mp.weixin.qq.com/s/Vb2yssVhQdkhxGZZqAZ3WA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI巨兽Boltz-2 结合传统分子对接工具Vina，虚拟筛选新王者Boltzina登场！",
+    "url": "https://mp.weixin.qq.com/s/KBkcCwIdZKnfHAoIgB3wRg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "吊打 RFdiffusion！斯坦福 2200 万参数小模型 Protpardelle-1c 横空出世",
+    "url": "https://mp.weixin.qq.com/s/lkXWe_t-XVB8obGtlw3yAA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "实至名归！！BindCraft 登顶 Nature，AI蛋白设计最强选手出道即巅峰！",
+    "url": "https://mp.weixin.qq.com/s/zkqD-qS5nNDoOX8dFi-okg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "史上最强分子AI之一！OrbMol发布！蛋白-配体结合打分 + 全蛋白模拟 + 1亿训练数据！",
+    "url": "https://mp.weixin.qq.com/s/Rb7BVU5MvoLGNFewsw50Og?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Boltz 系列再更新！AI 药厂 Recursion 发布Boltz-ABFE！自由能计算彻底无结构！",
+    "url": "https://mp.weixin.qq.com/s/EIjjkZiigq9U_zxa2loJCw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold 3 也能“看懂”糖链？一文带你入门",
+    "url": "https://mp.weixin.qq.com/s/6RCBzbML9bDBB3BmZmHNLw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "智药元创与上交大联合打造“AI设计新引擎”，ProDualNet精准生成双靶蛋白序列！",
+    "url": "https://mp.weixin.qq.com/s/GOJ5kj_Y9NCxuIlc1zm0HA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "中国原创！石油大学王淑栋团队发布AlphaPPIMI：突破PPI成药难题的AI利器！！",
+    "url": "https://mp.weixin.qq.com/s/NePmfmmWgHYjzL3QhsMAsw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "从AI抗癌先锋，到Boltz-2革命的缔造者｜MIT教授 Regina Barzilay",
+    "url": "https://mp.weixin.qq.com/s/f7-NKLK5tgFio3cFEq4EDQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "FreeBindCraft：真正意义上的开源蛋白质设计平台来了！",
+    "url": "https://mp.weixin.qq.com/s/dEL3v_mDIkHLM9xVasnmew?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI蛋白模型的底座在哪？Logan直接接入全地球基因序列！AI生物模型再也不缺“粮”了！",
+    "url": "https://mp.weixin.qq.com/s/bd7myPjHIOhY7z055kgf1Q?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "全能生物分子结合蛋白生成器！湖南大学彭绍亮团队AI力作EiRA",
+    "url": "https://mp.weixin.qq.com/s/2GpW9scTea2tR_KdtgHBZA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "只靠序列搞定多肽设计！深圳大学朱泽轩团队发布PepCCD！挑战RFDiffusion霸主地位！",
+    "url": "https://mp.weixin.qq.com/s/FitRtwL3_0Eo0Ob0_C14Eg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "RareFold重磅更新！！29种非天然氨基酸设计肽首次通过人源免疫学验证",
+    "url": "https://mp.weixin.qq.com/s/QYONxDjFdYtJqZkhy6ujZw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "史诗级更新！全原子蛋白设计模型La-Proteina正式开源！！！",
+    "url": "https://mp.weixin.qq.com/s/kpDH2MjWQIA-xnBzmzeWxQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Boltz-2无法胜任分子胶预测！AI模型在真实药物任务中遭遇滑铁卢！！",
+    "url": "https://mp.weixin.qq.com/s/c04qm7hsz8ap-UngFdvy_A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Nature Methods | AlphaFold3被碾压？北大&昌平实验室高毅勤团队发布GRASP模型",
+    "url": "https://mp.weixin.qq.com/s/PMEVafvpWvoc3CmfcxvXOg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "通用抗体设计大模型！！腾讯AI开源新工具，一站式颠覆抗体研发流程",
+    "url": "https://mp.weixin.qq.com/s/_VuE3QpuCrArM9lb4CEeLw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "David Baker再立里程碑！！！RFdiffusion3带来真正意义上的全原子AI蛋白设计模型！！",
+    "url": "https://mp.weixin.qq.com/s/3VLLbehSKKDlWRfKXrGxUw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI蛋白设计基础设施再升级，MMseqs2推出GPU加速版本，蛋白同源搜索提速199倍！",
+    "url": "https://mp.weixin.qq.com/s/-tGIMtfGcd3g7cjiR3JLVA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI环肽新突破！CycleRFdiffusion成功设计出能结合TREM2的分子",
+    "url": "https://mp.weixin.qq.com/s/9QsspXyI4kRFfsS8CV-5jA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI 抗体设计新突破！斯坦福 & Arc 推出 Germinal，几十个候选就能成功！！",
+    "url": "https://mp.weixin.qq.com/s/4Psk5xXb7CJpqG5DVWD13w?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "苹果跨界AI生物！SimpleFold无MSA挑战AlphaFold！折叠蛋白从此不再复杂！！",
+    "url": "https://mp.weixin.qq.com/s/u4WIUcBH5CE_MlyP8sUh9A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "上海AI实验室重磅发布SciReasoner！首个覆盖 DNA-蛋白-材料-分子的通用科学推理大模型！",
+    "url": "https://mp.weixin.qq.com/s/WS7KYyCtNvV-h_jgt1npvg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI+生物催化横扫 Nature：CATNIP 打开化学与蛋白的新宇宙",
+    "url": "https://mp.weixin.qq.com/s/PTBYZLGwonaqLMI77Ol9VQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI 引爆三模态蛋白革命！西湖大学ProTrek 从预印本到顶刊的进化之路",
+    "url": "https://mp.weixin.qq.com/s/h9eTlwbEA2c_-44uhHqsCw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "当AI蛋白模型开始学会思考，它在思考什么？港中文&北大&斯坦福团队带来他们的解答",
+    "url": "https://mp.weixin.qq.com/s/vu_OdhPObjeaxyUt2zyL7Q?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "Nature重磅｜EZSpecificity打通AI+酶学全流程：建数据库、造模型、做实验一篇全包！",
+    "url": "https://mp.weixin.qq.com/s/73JjDDzdy8kJTNu29q2gZA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI蛋白模型全民化时代来了！西湖大学 Nature Biotechnology 新作炸场！",
+    "url": "https://mp.weixin.qq.com/s/ubvQGZoxaHhGhG69lC5GAg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "全模态AI分子设计师 ODesign 发布！真的这么全能？",
+    "url": "https://mp.weixin.qq.com/s/3xMZcvRYLLQ6Y7CkCUXXdg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "全民共折叠时代开启！OpenFold3发布！全开源可商用的蛋白-核酸-小分子基础模型！",
+    "url": "https://mp.weixin.qq.com/s/g5M9eYDQXIMsbzr9vqKZEA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AlphaFold3 批量预测 48 万个天然产物复合体",
+    "url": "https://mp.weixin.qq.com/s/mFMELhoOcyiihKCDsa5_fw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI 从零构建原子级抗体，David Baker 团队 RFdiffusion 登顶 Nature！",
+    "url": "https://mp.weixin.qq.com/s/iIz-q4zbI0NyfvKPvym2_Q?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "当 “幻觉” 成为 AI 蛋白设计的第一步：MIT Sergey 团队将 AlphaFold 幻觉化为设计力量",
+    "url": "https://mp.weixin.qq.com/s/9vz-s70mqyI2kThiT9hPdw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "能写抗体的AI语言模型！登顶Cell！",
+    "url": "https://mp.weixin.qq.com/s/GVrj9psbHfhDLVIvIOFO4A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "西湖大学HalluDesign！把幻觉变成创造力，重新定义AI蛋白设计！",
+    "url": "https://mp.weixin.qq.com/s/INYfVvoTBMjo_5w-koG73w?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "交大团队“魔改”AlphaFold3成AI抗体设计器？准确率直接翻两倍！",
+    "url": "https://mp.weixin.qq.com/s/55Q_rqrKZFa7QXIDJMBWng?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "蛋白复合物预测的“后MSA时代”！浙工大×Nat. Commun.最新成果！",
+    "url": "https://mp.weixin.qq.com/s/R-LQqRQ3MuB-aMgGDmuoGg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "“千万级” Cryo-EM 大模型！西湖大学Nat Methods新作！AI 带你“自动驾驶”做电镜！",
+    "url": "https://mp.weixin.qq.com/s/iUz80noNC1azKwLOjK62sQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "RFdiffusion3开源！Baker团队Nature 双发！AI 功能蛋白设计正式搬上台面！",
+    "url": "https://mp.weixin.qq.com/s/k7iolmwI6I32m7zJlwRC0w?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "“全原子”结构预测模型狂欢背后的一地鸡毛",
+    "url": "https://mp.weixin.qq.com/s/CMPTxSA_YzlKlH-MmdsHGg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "底座数据都是错的？AI 蛋白这座大楼早已摇摇欲坠",
+    "url": "https://mp.weixin.qq.com/s/xTUIZVEfgnYZU7w2v4Lyhg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "首次让 AI 自动“长”出真实晶体构像！继 AlphaFold 后最震撼的结构 AI 革命！",
+    "url": "https://mp.weixin.qq.com/s/0Qt-3mzQi9M9Zx3rySK9zQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "什么？还在用AlphaFold验证AI蛋白设计？",
+    "url": "https://mp.weixin.qq.com/s/ANG3js2c8ivfhdwr1EP7kQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "字节开源 PXDesign！实验命中率碾压主流蛋白设计模型！",
+    "url": "https://mp.weixin.qq.com/s/XmvZWYLph1hxHGv_7cT9tg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "AI生成的结构数据真的能用来训练模型吗？？？",
+    "url": "https://mp.weixin.qq.com/s/Ze_CfnHTDwkXR7LjFVFUvQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "开源蛋白家族大模型 ProFam，为什么进化约束才是蛋白 AI 的难点",
+    "url": "https://mp.weixin.qq.com/s/eFgN6Zj2cznpEIM3E9-ilw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白系列模型（全原子）",
+    "slug": "dan-bai-xi-lie-mo-xing-quan-yuan-zi",
+    "title": "生物大模型的困境，十年前就已被预言",
+    "url": "https://mp.weixin.qq.com/s/vhiJZn-VMXRkDHGb8L1ZGw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI设计靶向降解蛋白",
+    "url": "https://mp.weixin.qq.com/s/gkaYcw7FbXvlF0zbHagdsg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI设计蛋白实例分享",
+    "url": "https://mp.weixin.qq.com/s/c_6inPKwPEgPhtEqyygarw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "NBT | 功能性蛋白设计新篇章",
+    "url": "https://mp.weixin.qq.com/s/lfhQG-aKg8WcpDsoOX0qkQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI抗蛇毒，拯救10万条生命的新突破",
+    "url": "https://mp.weixin.qq.com/s/d7vY6aHP8oF6__qD-dLHdw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "OpenAI入局蛋白设计 | GPT-4b",
+    "url": "https://mp.weixin.qq.com/s/0SMS-on9C__TOLkmCoPlGg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Evo&AlphaFold高效设计AAV外壳",
+    "url": "https://mp.weixin.qq.com/s/Vyjw8GS2xhvwegmcTotvoQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "de novo 蛋白质设计引领科学新纪元",
+    "url": "https://mp.weixin.qq.com/s/DSgt_c8lg84b6oseYFWhnQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Nature | 机器学习革新酶工程",
+    "url": "https://mp.weixin.qq.com/s/o6MGIUy-JjWyxBDOg23WCA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "RFdiffusion 设计蛋白结合物，能否替代抗体？",
+    "url": "https://mp.weixin.qq.com/s/_hqI6_Y9HsRNqBrMkzjG4g"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Ras蛋白调控新策略：深度学习驱动蛋白设计",
+    "url": "https://mp.weixin.qq.com/s/FNRGFSOlQWVuR4Amr64XhA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Science | David Baker 团队 AI 设计高效酶，媲美天然酶",
+    "url": "https://mp.weixin.qq.com/s/Qg9qeIn3zYlLJT4BvKiXvQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "华盛顿大学Neil P. King团队联合David Baker团队发表突破性研究：蛋白柔性驱动计算设计组装新范式",
+    "url": "https://mp.weixin.qq.com/s/_ElToNKyvofXVQyD0X_8RA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Cell | 谷歌DeepMind联合剑桥大学，AI颠覆蛋白质进化，打造活性提升19倍的超级核酸酶！",
+    "url": "https://mp.weixin.qq.com/s/WM4He39KQui1a1Xyhh05tw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI“写”出的蛋白，真的被造出来了！——表达成功率高达84%，传统方法望尘莫及",
+    "url": "https://mp.weixin.qq.com/s/gvIUxGnybd9Kbb68KRwWLQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "西湖大学团队登上Nature Materials，AI从零设计抗菌肽，对抗耐药菌还有清除生物膜超能力！",
+    "url": "https://mp.weixin.qq.com/s/ODG9iUEwjXJ2EyGmq_wLfg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Nature Biotechnology发布蛋白质设计里程碑式数据库！英国研究团队用PDA平台全面重绘AI时代的结构生物学版图",
+    "url": "https://mp.weixin.qq.com/s/xLFxl8so2kWOQ8An31LwVQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "登顶Cell！魏茨曼团队用AI结构预测筛出广谱病毒免疫抑制蛋白，跨物种封锁免疫系统！",
+    "url": "https://mp.weixin.qq.com/s/AP4VzwJwuOdEoHSTcXImVg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "结构生物+AI新突破：剑桥团队用AlphaFold找到了两个孤儿GPCR的激动剂！",
+    "url": "https://mp.weixin.qq.com/s/3PL1g349rMM7BvcK4lAb0Q"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "结构生物学迎来新突破！Baker团队再掀风暴，成功设计功能性GPCR小蛋白，激动与拮抗双线制霸",
+    "url": "https://mp.weixin.qq.com/s/HX1nq3T-J9Ob6vr8u8x8VA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "刚出炉！David Baker团队再突破：可控多组分蛋白丝的de novo设计登场！！！！！",
+    "url": "https://mp.weixin.qq.com/s/bn0ERMs7cAe-aLAzhstIVQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "日本理化学研究所主导，成功设计动态响应性跨膜通道肽：高电压下能自行“扩张”的人工离子通道来了！",
+    "url": "https://mp.weixin.qq.com/s/fUw6qZNfJKwCc64RqCp3AQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "过去只能靠猜，现在AI能“看懂”酶的功能，甚至帮你“写”出新酶！",
+    "url": "https://mp.weixin.qq.com/s/QwFcKMV_jDdVXQQzmCi0Rw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "从数百万蛋白中挖宝！西湖大学团队用AI发现新型“超级酶”，助力环境修复与工业应用",
+    "url": "https://mp.weixin.qq.com/s/fCh9Ij8I3i4RqnQeTzXOdQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Baker团队炸场！RFdiffusion2能从原子坐标直接“写出酶”，还真能干活！",
+    "url": "https://mp.weixin.qq.com/s/33vyZV93x6niLSPBzDlfQQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI一句话“写出”功能蛋白，剑指心脏病治疗！！！",
+    "url": "https://mp.weixin.qq.com/s/SXXEPLo1fffT5yn_Qn_Eaw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "东大团队提出“弱监督突变预测法”：AI辅助蛋白设计再进一步",
+    "url": "https://mp.weixin.qq.com/s/9U_16HlAfnLnTg3dharIRw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "代码公开！OMEGA让AI蛋白设计从序列走向实验，仅需96孔板+寡核苷酸池",
+    "url": "https://mp.weixin.qq.com/s/H5XyZvBv27sZ7_WRkVG76g"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "GPCR结构预测迎来高光时刻：上海科技大学白芳团队赢得国际盲测挑战，AI协同建模精准锁定神经肽结合构象",
+    "url": "https://mp.weixin.qq.com/s/2AqQd6JL7fEN-pfz87x66g"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "分子模拟+AI 设计纳米抗体，精准打击新冠刺突蛋白",
+    "url": "https://mp.weixin.qq.com/s/cp7qp_pjwjr8PHnhrBY_lg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "机器学习+高通量筛选，Nature打造定制版 CRISPR 编辑酶",
+    "url": "https://mp.weixin.qq.com/s/HRH6Lg_dx8n0aDLsSp0HDQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "耐药危机倒计时，AI在抗菌肽设计上打响人类生存保卫战！",
+    "url": "https://mp.weixin.qq.com/s/TeSQ4BP4XtvCF7j2nws-8g"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "首个构象特异性蛋白质设计基准诞生，激酶ERK2成功逆天改造！",
+    "url": "https://mp.weixin.qq.com/s/vonAoMFxkN4gJSlNZIbhLg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "帝国理工打造首个从零构建螺旋体蛋白的平台：计算机进化如何改变蛋白设计",
+    "url": "https://mp.weixin.qq.com/s/pXZCrsHW8w8Uow3JPkM-wA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "揭秘｜机器学习预测 HIV 整合酶抑制剂耐药性：一场透明且高效的建模尝试",
+    "url": "https://mp.weixin.qq.com/s/TuvEnX9vUKMlU5IqyuXd0g"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "重塑蛋白设计门槛：Ariax.bio 如何让 GPU + AlphaFold 成为实验室标配？",
+    "url": "https://mp.weixin.qq.com/s/AAyb8mnfVZKSJ41cRDK4mw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI 单轮设计环肽抑制 HIV：无需结构、一次成功，EvoBind 刷新抗病毒新范式！",
+    "url": "https://mp.weixin.qq.com/s/zHXN9aoN2YmdgFGCXvqUUA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "David Baker再掀蛋白设计革命：生成式模型解锁重叠基因双蛋白编码潜能！",
+    "url": "https://mp.weixin.qq.com/s/C-BxIBSJlIZsombg9-RJUA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "巨无霸模型崩了？最新ProteinGym榜单打脸：AI蛋白设计不靠大，靠巧！",
+    "url": "https://mp.weixin.qq.com/s/oaCOTe5UNBP_cFmQPrjsIw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI蛋白设计新范式：用AI提前设计病毒突变？EVE-Vax带你走进“未来疫苗”测试平台",
+    "url": "https://mp.weixin.qq.com/s/Vm2NAsFeQ5IeI1tVInvCXw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "InDeepNet上线！一站式AI蛋白设计平台，网页搞定口袋预测与构象评估",
+    "url": "https://mp.weixin.qq.com/s/d-Lh3_jpL2cpIkmJ_r8MAA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "“AI蛋白设计模型又翻车了？”AstraZeneca实测三大共折叠算法：别构位点预测几乎全军覆没！",
+    "url": "https://mp.weixin.qq.com/s/L4GK0telyagdN9Ubc3Pxcg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "30个氨基酸，从头设计！ETH团队首创de novo界面小肽，精准控制生物凝聚体行为",
+    "url": "https://mp.weixin.qq.com/s/3I6KIsohs3c_or7J4oxMhg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI模型JAM实现GPCR功能抗体de novo设计，打造三百个抗体激动剂，媲美天然配体",
+    "url": "https://mp.weixin.qq.com/s/FB4chzzIWKBJZvuS3_4GCw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "de novo 设计抗冻肽不再玄学：这套“位点+距离”法则打通冰封宇宙",
+    "url": "https://mp.weixin.qq.com/s/oP7bMsm67HHA0Afd7fkPqg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "RFdiffusion 出击！AI 环肽抑制剂直击猴痘病毒“耐药核心",
+    "url": "https://mp.weixin.qq.com/s/2iQjTFXb-4rltfmZrYBeMA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "以CDRH3为核心的AI辅助抗体筛选框架：从序列库设计到功能验证的闭环路径",
+    "url": "https://mp.weixin.qq.com/s/9HT56DiPD2zCYX_noBYmhg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "几何预测蛋白口袋，GPT进行解读：大模型重塑蛋白结合口袋识别流程",
+    "url": "https://mp.weixin.qq.com/s/1cok8dVfLcdSPnVOpkMHig"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "功能蛋白设计硬核应用：植物激素受体改造成毒品感应器！",
+    "url": "https://mp.weixin.qq.com/s/mhiu9OwuAB4U1D-YcXLnAg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AlphaFold 3 揭示 KRAS 突变新结构：癌症“顽疾”靶点的新曙光",
+    "url": "https://mp.weixin.qq.com/s/ge15iQ3T0U89mO_xokqgDQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Science 重磅发表：深度学习实现蛋白“动态开关”设计，精准操控结构变换！",
+    "url": "https://mp.weixin.qq.com/s/dx71SsvgJ-KJTvQ29RXZ1A"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "结构也能说话：SKiD 数据库揭示酶-底物相互作用的新维度",
+    "url": "https://mp.weixin.qq.com/s/37MxtGCjbe-jJoVaT_m9_Q"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "大模型优化蛋白首例实验证实：Pro-1 让 FGF-1 更稳定了",
+    "url": "https://mp.weixin.qq.com/s/wkYLUfoYRK4W1U6VnoerWg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "不用晶体结构、不靠高通量筛选，只凭AI和物理模型，精准命中帕金森病关键靶点",
+    "url": "https://mp.weixin.qq.com/s/jMHhraZLnBzR03NFlJmCBg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Nabla Bio用AI实现GPCR抗体设计新突破，激动剂首次由模型生成",
+    "url": "https://mp.weixin.qq.com/s/WkC_kvfrVK6XDN3R9COCFg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "蛋白质复合物预测真的变得更准了吗？——CASP16官方最新评估解读",
+    "url": "https://mp.weixin.qq.com/s/OkTnwJ3ITJF5GATnlSo51A"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI蛋白设计正成为抗体替代的新途径:流式、CAR-T都能上",
+    "url": "https://mp.weixin.qq.com/s/3sA76vdAfHQwzdMImx6f4A"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Baker 团队又发大招：蛋白设计不再靠“还原”，而是专注“能不能折”",
+    "url": "https://mp.weixin.qq.com/s/e2aI-rD5HLMlUdiMwcMtZg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI助力机制研究更可信：浙大团队用结构预测锤定ERF.D2靶向AOC/OPR3通路",
+    "url": "https://mp.weixin.qq.com/s/-_-Q25voN67vAOydNXckpg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI 怎么帮你做化学？试试这个新工具箱：ChemMCP！",
+    "url": "https://mp.weixin.qq.com/s/1POAXq6_WkLrJVaEwh9pEg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "打通AI盲设计闭环！EvoBind从序列直接生成GPCR激动剂，实验验证强效激活",
+    "url": "https://mp.weixin.qq.com/s/XPKLqwYQpu5ne413nRG4eA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "从“结构”到“混沌”：蛋白质无序区域的预测，迎来拐点",
+    "url": "https://mp.weixin.qq.com/s/cAgGDFR7V4V1QqzHMtWVKQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "西湖 × 西交联手揭露：AlphaFold数据库“太完美”，反而害了AI蛋白设计！",
+    "url": "https://mp.weixin.qq.com/s/36h8ao42sIEk6bR210rNTA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "不用筛几千个蛋白，人工智能帮你一步设计高效新酶",
+    "url": "https://mp.weixin.qq.com/s/itf14vZ2qaUaXs4JJOR05Q"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "“AI 找药”新突破：复旦团队用 AlphaFold 精准锁定抗血吸虫新药",
+    "url": "https://mp.weixin.qq.com/s/187I2fyv-OmqR9Ue7VCHIg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "全原子蛋白序列设计 × AI扩散模型：从序列到结构的创新路径",
+    "url": "https://mp.weixin.qq.com/s/0fC0ndThG1S_5SxEQLIMbA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI教你造CAR，PROTAC帮你撑场，T细胞战力爆表！",
+    "url": "https://mp.weixin.qq.com/s/3G4w706HK_3bCTjC9b55CA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI 设计蛋白，真的懂“折叠”吗？——MIT Sergey Ovchinnikov 团队深度解析",
+    "url": "https://mp.weixin.qq.com/s/Rr3u6eQ4byGDAEHBk9MDFg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "“逆折叠”难题破局！这项新AI技术能让蛋白质“反向设计”更靠谱！",
+    "url": "https://mp.weixin.qq.com/s/XvcjbvBnrLDaYDXjNfTa_A"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "无需实验突变，Nature发布完全计算驱动的人工酶设计成果",
+    "url": "https://mp.weixin.qq.com/s/Vq1rmYzFQwZD6-tDiQavWQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Nature Chemical Biology | David Baker 团队新作：AI 打造高亲和环肽药物",
+    "url": "https://mp.weixin.qq.com/s/uZ6flpaX6XcOnYXGg14aCQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI 蛋白设计这么火，为何插入和缺失突变无人问津",
+    "url": "https://mp.weixin.qq.com/s/2iHAiUrBn9wkzDyqxSTFpg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "全球 AI 蛋白设计挑战赛：哪支团队配得上“最强设计者”？",
+    "url": "https://mp.weixin.qq.com/s/DLBczdBmrRIKq3v7vnP0WQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "人工智能揭示 CRISPR 转座“丝状机器”如何生长",
+    "url": "https://mp.weixin.qq.com/s/2cq-p-6E7wJJaLbCUukEoA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "中国海洋大学团队用AI筛出“抗炎小肽”，有望治疗肠道炎症",
+    "url": "https://mp.weixin.qq.com/s/WWCzpVRT4Zcy9z8v4a1aCQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "从蛋白序列直接预测“蛋白动态”？Rutgers 团队提出 AI 新设想",
+    "url": "https://mp.weixin.qq.com/s/y1JkwHaglTHT0U9noLRnsw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "西交利物浦大学团队用 AI 打造“智能肽农药”，专治水稻杀手褐飞虱",
+    "url": "https://mp.weixin.qq.com/s/KAXtIbVngTOJwYgigUWg_g"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AlphaFold 助力解谜真核复制起点，Nature SM&B重磅揭示关键调控结构！",
+    "url": "https://mp.weixin.qq.com/s/lqohLeCJs897GTsxes_VMQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "PNAS | AI复刻蛋白演化路径，折叠是否真的不靠设计？",
+    "url": "https://mp.weixin.qq.com/s/gUx87o267MCKXijDeUJd7Q"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "RFDiffusion × BindCraft × AlphaFold：如何一步步造出对抗 TEM-171 的抑制剂？",
+    "url": "https://mp.weixin.qq.com/s/4Cnzw2KVXO8i4VCZgLLnOg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "结合蛋白语言模型、分子模拟与Rosetta，精准筛选帕金森关键抗体",
+    "url": "https://mp.weixin.qq.com/s/821TlkWzLAwUTsrzlZCL0w"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "为什么 AI 预测膜蛋白上的“隐藏口袋”这么难",
+    "url": "https://mp.weixin.qq.com/s/gREzwPwyRUyen20H6U_08w"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Rosetta×Boltz-2组合技来了：定位口袋+亲和预测，助力高通量药物筛选",
+    "url": "https://mp.weixin.qq.com/s/T5N254_jeGVpVQm32MAPTw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "David Baker 团队联手打造高亲和力小蛋白，精准靶向生物恐怖因子 Flpp3",
+    "url": "https://mp.weixin.qq.com/s/JOEyxNLMAR7ZScDikOANzQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Nat. Commun. | AI驱动自动化酶优化平台，4周内高效提升酶活性",
+    "url": "https://mp.weixin.qq.com/s/t5jRDroEof_IEEMOYXi4vQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "程序化设计蛋白稳定性，de novo 设计再下一城",
+    "url": "https://mp.weixin.qq.com/s/058kwCJbEM_G5gY7J-C2dA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "基于PETase的AI蛋白设计全球竞赛｜开放赛制、免费实验、3万美元奖金等你挑战",
+    "url": "https://mp.weixin.qq.com/s/XqHxnw-X0WYegDIH_bMHIA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "没有环肽数据，也能设计环肽？清华&斯坦福这波操作太惊艳了",
+    "url": "https://mp.weixin.qq.com/s/9MeoVZ0RwefvXr7ARrPJ0w"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Nature | 酶结构演化的代谢驱动力：来自 AlphaFold2 的系统性解答",
+    "url": "https://mp.weixin.qq.com/s/ybPAxKiGvj3dnpn3i7GSHw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "高彩霞团队出手，将AI蛋白设计与基因编辑融合，登顶Cell！",
+    "url": "https://mp.weixin.qq.com/s/yFF6GaxlwHcFFkPpxMAMBw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "BAGEL：帝国理工开源蛋白设计平台，替代MPNN+AF的灵活解法？",
+    "url": "https://mp.weixin.qq.com/s/uAEmonCOTaGj7rOUgA0ITw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AlphaFold3预测小分子结合能力究竟有多准？74个GPCR结构实测告诉你答案",
+    "url": "https://mp.weixin.qq.com/s/DsHoeB6jTjskK1g4Pu1Pfg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "PRING Benchmark重构PPI预测标准：支持结构泛化与功能验证",
+    "url": "https://mp.weixin.qq.com/s/Z7D_Q__yTpv8RwZtS8YlKA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "PNAS | GPCR 跨膜调节新范式：从分子动力学到药效验证",
+    "url": "https://mp.weixin.qq.com/s/BWThFQWe29-J767iN7R22Q"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "做蛋白设计，不止跑通模型，更要让工具真正落地应用",
+    "url": "https://mp.weixin.qq.com/s/TKGTNY8pxFeVXMMKCrgQuQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI蛋白设计的临床转化困境与制度化解法：蛋白质工程“奥运会”初探",
+    "url": "https://mp.weixin.qq.com/s/trWPCjDUc0e1XpqoGoB_vg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "机器学习驱动酶发现：从语言模型到闭环平台",
+    "url": "https://mp.weixin.qq.com/s/bybcnnheWenwXUVXbRP2lg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Adv. Mater. | Baker团队利用Rosetta设计高特异性α5β1结合蛋白，助力组织再生",
+    "url": "https://mp.weixin.qq.com/s/z7ibDix7_uqnUKfhaglFNQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "ICML 2025 | AI生成蛋白能不能用？剑桥团队给出系统答案",
+    "url": "https://mp.weixin.qq.com/s/6HwfNeqY_9MHVRi_UUniJw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "David Baker团队再发Science！！！实现对IDR区域的通用结合蛋白设计",
+    "url": "https://mp.weixin.qq.com/s/SCQc20ZPiGQr2phcAWjglg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "哈工深最新综述：AI引领生物分子相互作用预测的新纪元",
+    "url": "https://mp.weixin.qq.com/s/WqBzk0I-Sjsq45H0Jxi8gA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Science连发三文，AI蛋白质设计从研究工具跃升为通用药物平台！",
+    "url": "https://mp.weixin.qq.com/s/Hj1eAJfHJCF5qL3ohf0XEg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "蛋白-配体共折叠神话破灭？三篇论文告诉你真相",
+    "url": "https://mp.weixin.qq.com/s/O14xhuUlsjGhBE-bM6RRCw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "里程碑！微软发布Dayhoff Atlas，AI蛋白设计实现从序列到表达的闭环！",
+    "url": "https://mp.weixin.qq.com/s/nRaZ8VzS36E22yzw0SDKoA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "ProteinMPNN重构AAV核心结构，造出高突变但功能完好的基因治疗载体！",
+    "url": "https://mp.weixin.qq.com/s/o9S71f0VMTc-YtkC7z5tEw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "微软科学家用AI精准识别新冠抑制剂，效率提升29倍！",
+    "url": "https://mp.weixin.qq.com/s/vPCneyWatJhqs9scxKCjDw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AlphaFold 的隐藏技能：用“距离图”看懂蛋白质的柔性运动！",
+    "url": "https://mp.weixin.qq.com/s/IryNNnoR3fsEIB_ew06AwQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Science+Nature双发！Baker团队用AI攻克IDR结合难题，开启无结构蛋白设计新时代",
+    "url": "https://mp.weixin.qq.com/s/pXaGABSdwz75Q1tH8uZElg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI从头生成Cas9基因编辑器，超越天然酶！Profluent团队Nature成果解读",
+    "url": "https://mp.weixin.qq.com/s/zxyWmiUUnDcU5vUKNhYxow"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "David Baker 团队新作：首个“双面功能蛋白颗粒”问世！",
+    "url": "https://mp.weixin.qq.com/s/Hoa2p9lsH1W6W49eKUP5wQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "OpenBio 震撼上线！最强AI生物科研助手来了！",
+    "url": "https://mp.weixin.qq.com/s/FlWxP39S005iO9NDZxz_zg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "BioNLP 2025 | 不用做实验,AI预测CRISPR筛选效果",
+    "url": "https://mp.weixin.qq.com/s/SSu7I6heWcAMnzHOhZqogQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "614个真实蛋白设计，揭示AI打分的盲区",
+    "url": "https://mp.weixin.qq.com/s/rJv44bji80z7ZC1knFsFKA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Meta 发布 OMC25：AI 晶体结构预测迎来最强数据集",
+    "url": "https://mp.weixin.qq.com/s/XTr-fKvB4em0soG69lKKRg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "David Baker团队出手，验证上千个蛋白设计只要两天？实验不再拖后腿！",
+    "url": "https://mp.weixin.qq.com/s/pNCzYDlJx4mbEMNSe0KM2A"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "赢麻了！山东大学杨建益团队靠“输入优化”暴打AlphaFold3！",
+    "url": "https://mp.weixin.qq.com/s/kz5cjQGhenex0p9KZgrnag"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Nature Methods上线AI工具ProDomino，蛋白结构域插入不再盲选！",
+    "url": "https://mp.weixin.qq.com/s/zmEfzvTsmhy_8glc1xlLhA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "LiteFold 正式上线！AI结构预测编辑器来了！！！",
+    "url": "https://mp.weixin.qq.com/s/ciP0jLu5qLWEyacITDsdHA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Cell首发：82aa AI蛋白设计产物，让基因编辑提效到新高度",
+    "url": "https://mp.weixin.qq.com/s/_IVBYDAPWYh3gqbGOICprA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Advanced Science重磅：AI+蛋白结构颠覆组合用药设计",
+    "url": "https://mp.weixin.qq.com/s/f8q81teneKsElB0_yDrU5A"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "全原子端到端蛋白设计，为什么没想象中好用？",
+    "url": "https://mp.weixin.qq.com/s/fKqvHvQMjao8AZAseqT1bw"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Advanced Science重磅，陈海峰&俞章盛团队AI造药直击司美格鲁肽",
+    "url": "https://mp.weixin.qq.com/s/z9mArbivYXc8hHp7uk4Qzg"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI从头设计抗生素登上Cell，杀灭超级细菌",
+    "url": "https://mp.weixin.qq.com/s/OdY-XZcS56ufwLBAovJJhQ"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "3766个设计实验实锤：AlphaFold3新分数ipSAE_min最稳最准",
+    "url": "https://mp.weixin.qq.com/s/70qr3jMq4T18FdUp982u1w?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI 太疯狂：设计出 100°C 高稳定、可逆的 de novo 光控蛋白开关",
+    "url": "https://mp.weixin.qq.com/s/t51izK-3l6dcq2mxh7XkwA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "原来AI做抗体结构预测，精度这么差！？",
+    "url": "https://mp.weixin.qq.com/s/g_jWHaFjEVa3xUVv8V89Hg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "全球最强蛋白设计所又立功！疫苗设计彻底AI化，晶体结构退出舞台！",
+    "url": "https://mp.weixin.qq.com/s/NizvLSfv0zpE4hSIbPH_pg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "首个功能性 GPCR 可溶蛋白 CCR8 设计落地，百图生科成功复刻 Nature 神作！",
+    "url": "https://mp.weixin.qq.com/s/VeKIdh1ZUGKNcSp4_VtVwA"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "来自非洲的 AI 抗生素革命：Moremi Bio Agent 一次性设计1000种新抗生素，打响AMR攻坚战！",
+    "url": "https://mp.weixin.qq.com/s/nV2FaLUlmPKEUGGzBtPDSg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "全球AI蛋白设计挑战赛BioML Challenge揭榜！12,000个binder中，谁最能打？",
+    "url": "https://mp.weixin.qq.com/s/DDkUfE14ynf_vjqnNSI2_w?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "诺奖团队预言：AI驱动酶设计正在加速替代人类化学家，全面接管催化世界！",
+    "url": "https://mp.weixin.qq.com/s/9kepbo-m2PAXC-LONaPVyw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "合成生物学教父亲自操刀！Nature综述开启AI全自动蛋白设计时代！",
+    "url": "https://mp.weixin.qq.com/s/dzQctheGbp7gO6d0TChYuw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "CRISPR地位不稳？Baker团队最新Nature：AI小蛋白自由识别DNA，还能调控基因表达！",
+    "url": "https://mp.weixin.qq.com/s/79E5d-k6cW8vAeARxT3vJg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Nature Immunology重磅发表 | 从头设计多肽精准抑制细胞焦亡孔道功能为炎症治疗开辟新途径",
+    "url": "https://mp.weixin.qq.com/s/h8inmfcCnVjL6HGeQGMMug?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "超级加倍！！！AlphaFold结构预测提速131倍！AI结构预测进入“极速通道”时代！",
+    "url": "https://mp.weixin.qq.com/s/oU0n7OkNFqExyTWZYpW_Jw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "BinderFlow流水线：AI一站式蛋白设计工厂上线！",
+    "url": "https://mp.weixin.qq.com/s/cr7yVTI6NseMdtZnzpgF_g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Baker团队Nature新作！！蛋白设计造出“秒级关断”IL-2开关！！",
+    "url": "https://mp.weixin.qq.com/s/GHfe9BD4LHdYy6REW5rDnQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Science Immunology最新突破！Baker团队AI蛋白设计IL-21模拟物，抗癌疗效超PD-1！",
+    "url": "https://mp.weixin.qq.com/s/nKKp3yJ-kTLJNZV0uaGQew?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "里程碑！Baker团队联手再登Science！AI绘制迄今最大规模人类蛋白互作宇宙图谱！",
+    "url": "https://mp.weixin.qq.com/s/xUTZ7oRgG-jMpbqBr7CPgQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Baker团队又来了！晶体验证坐实！AI设计蛋白精准识别磷酸化小蛋白！",
+    "url": "https://mp.weixin.qq.com/s/ETqQ-XjEsmRB6XuuNPlt9w?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "见证历史！Baker团队再立里程碑：AI首次在三维层面设计RNA与核蛋白复合体",
+    "url": "https://mp.weixin.qq.com/s/tSDyVqd0EJdkBsfsuIIiow?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "AI蛋白设计工具大换血！Baker 团队亲手终结 RFDiffusion + ProteinMPNN 时代？",
+    "url": "https://mp.weixin.qq.com/s/xWXRPn8aEGaDj5Enmiw9fg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Baker团队两天五连发！！AI几何可编程蛋白药物诞生！！",
+    "url": "https://mp.weixin.qq.com/s/7kJ4KkJ7bym8fnSF3LC6_A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "全民AI蛋白设计时代来了！！EveDesign平台重磅登场！！从序列到DNA一键生成！！",
+    "url": "https://mp.weixin.qq.com/s/Fvm-kBn5-BzGTV1YpDNoRg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "连发两篇！AI 蛋白设计正式突破“功能层”，Baker 团队造出原子级 de novo 蛋白酶！",
+    "url": "https://mp.weixin.qq.com/s/CmTtpWCpIIZt4j7SFJmE9g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Ovo 来了！AI 蛋白设计终于有了自己的“操作系统”！",
+    "url": "https://mp.weixin.qq.com/s/OGapLzfboBm0gK4EvabE5Q?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Profluent × Ensoma 联手！AI 蛋白设计正引爆“下一代体内基因编辑”！",
+    "url": "https://mp.weixin.qq.com/s/Pr5tSYc2MpfK2uNJkNuy5A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "Science亮点！AI让小分子接管蛋白装配过程！西湖大学曹龙兴团队新作！",
+    "url": "https://mp.weixin.qq.com/s/Oz2XaZn4Vzti6g-ZPLvjMw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "蛋白设计",
+    "slug": "dan-bai-she-ji",
+    "title": "当结构预测和逆折叠都走到了尽头！字节 seed 团队如何改写 AI 蛋白设计！",
+    "url": "https://mp.weixin.qq.com/s/fRn9GQO31CSZLBswoHl0AQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "虚拟细胞：AI开启生命研究新篇章",
+    "url": "https://mp.weixin.qq.com/s/NmUuwltGcy1vpap9MJcD6Q"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "STATE：Arc Institute 构建的首个通用虚拟细胞模型，基于超2.6亿细胞表达数据训练完成",
+    "url": "https://mp.weixin.qq.com/s/sUohTdpVDSTZokRgDH9FkQ"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "虚拟细胞挑战赛：AI 能否真正“理解”细胞",
+    "url": "https://mp.weixin.qq.com/s/RrCwr8umbx-5WIm6MqBafQ"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "虚拟细胞建模：生物 AI 的下一个「AlphaFold 时刻」？",
+    "url": "https://mp.weixin.qq.com/s/Q0RpHfx1k51oKgCDNpsawg"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "虚拟细胞还没凉，虚拟人体就要搞起来了？AI药研的终极梦境",
+    "url": "https://mp.weixin.qq.com/s/ksXadhIYLVFtIiJZCqEftw"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "AI虚拟细胞模型的“登月时刻”：Tahoe Therapeutics融资3000万美元",
+    "url": "https://mp.weixin.qq.com/s/xfBkEFJhGkO0MjaMCPEDsw"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "虚拟细胞背后的黑科技曝光：一场关于“生命推理”的AI军备竞赛！",
+    "url": "https://mp.weixin.qq.com/s/IF75yfjc_-GorHHQOOVATw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "如何用虚拟细胞模型做点真正有用的事？",
+    "url": "https://mp.weixin.qq.com/s/QYsb0hZKHaRwulofkhtvbA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "大语言模型遇上“虚拟细胞”：AI 真的能在电脑里重建一个生命体吗？",
+    "url": "https://mp.weixin.qq.com/s/stpoiTkTGXPE4latFPYmRQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "TAHOE重磅发布！30亿参数虚拟细胞大模型正式登场！",
+    "url": "https://mp.weixin.qq.com/s/vf12NUXdQJId2BJFsHiZsw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "Science深度报道｜虚拟细胞：AI生物学的终极考题",
+    "url": "https://mp.weixin.qq.com/s/XWmA8RNE9_Oflj3P1aViIg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "虚拟细胞×AI科学家！交大郑双佳团队VCWorld来了！打破AI黑箱预测！！",
+    "url": "https://mp.weixin.qq.com/s/nOa6hDMrB6ksBvXxWut8lg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "全球首届 AI 虚拟细胞大赛结果出炉！华人科学家横扫全场！",
+    "url": "https://mp.weixin.qq.com/s/YSV3Bvn3ayKGlIzxEA9J2A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "虚拟细胞无用论：5000 人参与，只证明了一件事——它没用！",
+    "url": "https://mp.weixin.qq.com/s/I08RaR-GcBHSRnHQflrLVQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "虚拟细胞",
+    "slug": "xu-ni-xi-bao",
+    "title": "登顶 Cell！微软用 AI 构建“虚拟免疫人群”！",
+    "url": "https://mp.weixin.qq.com/s/HCuuBDuSYtqQWCRcU9Lqwg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI制药的梦想与现实：BenevolentAI的重组与反思",
+    "url": "https://mp.weixin.qq.com/s/f1XgxRYHPI6OBuj0t-3J2Q"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "谷歌AI药物迈入临床",
+    "url": "https://mp.weixin.qq.com/s/RQaGkuTYd3MIpR_ywvgvQA"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "Nature Medicine | 聚焦AI药物开发",
+    "url": "https://mp.weixin.qq.com/s/K88F_SzkCJYzzG-WQJgTQA"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "Nature | 量子计算 + AI：新药发现的颠覆性突破！",
+    "url": "https://mp.weixin.qq.com/s/-mh2rsztbxB24Qzp--oMAQ"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "GPT-4o、Claude 3等LLMs 颠覆抗体预测",
+    "url": "https://mp.weixin.qq.com/s/JuR19a17Sn6n7DmwpJ4doA"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI驱动的新药突破：英矽智能的 ISM001-055 或成抗衰老新希望",
+    "url": "https://mp.weixin.qq.com/s/zaAAYbiDGNHOUTS6wLTAJA"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI+药物研发，抗纤维化新靶点 TNIK 的前世今生",
+    "url": "https://mp.weixin.qq.com/s/XyHmHVHYUihrmk78mVXDCg"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "Nature最新！！斯坦福团队开发“Peptide Predictor”，精准发现新型抗肥胖肽BRP",
+    "url": "https://mp.weixin.qq.com/s/SAlBHVv5gNkBIYXNipF78g"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "打破药物设计瓶颈！四川大学华西医院团队通过深度学习实现了精准的选择性抑制剂设",
+    "url": "https://mp.weixin.qq.com/s/d6FVqp84QEwlN3BhtrBvnw"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "华东师范大学领衔！AI驱动纳米抗体进化，EvoNB引领精准医疗新时代！",
+    "url": "https://mp.weixin.qq.com/s/xubx5Jx5hwVznjMha73rxA"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "Nature见证AI药物革命！GraphBAN震撼登场，突破化合物-蛋白质相互作用预测极限，开启新药发现新时代",
+    "url": "https://mp.weixin.qq.com/s/iDIHiIqYKkaNovElXuhpfA"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "不Dock也能精准筛药？是的！RNAmigos2用AI定义新规则：RNA药物开发的提速革命已经开始！",
+    "url": "https://mp.weixin.qq.com/s/nmwaOW7Xj3zv4I2kayoS6A"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "“两周搞定候选药物”：交大&智药元创用AI高效设计长效降糖肽",
+    "url": "https://mp.weixin.qq.com/s/2lvY7AH-T8TXrLBYy1iVhw"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "Google上线全新开源大模型 TxGemma：从靶点筛选到临床预测，助力新药开发全面提速！",
+    "url": "https://mp.weixin.qq.com/s/qQEj6h_E5-xvchOdON84CQ"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "芝加哥大学团队 SCAFFOLDGPT：GPT模型首次“按图改药”，多属性优化原药分子",
+    "url": "https://mp.weixin.qq.com/s/yb8ikpg-Hc8780KUX56Orw"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "东京科学大学联手药物AI社群，详解LLM如何重塑新药设计流程",
+    "url": "https://mp.weixin.qq.com/s/0fH0NtGAzEoLhycK1TXjGw"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "沙特国王大学团队用AI筛出抗癌新药候选！精准锁定PARP1，助力前列腺癌治疗",
+    "url": "https://mp.weixin.qq.com/s/NlIZAbMOzGyBhN6IVuzrSQ"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI幕后操盘，素人玩家也能设计新药？Foldit平台让素人玩家命中VHL靶点",
+    "url": "https://mp.weixin.qq.com/s/-A-lOaGyFlCA4Ot62_0Tog"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "DeepMind前沿团队上线播客：AI如何颠覆药物发现？",
+    "url": "https://mp.weixin.qq.com/s/XyAntpaRItkS-mHo_kQD8w"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "伊朗团队打造新一代 AI 药物设计器：DrugGen 模型引爆小分子发现新范式",
+    "url": "https://mp.weixin.qq.com/s/Jo2Ay5kL_GaYbrcp_8_JJQ"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI×抗结核药物设计！GHDDI推出全球首个开放式AI生成小分子数据库 GenVS-TBDB",
+    "url": "https://mp.weixin.qq.com/s/TV2Fi8hYikpUURZRbZnKAg"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "结构已死，序列永生：AI首创“结构自由”抗体设计新范式！",
+    "url": "https://mp.weixin.qq.com/s/BWAmrA7RrvW27t56UH74mA"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "抗体设计最后1公里被攻破：Ginkgo打造AI可开发性“超算平台”，开源数据已上线！",
+    "url": "https://mp.weixin.qq.com/s/qqC8jDmVRQSr_kji09pz1w"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "全球最大分子 DFT 数据库 OMol25 发布，AI 药物、材料、催化全线加速",
+    "url": "https://mp.weixin.qq.com/s/iKe4N40Qa_aJIMAO9um-sw"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI设计肽打败原药，310.ai模型炸场了",
+    "url": "https://mp.weixin.qq.com/s/dFMk0xFcTePEDk7l7sIynQ"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "《Nature Medicine》首发：AI自研新药Rentosertib完成临床II期试验",
+    "url": "https://mp.weixin.qq.com/s/fzi5TtOoIOCmrDzQOdHhpg"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "GPT 不止能写文，还能“设计分子”！FutureHouse 发布化学推理模型 ether0",
+    "url": "https://mp.weixin.qq.com/s/h9uqK1EDehWNnCOcQYLNIQ"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "一行代码跑通PPI筛选？刚上线的QEPPIcommunity，AI药化人都该试一试！",
+    "url": "https://mp.weixin.qq.com/s/-pVkCFtwgBvnWorDdOWldQ"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "不用结构也能设计抗体？复旦团队用 AI 打造“定制纳米抗体",
+    "url": "https://mp.weixin.qq.com/s/_bSqJExwDGiXc_CksFKqfg"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "英国政府启动OpenBind，构建全球最大蛋白小分子交互数据库，重塑AI药物研发",
+    "url": "https://mp.weixin.qq.com/s/ObVW-ovia_OX-KpXoEPFMw"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI辅助药物再开发实录：大模型如何参与老药新用科学判断？",
+    "url": "https://mp.weixin.qq.com/s/3pX3AT7kmkMloHPA21DkOA"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI时代下，新药不一定靠“搞懂机制”！一位AI科学家的颠覆性观点",
+    "url": "https://mp.weixin.qq.com/s/Ab4Jh4pnSunYX1ue-Tu9nw"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI 设计的药物，什么时候才能真正进入临床？",
+    "url": "https://mp.weixin.qq.com/s/N5FWvdf224FHssaNPvGB5A"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "从结构预测到靶点生成，AI正在重构抗体药物设计管线！",
+    "url": "https://mp.weixin.qq.com/s/5zw4hj2IqUuYhmCoLkn4fQ"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "共价药物设计迎来 AI 新基准，CovDocker 登场！",
+    "url": "https://mp.weixin.qq.com/s/F1fIAeQIRQN9C0CqxINHsA"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "抗体设计的“数据金矿”：ANABAG 数据集重磅上线",
+    "url": "https://mp.weixin.qq.com/s/inBCDOVhHWYdUjzGNEiLyg"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "Target 2035重磅计划启动，打造全球最大蛋白-小分子开放数据库！AI药物发现的“AlphaFold时刻”？",
+    "url": "https://mp.weixin.qq.com/s/ADnfnsJNrT7GtqueLIg_fw"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "中山大学重磅综述 | 从结构预测到抗体生成，AI正在接管药物研发",
+    "url": "https://mp.weixin.qq.com/s/6YB_rPtagWbwTVwC7dGTJA"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "2025资本大转向：AI驱动下的生物创业正在重构",
+    "url": "https://mp.weixin.qq.com/s/o_0GwwVLVFSHEo0axS_nsw"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI分子设计能有多猛？Insilico一口气生成1亿候选化合物，围剿炎症靶点NLRP3！",
+    "url": "https://mp.weixin.qq.com/s/dtBOlUiwqhIWruz6e7o5wg"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "抗体优化也能用大模型？东京工业大学ALLM-Ab教你边学边设计！",
+    "url": "https://mp.weixin.qq.com/s/VV6-WbzXbnXv32C3yehAAQ"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "国内AI制药冲击全球！跨国药企排队“交学费”",
+    "url": "https://mp.weixin.qq.com/s/ndaomtIJC7fO7w15s3pj3A"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AlphaFold 之后，AI 药物设计的下一步",
+    "url": "https://mp.weixin.qq.com/s/gcU9zonzvvZ3T8AjosIR5g"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "Cell重磅：AI设计肽药ELIXIR逆转心律失常与癫痫",
+    "url": "https://mp.weixin.qq.com/s/StUw9rwimys0RoErT2brwg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI正在攻克“不可成药靶点”？Nature Biotech重磅评论来了",
+    "url": "https://mp.weixin.qq.com/s/tPajPSBJ1U8M98X7Z374jA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "美国化学会震撼发文：AI已全面改写化学与生物医药，中国正在领跑！",
+    "url": "https://mp.weixin.qq.com/s/mFCW15uEePPYdYl0df4hjQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "十年了，AI药物研发还在画饼？？？",
+    "url": "https://mp.weixin.qq.com/s/fxY5YEvLKI59cg26rsvIGg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "高中生也能搞出抗体筛选AI模型？ImmunoAI真的能几秒跑出亲和力！",
+    "url": "https://mp.weixin.qq.com/s/NJkQJwapvfqcM82HYOQsIQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "从AlphaFold到“终结疾病”：Isomorphic Labs如何用AI重塑整个医学世界？",
+    "url": "https://mp.weixin.qq.com/s/yAf8tokuvn7mSH4zhB13GQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "不是又一个大模型，而是完整AI药物流水线：NVIDIA 用 BioNeMo 重塑生物研发流程！",
+    "url": "https://mp.weixin.qq.com/s/EH0JjZkgALR87RamXQXt9Q?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI抗体设计最新进展（2025）：从BindCraft到Chai-2，一览最强模型阵容！",
+    "url": "https://mp.weixin.qq.com/s/xYLW4U2Tfgjn3FjIPY31Kw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "百万级实验验证！！AI 抗体设计走向现实！！Manifold Bio 团队发布mBER模型",
+    "url": "https://mp.weixin.qq.com/s/mc3wBHumn1yPzhCEM0CqaQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "三周完成 AI 抗体设计 + 实验验证？百奥几何震撼发布GeoFlow V3！！",
+    "url": "https://mp.weixin.qq.com/s/SpOCSKQSsddAJJ2fYg7Ggw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI药物设计的未来不是更大的模型，而是更聪明的系统——Elizabeth Wood的LeaVS革命",
+    "url": "https://mp.weixin.qq.com/s/QaSZNFnAGj5Mn5uR_fjWQQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "碾压 Chai-2 的 AI 抗体模型 JAM-2 登场！！Chai-2团队在线硬刚！！",
+    "url": "https://mp.weixin.qq.com/s/V_6OKGdliEwCN4oXAbpIIQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "两大 AI 抗体巨头爆发正面对线！Chai Discovery vs Nabla Bio！",
+    "url": "https://mp.weixin.qq.com/s/50vlChTaomTonT1CLpdD2Q?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "见证历史！全球首个进入Ⅲ期临床的AI药物！AI生物终于迈入“临床时代”！",
+    "url": "https://mp.weixin.qq.com/s/PgmhD52G67vj2zzgsLdICQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "估值百亿的医学ChatGPT！结果最赚钱的还是卖广告？",
+    "url": "https://mp.weixin.qq.com/s/VIdmIbWVdJ3KGRCNTHFC8g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "从“能不能结合”到“能不能成药”，Latent Labs 正在推动 AI 蛋白设计换代",
+    "url": "https://mp.weixin.qq.com/s/Vuljz9InDg-ZLw7Kvtz_8Q?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "一场失败，暴露了AI制药最大的幻觉",
+    "url": "https://mp.weixin.qq.com/s/mveT70zQ0V14DWD7jdmtuQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "AI 生成的分子，为什么总是“看起来很美，却根本合不出来”？",
+    "url": "https://mp.weixin.qq.com/s/_856dkU33OfG8N3ZHTvscw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "小分子 AI 的真相：我们一直在用垃圾数据要求模型创造奇迹",
+    "url": "https://mp.weixin.qq.com/s/VvC4beavOLOT_m986Nfx4g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "见证历史？？国内首个AI设计药物进入三期临床",
+    "url": "https://mp.weixin.qq.com/s/QakFZRDsbBZq0F8CvGSSxQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "抗体 AI 预测成药性？痴人说梦？",
+    "url": "https://mp.weixin.qq.com/s/dBbvxfMbFTfj0WBD6HIx-g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI制药/抗体设计（包含小分子）",
+    "slug": "a-i-zhi-yao-kang-ti-she-ji-bao-han-xiao-fen-zi",
+    "title": "太拉了，AI抗体设计还在卷亲和力？",
+    "url": "https://mp.weixin.qq.com/s/BnLeJZSyLhPFDtzSqlGRDg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "新一代分子对接工具-DiffDock",
+    "url": "https://mp.weixin.qq.com/s/WPKvpzX8fpPJyiIuZ3k_kg"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "SurfDock—蛋白质-配体对接新工具",
+    "url": "https://mp.weixin.qq.com/s/dO_oUxuM892xG7EHHxr-Mg"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "ChemNet|蛋白质-小分子建模新时代",
+    "url": "https://mp.weixin.qq.com/s/pLZtRrPAySwRB6Uy3bie9g"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "PPDock：精准高效的蛋白-配体盲对接",
+    "url": "https://mp.weixin.qq.com/s/0vsPNdzXBl6mrfZeuC353w"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "Nature | 机器学习+分子对接革新药物筛选，乌普萨拉大学、MIT与哈佛团队千倍加速新药发现，精准锁定35亿分子库",
+    "url": "https://mp.weixin.qq.com/s/dC2uQrytXAV83C061HUO0g"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "计算模拟+分子对接，科学家精准筛选出五种新型酪氨酸酶抑制剂",
+    "url": "https://mp.weixin.qq.com/s/npblLNOWD9Lgzn_Sc_Jzww"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "NYU团队揭示：深度学习盲对接竟几乎无法识别别构位！关键不在模型，在“构象”！",
+    "url": "https://mp.weixin.qq.com/s/z6AD3STf-YkkWHNXtw5tmg"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "ViT能看懂三维结构？AI预测蛋白-配体亲和力有了新套路",
+    "url": "https://mp.weixin.qq.com/s/r36q8gyIPWvs3I_liW5lQQ"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "新一代虚拟筛选利器PLAIG登场：打通Docking到亲和力预测的“最后一公里”",
+    "url": "https://mp.weixin.qq.com/s/nb_SpYlqF0gaUsFKWKuNjw"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "AI 对接大反攻：DiffDock-L 联合 Vina，正面硬刚传统虚拟筛选体系",
+    "url": "https://mp.weixin.qq.com/s/s_6HCC6yxbOOtPjewwe6tw"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "AlphaFold 搞不定的 RNA 预测难题？CASP16 核酸结构评估全解析！",
+    "url": "https://mp.weixin.qq.com/s/TN8tnUDGuz-ztHmrOL5Bnw"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "AutoDock Vina 太慢怎么办？北理工团队用CUDA全面重写，分子对接提速10倍！",
+    "url": "https://mp.weixin.qq.com/s/wcTUfroa64-lHLThJCaTjg"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "超大规模虚拟筛选之后，真正的难题才刚开始",
+    "url": "https://mp.weixin.qq.com/s/755GFybYntoKtOHXEE7b9g"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "Schrödinger 团队联合马里兰大学打造新一代小分子对接方法 DiffDock-Glide",
+    "url": "https://mp.weixin.qq.com/s/prKrEJl8C8Aq5N78v6oRXw"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "GPU加速虚拟筛选，一口气从十亿化合物中找出抗癌新药！",
+    "url": "https://mp.weixin.qq.com/s/IlwjGePrQFjK8Q4QJll-4g"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "比DiffDock更靠谱？PocketVina用传统分子对接方法打赢AI",
+    "url": "https://mp.weixin.qq.com/s/Muhlewwczac3NBrcuv70LA"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "RAPID-Net：盲对接也能又准又快，AI帮你自动找“口袋”！",
+    "url": "https://mp.weixin.qq.com/s/3oRaqoUEv2J7674mMRm7Ww"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "Ligand-Transformer：只需序列即可虚拟筛选，精准识别耐药突变靶点！",
+    "url": "https://mp.weixin.qq.com/s/c4iwP5vTHrPgQ_vc3a6Lsw"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "顶刊Nat. Mach. Intell. 报道MIT新方法，AI对接更聪明！",
+    "url": "https://mp.weixin.qq.com/s/FGcH_5b33kg0M0ng1dJcrA"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "AI做分子对接，到底靠不靠谱？",
+    "url": "https://mp.weixin.qq.com/s/6YgJFQE9J1ZxgqJy42YTNw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "比AutoDock快43倍，UniDock-Pro横扫虚拟筛选",
+    "url": "https://mp.weixin.qq.com/s/oBpK-6EfAiRndICpVwwNMw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "分子对接/虚拟筛选",
+    "slug": "fen-zi-dui-jie-xu-ni-shai-xuan",
+    "title": "天然产物多靶点筛选神器！网页跑AutoDockGPU，PlasmoDocking登场！自动分析直接出报告！",
+    "url": "https://mp.weixin.qq.com/s/OXuimAGx0vi6pPxXrmrMqg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI数据正在“污染”生物数据库，我们该警惕什么",
+    "url": "https://mp.weixin.qq.com/s/n3P6E0okaFeQKxqHzEP0lQ"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AlphaFold数据告急！药企联手打造“私有版”结构AI模型，学术界被挡在门外？",
+    "url": "https://mp.weixin.qq.com/s/-XzCjS0hr4qERHT8ppeSGA"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AlphaFold3被“打回现实”？东京大学团队系统揭示其在配体结构预测中的致命立体化学缺陷，并精准修复",
+    "url": "https://mp.weixin.qq.com/s/sZb3zCbK7HZ0JdSccpvwIg"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "什么是生成式药物设计？它如何用一串字符创造“抗癌新药”？深度学习正在改写人类制药边界",
+    "url": "https://mp.weixin.qq.com/s/BemYscHQEG9IHNimlH8Tlg"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "“造蛋白”的前传：AlphaFold之前我们是怎么猜结构的？",
+    "url": "https://mp.weixin.qq.com/s/qQN78MKhI_zxkozkoWt5uw"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "从AlphaFold到ProteinMPNN：AI如何颠覆蛋白结构预测与功能设计？",
+    "url": "https://mp.weixin.qq.com/s/Voko9veqTJggY9EXGf87qQ"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "波士顿蛋白质设计与建模俱乐部 2025 年会议日程全览",
+    "url": "https://mp.weixin.qq.com/s/j2uwr_TIt9NEW5GKZd-18g"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "蛋白质结构与设计的奥秘：从序列到折叠，再到人工智能设计",
+    "url": "https://mp.weixin.qq.com/s/-hHSoVygnXArV-5apgPWfw"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "分子模拟进入AI驱动的新纪元，结构生物学迈向原子级“全景生命图谱”",
+    "url": "https://mp.weixin.qq.com/s/SjFzRON2pqJ41PbfjWaEwA"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "原子之舞：扩散模型如何颠覆蛋白设计？",
+    "url": "https://mp.weixin.qq.com/s/6Zvg7zDi0Lo1jFnwrDxoug"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "大语言模型在生物信息学中的首次大考！",
+    "url": "https://mp.weixin.qq.com/s/DLxJAUPbJ9JBJbcESUXe0g"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "从 Adaptyv 蛋白设计竞赛到 BenchBB 诞生，看社区共创如何推动计算蛋白质设计走向标准化",
+    "url": "https://mp.weixin.qq.com/s/YSf3hJh6A8jZHtusDUQY8w"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "GSK首席演讲重磅发布：蛋白质结构预测的未来，必须从静态走向动态！",
+    "url": "https://mp.weixin.qq.com/s/SfLnKl7kTr87Ev6OSc_r-w"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "一行提示词，读懂蛋白互作！",
+    "url": "https://mp.weixin.qq.com/s/n4910_COtCFHzNAh_WInVg"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "蛋白质功能预测进入 AI 大数据时代：全面解码六大策略",
+    "url": "https://mp.weixin.qq.com/s/O3XfU4eE7N7oPr2pskTGyA"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "Nature报道 | 我对 AI 说：给我设计一个蛋白，它真的做出来了",
+    "url": "https://mp.weixin.qq.com/s/Fgt8Qc73GQSFWSqQGMzgHA"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI+蛋白设计岗逆天涨薪，生物人终于赢麻了",
+    "url": "https://mp.weixin.qq.com/s/YQjCu2wXsgMuKzFVa0LhOQ"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "《Nature Medicine》首发：AI自研新药Rentosertib完成临床II期试验",
+    "url": "https://mp.weixin.qq.com/s/fzi5TtOoIOCmrDzQOdHhpg"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI酶功能预测走红Nature，验证工作躺平bioRxiv：我们是否奖励了错的东西？",
+    "url": "https://mp.weixin.qq.com/s/2dllrv0FpfSymGKWDBHkZw"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "行业前沿 | 晶泰科技与哈佛 Gregory Verdine 教授战略携手，打造新一代AI药物研发平台",
+    "url": "https://mp.weixin.qq.com/s/x5SOe5HpwFkWjKL4EjXJ_g"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AlphaFold 预测再强，也架不住数据库“变老”",
+    "url": "https://mp.weixin.qq.com/s/67eV2dzAcfYzluJm0nfYIw"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AlphaFold3 都开源了，为啥我还是得用 AlphaFold2？",
+    "url": "https://mp.weixin.qq.com/s/959BM6R17fSdoACzmhDVXA"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "Science | CASP或将停摆，蛋白结构预测的“评测基石”岌岌可危",
+    "url": "https://mp.weixin.qq.com/s/XdjEBAFXvYAkRKIps2T2MQ"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "Boltz 开放合作啦！免费帮你设计“理想小分子”，只要你能验证",
+    "url": "https://mp.weixin.qq.com/s/URJJDZXOd5ZZRPj9FY5mfQ"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "结构生物 AI 巅峰内卷，MLSB Workshop 无缘 NeurIPS 2025",
+    "url": "https://mp.weixin.qq.com/s/CLtHm0C0rEJYj-oSpvfhNQ"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "过去两年，生物 AI 彻底变了",
+    "url": "https://mp.weixin.qq.com/s/IIkoGjBDStumnmzCpBqJ0A"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "Grok‑4 爆火出圈，但在生物推理面前，它还不够“聪明”",
+    "url": "https://mp.weixin.qq.com/s/Uijm2VX2jtKq_4Dg0bi6iQ"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI能做实验了，那还要科研人员干嘛？",
+    "url": "https://mp.weixin.qq.com/s/s3uOblNc1-n8SS9TVGWlQQ"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AlphaFold之后，AI在生物学的“下一个登峰造极”在哪里？",
+    "url": "https://mp.weixin.qq.com/s/wkiivhm5Aqg49iave6f4QA"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI第一次当“作者+审稿人”？斯坦福联合发起首届 Agents4Science 会议，现已开放投稿！",
+    "url": "https://mp.weixin.qq.com/s/rfQjosFUz0nkQrvu0Cccxw"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "Nature Methods重磅观点：AI再强，也离不开实验数据",
+    "url": "https://mp.weixin.qq.com/s/xddJxB8TOnJcD_H01JzF2A"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AlphaFold之父出手相救！DeepMind接盘CASP，基础科研真要靠科技公司续命？",
+    "url": "https://mp.weixin.qq.com/s/_tN5G3PTL4AKpEFWd6KwRw"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI 蛋白设计到底能不能落地？Latent-X用5个月干翻AI蛋白设计圈！科研做不过创业公司了！！",
+    "url": "https://mp.weixin.qq.com/s/EQSMdBV4oBeE8mbgDtmMNg"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "没卡，别谈AI蛋白质设计",
+    "url": "https://mp.weixin.qq.com/s/6bbObB7PzH1QOsFzP0fNnA"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI蛋白设计走向闭源化？Latent-X技术报告引发科学质疑",
+    "url": "https://mp.weixin.qq.com/s/EP2lBJdx3-ky0er6QfQ8Ww"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "生物大模型越学越“糊涂”？",
+    "url": "https://mp.weixin.qq.com/s/0t7kw_rFiV7BY900diUZZg"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "Chai Discovery全览：从开源反叛者到AI药物设计新贵",
+    "url": "https://mp.weixin.qq.com/s/Y9TFWj30YukuZc-IFa_urw"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "NeurIPS 2025重磅征集：下一个AI科学大爆发，就差你这份数据集",
+    "url": "https://mp.weixin.qq.com/s/kQwsvtEFWM0Pgi7UIjVHGQ"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI 生物学要迎来“超级算力包”：Nature 公布 UKB 50 万人全基因组",
+    "url": "https://mp.weixin.qq.com/s/cmHUs3nOGCEnxXBDAvJQNg"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AlphaFold“平权”效应：AI如何让小团队闯进顶刊赛道？",
+    "url": "https://mp.weixin.qq.com/s/M8KaUtkjGQIqSpgi6wZQ6w"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "我们解决了 de novo 肽设计了吗？",
+    "url": "https://mp.weixin.qq.com/s/G-EhoPJ085VjLP3IEAd0lw"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "GPT-5吊打医学专家！多模态推理直接封神",
+    "url": "https://mp.weixin.qq.com/s/_TdhKp7mYotGxPZQuDQDBw"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI生物模型的背后：数据、实验与系统性隐忧全解析",
+    "url": "https://mp.weixin.qq.com/s/t7sENg2ROxBJK_RYu2pYMw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "Convoke 获 860 万美元融资：打造生物医药的 AI 操作系统",
+    "url": "https://mp.weixin.qq.com/s/zGDJxMUVoGFGwQBGR_vZ1w?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI驱动多肽药物设计 | 2025多肽设计大赛征集启事",
+    "url": "https://mp.weixin.qq.com/s/N4EHQ2meEnkmF-gkclce9A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "第二届EMBO计算结构生物学大会（2025）重磅来袭！",
+    "url": "https://mp.weixin.qq.com/s/CsLf6CQxWHBjW3VzmwZ8sA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "当AI办起科学会议：斯坦福James Zou打造“Agents4Science”，一场由AI写、AI评、AI讲的科研革命",
+    "url": "https://mp.weixin.qq.com/s/NbKFcJKkeNbkhcBjEpTh7g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "刚刚成立！！AI+RNA 药物赛道沸腾，Therna获千万美金融资！！",
+    "url": "https://mp.weixin.qq.com/s/YpXDf2EQ2km5McVwYoC9NA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "2.37亿落地！上科大白芳团队AI药物平台实现重大产业转化！！",
+    "url": "https://mp.weixin.qq.com/s/sHfY2Ehh4aYDQlEZxDIOCw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "《Cell》实锤AI科研能力！科研团队苦熬十年，AI三分钟“降维打击”",
+    "url": "https://mp.weixin.qq.com/s/GsYHvP0PcMdff7povX9Znw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "全球最具潜力生物医药公司之一！！Chai Discovery靠AI抗体设计入围！！",
+    "url": "https://mp.weixin.qq.com/s/tpOExzbh0oI4SpoR_e6ivA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "de novo 设计+AI加持，合成生物学进入“拼装生命”的新阶段",
+    "url": "https://mp.weixin.qq.com/s/rK4f83Bh1p2h3fwsOGfdZQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "五年巨变：AlphaFold如何重塑结构生物学",
+    "url": "https://mp.weixin.qq.com/s/0oVTgImBtzam0LVEHp2p1g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "十亿美金重磅合作！AI蛋白药的产业化转折点！",
+    "url": "https://mp.weixin.qq.com/s/BUJwEmVekTz3VjZq_-JfxQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "从蛋白模型、AI药物设计到虚拟细胞！英伟达的AI生物帝国正全面崛起！！",
+    "url": "https://mp.weixin.qq.com/s/dkITtqDKrkkMa3W8OOqxYQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "从“模型神话”到“系统公司”：AI 生物创业真正的定价权在哪里？",
+    "url": "https://mp.weixin.qq.com/s/ePGx7DxiPdgZU7rUu4vdSA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AlphaFold3 封闭引众怒！！OpenFold3发起的最强开源挑战！！",
+    "url": "https://mp.weixin.qq.com/s/IuOZ0GgkPjhNH2FAVrID3A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "扎克伯格全面押注AI生物学！成立 Biohub！打造全球首个 AI 驱动的生命研究引擎！",
+    "url": "https://mp.weixin.qq.com/s/y21EByfHyCORt8NBKSvedg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "全球资本同步下注AI制药2.0！Iambic融资破亿美元！AI 药物发现步入临床化拐点！",
+    "url": "https://mp.weixin.qq.com/s/UKUFxC582TiJyV5Jh3o_TA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI 重新定义结构生物学：从百年实验到计算时代的“蛋白质革命”",
+    "url": "https://mp.weixin.qq.com/s/wT_bPHtW8Sq2186jkyc0zw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI 生物的世纪之争：做药才值钱？还是做工具更赚钱？",
+    "url": "https://mp.weixin.qq.com/s/YNWIpr53fsMRUHmjM5DAnA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "9,500 万美元巨额融资，AI 化学工厂要彻底重写小分子研发！",
+    "url": "https://mp.weixin.qq.com/s/VPS97E2SxtsPwEBtYxhCRQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "AI 抗体离临床还有多远？Nature 最新深度报道：第一批真正的 AI 药物正在逼近",
+    "url": "https://mp.weixin.qq.com/s/8jzYsN0cbYZRNe9tw4JV_A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "为什么 AI 大模型救不了生物？一位 AI 生物学家的清醒认知",
+    "url": "https://mp.weixin.qq.com/s/CUrlpydhapEBBNbQhFKEpQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "OpenAI押注的AI抗体独角兽！半年狂吸2.25亿美元！到底讲了什么故事？",
+    "url": "https://mp.weixin.qq.com/s/B-6-8f0gtOcIn3AS2ayqLw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "行业资讯",
+    "slug": "hang-ye-zi-xun",
+    "title": "英矽智能冲刺上市惹争议？AI 制药叙事何时走出概念阶段？？？",
+    "url": "https://mp.weixin.qq.com/s/LkywctfydM9kQQHrrOUn9A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "“AI雕刻蛋白质”：华人科学家乔卓然用扩散模型重塑药物研发",
+    "url": "https://mp.weixin.qq.com/s/uZejG-ENRb4dUFHT4o4ZyA"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "从DeepMind出走后，他重新定义了“AI蛋白设计”",
+    "url": "https://mp.weixin.qq.com/s/PHXb7qMWYT01UywD1dcfjQ"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "“AI 抗体设计正进入工程时代”｜Chai Discovery 创始人专访：从百倍命中率到CAD for Biology",
+    "url": "https://mp.weixin.qq.com/s/wO_z-8eMj9_B2KhzqLoh_Q"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "从《布达佩斯太阳报》到“AI研究所”：James Zou 教授的科研路径与虚拟实验室的诞生",
+    "url": "https://mp.weixin.qq.com/s/soTcsPuHRFkKNWhjurDyag"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "从语言模型到生物设计引擎：Evo系列背后的科学家 Brian Hie",
+    "url": "https://mp.weixin.qq.com/s/3L8tH8FOYp0taSkw8U6dBg"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "几秒钟搞定蛋白结合物设计？Latent Labs CEO 专访全记录",
+    "url": "https://mp.weixin.qq.com/s/x4Yg4D40tD1xD-fKGU7tcw"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "诺奖得主David Baker：从哲学青年到蛋白质设计先驱",
+    "url": "https://mp.weixin.qq.com/s/keAz02jsJGUp9sn6xeN3YQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "从“药物工匠”到 AI 创药先锋：Miles Congreve 入选 《时代》杂志 100 大 AI 人物",
+    "url": "https://mp.weixin.qq.com/s/qhid3jb1D0ezpTVPMp5BwQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "虚拟细胞青年领袖，从Mila学生到AI药物之王：Daniel Cohen的逆袭人生",
+    "url": "https://mp.weixin.qq.com/s/YGFTHbuCOOEUCRy9Xz-a3w?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "AI × Cryo-EM：结构生物学的下一次大爆发，从 Ellen Zhong 的这次深访说起",
+    "url": "https://mp.weixin.qq.com/s/HTVY2IIGP-huweBS9b300A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "AI设计蛋白已过时？Nature 封面级突破！AI 直接设计“功能基因”！",
+    "url": "https://mp.weixin.qq.com/s/iX7r6QXvbR4sEiZ19Vl_Mw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "人物传记（访谈）",
+    "slug": "ren-wu-zhuan-ji-fang-tan",
+    "title": "AlphaFold 五周年主创专访！John Jumper：从退学博士到诺奖得主！",
+    "url": "https://mp.weixin.qq.com/s/HU47xeg7YKIk9plJay_KFA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "AI揭秘基因3D结构！MIT团队推出ChromoGen预测单细胞染色质构象",
+    "url": "https://mp.weixin.qq.com/s/9QTTJXUBpGo0TmnELJJeHw"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "Nature | E2VD揭示病毒进化新路径",
+    "url": "https://mp.weixin.qq.com/s/J5um38bg6PMJGxBsJg0DLA"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "G2PDiffusion：从基因型读取表型的AI突破",
+    "url": "https://mp.weixin.qq.com/s/hDECqYjtzdjUZmHUPFHwGg"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "英伟达发布 Evo 2:全球最大生物 AI 引领基因组设计",
+    "url": "https://mp.weixin.qq.com/s/eWFCdxIqA2i8COhjLdArmA"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "Nature 报道：全球最大生物AI模型 Evo-2 发布，能解读基因，还能写染色体！",
+    "url": "https://mp.weixin.qq.com/s/mfUotRVsLAYiHc5d8P_8ig"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "耶鲁大学团队重磅突破：用AI解码基因变异，精准预测基因表达！",
+    "url": "https://mp.weixin.qq.com/s/x_xblMlgvTe1RDN8PSrBXA"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "Science 重磅突破！张锋团队利用AI 模型挖掘RNA介导DNA作用的新机制",
+    "url": "https://mp.weixin.qq.com/s/iDFVVkkeODVbFUbwWQZXGQ"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "Nature | 多伦多大学&Vector AI研究所联手，让Transformer读懂生命终极密码！",
+    "url": "https://mp.weixin.qq.com/s/Jg2PzwzlyKnZjtSmzk2Eyw"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "BIOREASON: AI从DNA序列出发，推演出疾病背后的因果链",
+    "url": "https://mp.weixin.qq.com/s/ZWDhKCHpbtERx9qSuZ-fFQ"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "科研界AlphaFold时刻再现！DeepMind发布AlphaGenome，横扫多组学预测！",
+    "url": "https://mp.weixin.qq.com/s/kydjkxSZsfkZkI7U6YVp7g"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "用AI跑组学,AlphaGenome应用场景全解析",
+    "url": "https://mp.weixin.qq.com/s/Hhah8pAZKRaC3LSFKSGwIg"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "多伦多王博团队最新研究揭秘:AI如何识别TATA盒和启动子",
+    "url": "https://mp.weixin.qq.com/s/LiCdmNNdMZZRsOw1PnZXbQ"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "OmniCellAgent发布：scRNA-seq数据也能“对话大模型”？",
+    "url": "https://mp.weixin.qq.com/s/xfuLgXJnfm_jp2BmjbS2cg"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "AI单细胞模型翻车！Nature Methods给你泼盆冷水",
+    "url": "https://mp.weixin.qq.com/s/XOvu3PBOyTDZ-IR7B0PFAw"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "NVIDIA 联手 scverse：用 GPU 加速组学工作流！",
+    "url": "https://mp.weixin.qq.com/s/-Eg-OSUN5nCZ3RnKuzZeOA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "AI 也能读懂染色质开放性？CLM-access 带你走进单细胞ATAC-seq 基础模型",
+    "url": "https://mp.weixin.qq.com/s/0SxUNvdsKsaj02_lVkIPEA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "全球首个AI语言模型生成的完整病毒基因组在Arc诞生，突破人类设计极限！",
+    "url": "https://mp.weixin.qq.com/s/TZGERsICHNdQJj8KZ4_u6w?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "表观遗传太玄幻？清华大学AI单细胞大模型EpiAgent，破解生命密语！",
+    "url": "https://mp.weixin.qq.com/s/H7lzhRgHome8yuQeyiVHUQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "从 AlphaFold 到 Cell2Sentence：DeepMind 让 AI 真正开始“理解生命语言”！",
+    "url": "http://mp.weixin.qq.com/s/Vn_kSlwjCZRghHmKbhqyZg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "基因组大模型",
+    "slug": "ji-yin-zu-da-mo-xing",
+    "title": "AI×单细胞革命！Nat Biotech正式发布CellWhisperer！开启交互式单细胞分析新时代",
+    "url": "https://mp.weixin.qq.com/s/o5cp3TrZG_u9P1tEkVWE1A?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "AI 诊断革命！首个通用医学大模型超越医生？",
+    "url": "https://mp.weixin.qq.com/s/1q1G5VzyhXe3Efg5iBD7bw"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "浙江大学重磅发布HealthGPT：医学AI迎来革命性突破，影像理解与生成双双封神",
+    "url": "https://mp.weixin.qq.com/s/6kVH2PtH7JAEpwo7Tkz8Gg"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "“AI 医生”来了！哈佛团队打造 TXAGENT，秒查 211 种医学工具，精准匹配最佳治疗方案！",
+    "url": "https://mp.weixin.qq.com/s/OhxvV2xp5CvpMbuBR24PFw"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "AI也能“自学成才”？斯坦福团队Nature发表革命性优化框架TextGrad！",
+    "url": "https://mp.weixin.qq.com/s/TYcI9pawDp6TMdE8MLRbHQ"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "2025医疗AI趋势深度解析：人工智能如何重塑生命科学？",
+    "url": "https://mp.weixin.qq.com/s/3UyYRh2v1kWzQmz5PtDhAw"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "人工智能，正在重新定义肿瘤抗体药物的设计与开发",
+    "url": "https://mp.weixin.qq.com/s/wjHQuh-CpcReiwK7lZKDZw"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "加州大学等十校发布 MedReason：教AI医学推理，性能超越华佗",
+    "url": "https://mp.weixin.qq.com/s/pUaXRoTRfXsM2PbpsKW4Ug"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "Nature 连发两篇！Google 发布AI医疗机器人 AMIE：能问诊、会诊断，还比医生更细心！",
+    "url": "https://mp.weixin.qq.com/s/OX2h4H_rb8O3GtY4Kcx9ag"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "Nature Medicine重磅发声：生物医学AI正陷入“评估危机”！",
+    "url": "https://mp.weixin.qq.com/s/0BCV2C4BKxrOylpanVLxjg"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "AI重建大脑立方毫米宇宙图！Nature发布“可视化神经元星图”，揭示视觉皮层的结构奥秘",
+    "url": "https://mp.weixin.qq.com/s/YRSkxB_YOg3xR2o4MgTr6g"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "EyecareGPT：首个眼科多模态大模型框架重磅发布，浙大领衔打造眼科智能新范式",
+    "url": "https://mp.weixin.qq.com/s/J25T87Kiqgh8xipB8p5dEA"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "医疗大模型全面爆发！Nature系列一天发三篇",
+    "url": "https://mp.weixin.qq.com/s/Y45YaG4nqxs34NpzajD66g"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "用 AI 读懂你的心跳！浙江大学重磅推出“心电大模型”HeartcareGPT",
+    "url": "https://mp.weixin.qq.com/s/SX1b5m-c2XZ-l90QXVnowA"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "哈佛罕见病模型 SHEPHERD：通过模拟病人训练出的 AI 医生。",
+    "url": "https://mp.weixin.qq.com/s/eiixI8CrvSOVhWunAHLvYg"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "Google 重磅发布 MedGemma 系列开源医疗大模型：图文理解、生成报告，一网打尽",
+    "url": "https://mp.weixin.qq.com/s/EA1AL57nP9_g4hk3_dJ0fw"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "Cell综述：生成式AI正在重塑医学全景",
+    "url": "https://mp.weixin.qq.com/s/n0tTYHHfheYifzGg5q8m9g"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "OpenMed上线！380+个高性能医疗AI模型免费开放",
+    "url": "https://mp.weixin.qq.com/s/THwgmiGmkPI8BQeoVSuwTQ"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "NeurIPS 2025 最重磅医疗AI竞赛之一！CURE-Bench 正式开启",
+    "url": "https://mp.weixin.qq.com/s/x4CEn3tgr0SnpfgzV1huqA"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "Nature Medicine重磅刊登：Google发布PH-LLM，AI睡眠健身教练来了",
+    "url": "https://mp.weixin.qq.com/s/p4oYGsS8UGCj3oQCB42gTA"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "医学AI又有新突破：小模型也能学会像GPT-4o一样思考？",
+    "url": "https://mp.weixin.qq.com/s/FnWtuYHrsnnD-HdyM54qDw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "OpenAI重磅出击！全球首个AI蛋白工程师诞生，干细胞重编程效率暴涨50倍！",
+    "url": "https://mp.weixin.qq.com/s/ovEjOsS_YXXi9Cmro254tQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "Nature首发！Delphi-2M横空出世，AI大规模预测1000种疾病，看透你一生会得什么病！",
+    "url": "https://mp.weixin.qq.com/s/chy1eb8oCyFqqcWnSlM_bQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI医疗",
+    "slug": "a-i-yi-liao",
+    "title": "全球首个面向“人类疾病遗传学”的全蛋白组模型上线！Nature Genetics 爆炸突破！",
+    "url": "https://mp.weixin.qq.com/s/BHUfSZlaP_a9hqEP_JDc0g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI颠覆生物建模！Talk2Biomodels：让每个人都能用自然语言操控复杂生命系统！",
+    "url": "https://mp.weixin.qq.com/s/RUXZAkh6n5xDGZNX_cFbcg"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI“自主科研”！斯坦福团队重磅推出SpatialAgent：AI首次全流程接管空间组学科研！",
+    "url": "https://mp.weixin.qq.com/s/0bp_Js4tPyI57sewnbHJ6g"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI精准提取蛋白互作关系！帮你从海量文献中自动识别“互动关键词”",
+    "url": "https://mp.weixin.qq.com/s/cFBHeVR99AlOuHpGDYCcJA"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "Biomni：斯坦福发布通用型生物医学 AI 智能体，真正做到科研“自动驾驶”",
+    "url": "https://mp.weixin.qq.com/s/OXLXlHmfayY9YZlp1wRW_w"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI 科学家上线！OriGene 用“自己进化”的方式发现抗癌新靶点",
+    "url": "https://mp.weixin.qq.com/s/m0auta1PEDPlxD2Ha-4pUA"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "科研 AI 智能体Biomni是如何完成从结构检索到分子对接的？",
+    "url": "https://mp.weixin.qq.com/s/pX1Z9gjnjiuf4-yxttQhJg"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI 写假说，机器人做实验：科学开始“自己探索自己”了！",
+    "url": "https://mp.weixin.qq.com/s/b0ev9pJWR1zY4yyBoZyK5Q"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI做科研，能自己补短板、造工具、学经验？STELLA做到了！",
+    "url": "https://mp.weixin.qq.com/s/QhXQxSUsRYnLgJg4FaM0ww"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "科研 AI 智能体 Biomni 与 Claude 合作，ChatGPT 为何出局？",
+    "url": "https://mp.weixin.qq.com/s/RXl_3-KICc-KVPZzN_2_zg"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "Biomni 正式开源：通用生物医药 AI 智能体登场，支持自然语言科研执行",
+    "url": "https://mp.weixin.qq.com/s/S5VSDbG40YBhpeekGotmfg"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "NVIDIA 发布 Biomedical AI-Q 智能体蓝图：打造生物医药专属大模型助手",
+    "url": "https://mp.weixin.qq.com/s/RVA85PnkaQC5-sKuifqXxg"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "上交打造AI原生实验室AutoDNA，实验不再需要人手？",
+    "url": "https://mp.weixin.qq.com/s/oyLDnbeUW_oLx44ddprHhg"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "全流程自动化！大模型如何一键完成药物设计？CMU推出AgentD系统",
+    "url": "https://mp.weixin.qq.com/s/VgLOTKxmdOfsxoa46IstFQ"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI真的懂实验吗？北大团队发布实验协议理解基准 BioProBench",
+    "url": "https://mp.weixin.qq.com/s/amPc6ID7nYGC8lJXV84yCg"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI蛋白质设计零门槛！Biomni与Tamarind Bio强强联手，傻瓜式预测实现！",
+    "url": "https://mp.weixin.qq.com/s/frK2LudQaPV6XyCoPPUKqw"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "Nat. Biomed. Eng. | CRISPR-GPT：AI自动化设计实验，敲基因不求人！",
+    "url": "https://mp.weixin.qq.com/s/GiyBz7T-60BP6cGqBsWkaw"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "Nature首发“AI虚拟实验室”成果，几天搞定抗体设计并完成验证，科研还能慢慢做吗？",
+    "url": "https://mp.weixin.qq.com/s/Rh89yWT_oB2go1K8B1JKNA"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "美国国家实验室上新AI自动化实验室，科研“搬砖人”还有位置吗？",
+    "url": "https://mp.weixin.qq.com/s/817IiMJvSDJeuaNRrql28A"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "CRISPR-GPT 一作专访：从科研到产业，如何打造可信可落地的智能 Agent？",
+    "url": "https://mp.weixin.qq.com/s/nTBF1U68rA9YHo9hZyX66Q"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "Biomni 0.0.5 重磅更新：开源科研助手迈入“真智能”时代！",
+    "url": "https://mp.weixin.qq.com/s/eDmZm-9j3nLF_69YTqzmnw"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "从协作到导师，GPT-5如何彻底改变科研方式",
+    "url": "https://mp.weixin.qq.com/s/afecALrzgsAV7j95O29YcA"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "晶泰科技AI新作BioScientist Agent：一键揭开药物作用全链路",
+    "url": "https://mp.weixin.qq.com/s/RYaDVLYJpuBRGEHAGNrVhQ"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "深圳大学吉君恺团队FROGENT：全流程AI药物设计平台来了！！",
+    "url": "https://mp.weixin.qq.com/s/34HBkoD-V5Vh_s44PKI87Q"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "Biomni-R0 来了！斯坦福放大招，生物科研专属 AI 直接碾压 GPT-5！",
+    "url": "https://mp.weixin.qq.com/s/l63cHAkvr49awBCVkRAXPg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "从靶点挖掘到抗体优化全自动！斯坦福丛乐团队联手百图生科发布生命科学闭环Agent系统BioLab",
+    "url": "https://mp.weixin.qq.com/s/Vx1XBr6CmAZIdO0WEZPe6g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "当 AI 科学家有了身体！！Medra 让实验室进入 AI 全托管时代！！",
+    "url": "https://mp.weixin.qq.com/s/rumjjy2hpwcWOxtUQJPpgQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "读不懂论文代码？斯坦福团队直接让AI生物论文变成会说话的智能体！",
+    "url": "https://mp.weixin.qq.com/s/ve0NSZqvDzstO-CgxC86ow?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "科研智能体Biomni进化6步：设计蛋白、查数据、跑scRNA、读文献、做假设、超越专家！",
+    "url": "https://mp.weixin.qq.com/s/IQM0NftQ-vv1cHOl1iAVZQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "全流程自动化蛋白工程神器！西湖大学重磅发布PRIME！结构预测到抗体设计AI一键完成",
+    "url": "https://mp.weixin.qq.com/s/dmo7D9s6qBg5qvZFMcLiuQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI 全流程接管实验室？哈佛医学院领衔发布 ToolUniverse！AI 科学家真的来了！",
+    "url": "https://mp.weixin.qq.com/s/eU9b0fJf3tQ2ZdyGL2qyiw?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI打通计算与实验最后一公里！PyLabRobot×Biomni重磅！干湿实验不再割裂！！",
+    "url": "https://mp.weixin.qq.com/s/5XZwOGKURTUSX4kamBa7MA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "从写代码到设计药物，Claude for Life Sciences 让AI成为科学家的新搭档",
+    "url": "https://mp.weixin.qq.com/s/UM7bmuxywVJbUwfUMZrqqQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "《Science》首发！AI药物发现系统 DrugReflector 登场，能让模型“学会实验”！",
+    "url": "https://mp.weixin.qq.com/s/DRx7jalWpUUNAyZmiWgRnA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "真正的全流程 AI 药物设计智能体MADD--构建模型，再设计分子",
+    "url": "https://mp.weixin.qq.com/s/1cGUbAkSDItpkSEe8DeVeg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI 科学家 Kosmos 爆火：到底是创新，还是钱烧出来的巨型流水线？",
+    "url": "https://mp.weixin.qq.com/s/u0fHO8GTNEcB6E5f-A-P2g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "清华×中关村发布全球首个！科研级 AI 智能体 OmniScientist ！",
+    "url": "https://mp.weixin.qq.com/s/3dAT33aJBeylvkSMtLLFcQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "虚拟细胞×AI科学家！交大郑双佳团队VCWorld来了！打破AI黑箱预测！！",
+    "url": "https://mp.weixin.qq.com/s/nOa6hDMrB6ksBvXxWut8lg?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "AI生物智能系统",
+    "slug": "a-i-sheng-wu-zhi-neng-xi-tong",
+    "title": "AI 真的能推进湿实验吗？—GPT-5 开始接管实验室！",
+    "url": "https://mp.weixin.qq.com/s/J9TSAU9JtqheF7VVDR8AdA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "RNA模型(设计)",
+    "slug": "r-n-a-mo-xing-she-ji",
+    "title": "首个RNA三维骨架生成模型问世！剑桥、新国立、耶鲁多校联合打造RNA结构设计新纪元",
+    "url": "https://mp.weixin.qq.com/s/Q3XDsDhChMiWprFSWtfl7w"
+  },
+  {
+    "category": "RNA模型(设计)",
+    "slug": "r-n-a-mo-xing-she-ji",
+    "title": "RNA药物的GPT时刻来了？Blank Bio用AI重塑mRNA设计逻辑",
+    "url": "https://mp.weixin.qq.com/s/fRK8RLQTJviiRXLwoEXBNg"
+  },
+  {
+    "category": "AI4Bio Safety",
+    "slug": "a-i-b-i-o-s-a-f-e-t-y",
+    "title": "给蛋白设计加水印”：马里兰大学团队提出AI生物安全新范式，保障隐私、溯源与知识产权",
+    "url": "https://mp.weixin.qq.com/s/hO4v9wAk9qhYmUM-GqWR0A"
+  },
+  {
+    "category": "AI4Bio Safety",
+    "slug": "a-i-b-i-o-s-a-f-e-t-y",
+    "title": "AI越狱制造病毒：不是“像病毒”，而是“就是病毒”",
+    "url": "https://mp.weixin.qq.com/s/DGbP4JNcKeTZgCqSAmTgOQ"
+  },
+  {
+    "category": "AI4Bio Safety",
+    "slug": "a-i-b-i-o-s-a-f-e-t-y",
+    "title": "AI 生成蛋白还能“打水印”？这项新技术让生物安全不再裸奔！",
+    "url": "https://mp.weixin.qq.com/s/Inv-Oav8ZkHtJxIgxdGONg"
+  },
+  {
+    "category": "AI4Bio Safety",
+    "slug": "a-i-b-i-o-s-a-f-e-t-y",
+    "title": "NeurIPS 2025 | 当生成式AI遇上生物安全前沿研讨",
+    "url": "https://mp.weixin.qq.com/s/jdpASzfhJ5ckPtrIuhCsEA"
+  },
+  {
+    "category": "AI4Bio Safety",
+    "slug": "a-i-b-i-o-s-a-f-e-t-y",
+    "title": "担心AI造病毒？别怕！普林斯顿×斯坦福×浙大团队首创“DNA水印”，让病毒也逃不掉！",
+    "url": "https://mp.weixin.qq.com/s/vB5E6lo0QEZCmaIa9eWe7g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "基础设施类",
+    "slug": "ji-chu-she-shi-lei",
+    "title": "美国将AI生物技术纳入国家战略核心，释放出哪些信号",
+    "url": "https://mp.weixin.qq.com/s/lgN-hq0t25px2_7oaVwivg"
+  },
+  {
+    "category": "基础设施类",
+    "slug": "ji-chu-she-shi-lei",
+    "title": "美国重金投资AI生物研究，蛋白设计成重点布局对象！",
+    "url": "https://mp.weixin.qq.com/s/jDqgbZt-oAFTajINCxbqkw"
+  },
+  {
+    "category": "基础设施类",
+    "slug": "ji-chu-she-shi-lei",
+    "title": "英国政府10亿押注！癌症疫苗AI模型！",
+    "url": "https://mp.weixin.qq.com/s/ucGFE0cIpPwgz_HY4jJBTA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "基础设施类",
+    "slug": "ji-chu-she-shi-lei",
+    "title": "美国白宫启动“创世任务”！AI 生物进入“曼哈顿计划2.0”时代！",
+    "url": "https://mp.weixin.qq.com/s/hsCPfQcGSiBc4eo-rfJKzQ?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "基础设施类",
+    "slug": "ji-chu-she-shi-lei",
+    "title": "AI 巨头集体入场，美国 AI4Science 真的要一家独大？",
+    "url": "https://mp.weixin.qq.com/s/F-s-F7D2yPTOyn4Cw4U4mA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "MD/蛋白动态-LLM",
+    "slug": "m-d-dan-bai-dong-tai-l-l-m",
+    "title": "传统分子动力学模拟几十小时的事，AI几分钟就搞定？",
+    "url": "https://mp.weixin.qq.com/s/-RWfZBcsnL22892y9JbA9w"
+  },
+  {
+    "category": "MD/蛋白动态-LLM",
+    "slug": "m-d-dan-bai-dong-tai-l-l-m",
+    "title": "AI+MD 闭环，Cryo-EM 配体建模进入“秒算”时代",
+    "url": "https://mp.weixin.qq.com/s/_31w6v5hcFQ-mCJCA4xnKQ"
+  },
+  {
+    "category": "MD/蛋白动态-LLM",
+    "slug": "m-d-dan-bai-dong-tai-l-l-m",
+    "title": "BioEmu 火爆登上 Science 封面，AI 打破分子动力学极限！",
+    "url": "https://mp.weixin.qq.com/s/Ot2MKr6TZ5O6xtVkjJi3hQ"
+  },
+  {
+    "category": "MD/蛋白动态-LLM",
+    "slug": "m-d-dan-bai-dong-tai-l-l-m",
+    "title": "结构AI最强破壁！ESMDynamic仅靠一条序列，预判蛋白“动态折叠全流程”！",
+    "url": "https://mp.weixin.qq.com/s/xDNfGHUV2j2Ih4gNSayN_g?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "MD/蛋白动态-LLM",
+    "slug": "m-d-dan-bai-dong-tai-l-l-m",
+    "title": "AlphaFold 3 要替代分子模拟？",
+    "url": "https://mp.weixin.qq.com/s/2GaeYGFrlqXS3aC99cdCbA?token=194211054&lang=zh_CN"
+  },
+  {
+    "category": "MD/蛋白动态-LLM",
+    "slug": "m-d-dan-bai-dong-tai-l-l-m",
+    "title": "不止结构预测！下一代AI平台CryoPhold：结构、动态和功能预测一次性完成！！",
+    "url": "https://mp.weixin.qq.com/s/56H_uBnQBM3CXq2S3aCCnw?token=194211054&lang=zh_CN"
+  }
+]
