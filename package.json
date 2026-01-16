@@ -10,6 +10,7 @@
     "build-data": "tsx scripts/build-data.ts"
   },
   "dependencies": {
+    "molstar": "^5.5.0",
     "next": "16.1.1",
     "pinyin-pro": "^3.27.0",
     "react": "19.2.3",

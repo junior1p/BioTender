@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 import IntroOverlay from '@/components/IntroOverlay';
 import categories from '../data/categories.json';
@@ -11,10 +14,23 @@ function getRandomLinks(count: number) {
 }
 
 export default function HomePage() {
+  const [searchQuery, setSearchQuery] = useState('');
+
   const categoryEntries = Object.entries(categories);
   const totalItems = links.length;
   const randomLinks = getRandomLinks(8);
   const slugs = categorySlugs as Record<string, string>;
+
+  // 搜索过滤
+  const searchResults = links.filter((link) => {
+    const query = searchQuery.toLowerCase().trim();
+    if (!query) return [];
+    return (
+      link.title.toLowerCase().includes(query) ||
+      link.category.toLowerCase().includes(query) ||
+      link.url.toLowerCase().includes(query)
+    );
+  });
 
   // 诊断输出
   console.log('\n=== 首页分类卡片诊断 ===');
@@ -45,6 +61,9 @@ export default function HomePage() {
               <Link href="/all" className="text-gray-300 hover:text-cyan-300 transition-colors">
                 All
               </Link>
+              <Link href="/tools" className="text-gray-300 hover:text-cyan-300 transition-colors">
+                Tools
+              </Link>
             </div>
           </div>
         </div>
@@ -71,7 +90,36 @@ export default function HomePage() {
             placeholder="搜索资源..."
             className="w-full max-w-2xl mx-auto block px-6 py-4 glass rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 text-lg"
             id="global-search"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
           />
+
+          {/* 搜索结果 */}
+          {searchQuery.trim() && (
+            <div className="max-w-2xl mx-auto mt-4 glass rounded-lg max-h-96 overflow-y-auto">
+              {searchResults.length > 0 ? (
+                <div className="divide-y divide-cyan-500/10">
+                  {searchResults.map((link, idx) => (
+                    <a
+                      key={idx}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block p-4 hover:bg-slate-800/50 transition-colors"
+                    >
+                      <h3 className="text-white font-medium mb-1">{link.title}</h3>
+                      <p className="text-sm text-cyan-400 mb-1">{link.category}</p>
+                      <p className="text-xs text-gray-400 truncate">{link.url}</p>
+                    </a>
+                  ))}
+                </div>
+              ) : (
+                <div className="p-8 text-center text-gray-400">
+                  未找到匹配的资源
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* 分类卡片网格 */}

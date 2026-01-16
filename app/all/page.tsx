@@ -1,14 +1,23 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 import links from '../../data/links.json';
 import categorySlugs from '../../data/category-slugs.json';
 
-export const metadata = {
-  title: '全部资源 - BioTender',
-  description: '浏览 BioTender 的所有 AI × Biology 资源',
-};
-
 export default function AllPage() {
   const slugs = categorySlugs as Record<string, string>;
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredLinks = links.filter((link) => {
+    const query = searchQuery.toLowerCase().trim();
+    if (!query) return true;
+    return (
+      link.title.toLowerCase().includes(query) ||
+      link.category.toLowerCase().includes(query)
+    );
+  });
+
   return (
     <>
       {/* 导航栏 */}
@@ -24,6 +33,9 @@ export default function AllPage() {
               </Link>
               <Link href="/all" className="text-cyan-300 border-b-2 border-cyan-300 pb-1">
                 All
+              </Link>
+              <Link href="/tools" className="text-gray-300 hover:text-cyan-300 transition-colors">
+                Tools
               </Link>
             </div>
           </div>
@@ -48,17 +60,17 @@ export default function AllPage() {
             placeholder="搜索全部资源..."
             className="w-full px-6 py-4 glass rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 text-lg"
             id="all-search"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
 
         {/* 资源列表 */}
         <div className="space-y-4" id="all-items-list">
-          {links.map((link, idx) => (
+          {filteredLinks.map((link, idx) => (
             <div
               key={idx}
               className="glass rounded-lg p-6 hover:border-cyan-500/40 transition-all duration-300 all-item-card"
-              data-title={link.title.toLowerCase()}
-              data-category={link.category.toLowerCase()}
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="flex-1 min-w-0">
@@ -89,41 +101,11 @@ export default function AllPage() {
         </div>
 
         {/* 无搜索结果提示 */}
-        <div id="all-no-results" className="hidden text-center py-12">
-          <p className="text-gray-400 text-lg">未找到匹配的资源</p>
-        </div>
-
-        {/* 搜索脚本 */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                const searchInput = document.getElementById('all-search');
-                const itemCards = document.querySelectorAll('.all-item-card');
-                const noResults = document.getElementById('all-no-results');
-
-                searchInput.addEventListener('input', function(e) {
-                  const query = e.target.value.toLowerCase().trim();
-                  let visibleCount = 0;
-
-                  itemCards.forEach(card => {
-                    const title = card.getAttribute('data-title') || '';
-                    const category = card.getAttribute('data-category') || '';
-
-                    if (title.includes(query) || category.includes(query)) {
-                      card.style.display = 'block';
-                      visibleCount++;
-                    } else {
-                      card.style.display = 'none';
-                    }
-                  });
-
-                  noResults.style.display = visibleCount === 0 ? 'block' : 'none';
-                });
-              })();
-            `,
-          }}
-        />
+        {filteredLinks.length === 0 && (
+          <div className="text-center py-12">
+            <p className="text-gray-400 text-lg">未找到匹配的资源</p>
+          </div>
+        )}
       </main>
     </>
   );

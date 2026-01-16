@@ -1,0 +1,362 @@
+'use client';
+
+import { useEffect, useRef, useState, useImperativeHandle, forwardRef } from 'react';
+import { Plugin } from 'molstar/lib/mol-plugin-ui/plugin';
+import { DefaultPluginUISpec } from 'molstar/lib/mol-plugin-ui/spec';
+import { Asset } from 'molstar/lib/mol-util/assets';
+import 'molstar/build/viewer/molstar.css';
+
+// 视图类型
+export type ViewType = 'cartoon' | 'surface' | 'ball-and-stick';
+
+// 调试信息类型
+export interface DebugInfo {
+  lastLoadSource: string;
+  lastError: string | null;
+  workerStatus: 'pending' | 'loaded' | 'failed';
+  wasmStatus: 'pending' | 'loaded' | 'failed';
+  structureLoaded: boolean;
+  logMessages: string[];
+}
+
+// 暴露给父组件的方法
+export interface MolStarViewerRef {
+  loadStructure: (file: File) => Promise<void>;
+  loadFromPdbId: (pdbId: string) => Promise<void>;
+  setView: (view: ViewType) => void;
+  exportImage: () => Promise<void>;
+  toggleFullscreen: () => void;
+  getDebugInfo: () => DebugInfo;
+}
+
+interface MolStarViewerProps {
+  className?: string;
+  onViewChange?: (view: ViewType) => void;
+}
+
+const MolStarViewer = forwardRef<MolStarViewerRef, MolStarViewerProps>(
+  ({ className = '', onViewChange }, ref) => {
+    const pluginRef = useRef<any>(null);
+    const [currentView, setCurrentView] = useState<ViewType>('cartoon');
+    const [plugin, setPlugin] = useState<any>(null);
+    const [isInitialized, setIsInitialized] = useState(false);
+
+    // 调试信息
+    const [debugInfo, setDebugInfo] = useState<DebugInfo>({
+      lastLoadSource: 'None',
+      lastError: null,
+      workerStatus: 'pending',
+      wasmStatus: 'pending',
+      structureLoaded: false,
+      logMessages: [],
+    });
+
+    const addLog = (message: string) => {
+      const timestamp = new Date().toLocaleTimeString();
+      setDebugInfo(prev => ({
+        ...prev,
+        logMessages: [...prev.logMessages, `[${timestamp}] ${message}`].slice(-20),
+      }));
+      console.log(`[MolStarViewer] ${message}`);
+    };
+
+    // 初始化 Mol* Plugin
+    useEffect(() => {
+      let mounted = true;
+
+      const initPlugin = async () => {
+        try {
+          addLog('开始初始化 Mol* Plugin...');
+
+          // 动态导入所需模块
+          const { PluginContext } = await import('molstar/lib/mol-plugin/context');
+          addLog('PluginContext 模块加载成功');
+
+          // 创建 plugin 实例，使用官方 UI Spec
+          const spec = DefaultPluginUISpec();
+          const newPlugin = new PluginContext(spec);
+
+          addLog('Plugin 实例创建成功');
+
+          // 初始化 plugin
+          await newPlugin.init();
+          addLog('Plugin 初始化完成');
+
+          if (mounted) {
+            pluginRef.current = newPlugin;
+            setPlugin(newPlugin);
+            setIsInitialized(true);
+
+            // 检测 worker 状态
+            setDebugInfo(prev => ({ ...prev, workerStatus: 'loaded' }));
+            addLog('Worker 加载成功，Mol* 准备就绪');
+          }
+        } catch (error) {
+          const errorMsg = error instanceof Error ? error.message : String(error);
+          addLog(`初始化失败: ${errorMsg}`);
+          setDebugInfo(prev => ({
+            ...prev,
+            lastError: errorMsg,
+            workerStatus: 'failed',
+          }));
+        }
+      };
+
+      initPlugin();
+
+      return () => {
+        mounted = false;
+        // 清理
+        if (pluginRef.current) {
+          pluginRef.current.dispose();
+          pluginRef.current = null;
+        }
+      };
+    }, []);
+
+    // 暴露方法给父组件
+    useImperativeHandle(ref, () => ({
+      loadStructure: async (file: File) => {
+        if (!pluginRef.current) {
+          addLog('错误: Plugin 未初始化');
+          throw new Error('Plugin not initialized');
+        }
+
+        addLog(`开始加载文件: ${file.name} (${file.size} bytes)`);
+        setDebugInfo(prev => ({ ...prev, lastLoadSource: file.name }));
+
+        try {
+          // 读取文件内容
+          const data = await file.arrayBuffer();
+          const fileData = new Uint8Array(data);
+
+          // 判断文件格式
+          const isCif = file.name.endsWith('.cif') || file.name.endsWith('.mmcif') || file.name.endsWith('.bcif');
+          const format = isCif ? 'mmcif' : 'pdb';
+          const isBinary = file.name.endsWith('.bcif');
+
+          addLog(`文件读取完成 (${data.byteLength} bytes), 格式: ${format}, 二进制: ${isBinary}`);
+
+          // 创建 blob URL
+          const blob = new Blob([fileData], { type: isBinary ? 'application/octet-stream' : 'text/plain' });
+          const blobUrl = URL.createObjectURL(blob);
+
+          // 使用 Mol* 的 download API 加载 blob URL
+          await pluginRef.current.builders.data.download({
+            url: blobUrl,
+            format: format as any,
+            isBinary: isBinary,
+          });
+
+          // 清理 blob URL
+          URL.revokeObjectURL(blobUrl);
+
+          addLog('结构加载成功！');
+
+          // 聚焦到结构
+          const canvas3d = pluginRef.current.canvas3d;
+          if (canvas3d) {
+            await canvas3d.camera.reset();
+            addLog('相机重置完成，结构已聚焦');
+          }
+
+          setDebugInfo(prev => ({ ...prev, structureLoaded: true, lastError: null }));
+        } catch (error) {
+          const errorMsg = error instanceof Error ? error.message : String(error);
+          addLog(`结构加载失败: ${errorMsg}`);
+          console.error('加载错误详情:', error);
+          setDebugInfo(prev => ({ ...prev, lastError: errorMsg, structureLoaded: false }));
+          throw error;
+        }
+      },
+
+      loadFromPdbId: async (pdbId: string) => {
+        if (!pluginRef.current) {
+          addLog('错误: Plugin 未初始化');
+          throw new Error('Plugin not initialized');
+        }
+
+        const upperPdbId = pdbId.toUpperCase().trim();
+        addLog(`开始从 RCSB 加载: ${upperPdbId}`);
+        setDebugInfo(prev => ({ ...prev, lastLoadSource: `PDB: ${upperPdbId}` }));
+
+        try {
+          // 从 RCSB 下载 mmCIF 格式
+          const url = `https://files.rcsb.org/download/${upperPdbId}.cif`;
+          addLog(`请求 URL: ${url}`);
+
+          // 使用 Mol* 的 download API
+          await pluginRef.current.builders.data.download({
+            url: Asset.Url(url),
+            format: 'mmcif',
+            isBinary: false,
+          });
+
+          addLog(`PDB ${upperPdbId} 加载成功！`);
+
+          // 聚焦到结构
+          const canvas3d = pluginRef.current.canvas3d;
+          if (canvas3d) {
+            await canvas3d.camera.reset();
+            addLog('相机重置完成，结构已聚焦');
+          }
+
+          setDebugInfo(prev => ({ ...prev, structureLoaded: true, lastError: null }));
+        } catch (error) {
+          const errorMsg = error instanceof Error ? error.message : String(error);
+          addLog(`PDB 加载失败: ${errorMsg}`);
+          console.error('PDB 加载错误详情:', error);
+          setDebugInfo(prev => ({ ...prev, lastError: errorMsg, structureLoaded: false }));
+          throw error;
+        }
+      },
+
+      setView: (view: ViewType) => {
+        if (!pluginRef.current) return;
+        setCurrentView(view);
+        onViewChange?.(view);
+        addLog(`切换视图: ${view}`);
+        // TODO: 视图切换逻辑
+      },
+
+      exportImage: async () => {
+        if (!pluginRef.current) return;
+
+        try {
+          const canvas = pluginRef.current.canvas3d?.ctx.canvas;
+          if (!canvas) {
+            addLog('导出失败: 无法获取 canvas');
+            return;
+          }
+
+          canvas.toBlob((blob: Blob | null) => {
+            if (blob) {
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url;
+              a.download = `molstar-export-${Date.now()}.png`;
+              a.click();
+              URL.revokeObjectURL(url);
+              addLog('图片导出成功');
+            }
+          }, 'image/png');
+        } catch (error) {
+          const errorMsg = error instanceof Error ? error.message : String(error);
+          addLog(`导出失败: ${errorMsg}`);
+        }
+      },
+
+      toggleFullscreen: () => {
+        const viewerContainer = document.querySelector('.msp-plugin');
+        if (!viewerContainer) return;
+
+        if (document.fullscreenElement) {
+          document.exitFullscreen();
+        } else {
+          viewerContainer.requestFullscreen();
+        }
+      },
+
+      getDebugInfo: () => debugInfo,
+    }));
+
+    // 如果还未初始化，显示加载状态
+    if (!isInitialized || !plugin) {
+      return (
+        <div className="w-full h-full bg-white flex flex-col items-center justify-center">
+          <div className="text-lg text-gray-600 mb-2">正在加载 Mol* Viewer...</div>
+          <div className="text-sm text-gray-400">初始化 3D 引擎中，请稍候</div>
+          {debugInfo.lastError && (
+            <div className="mt-4 text-sm text-red-500 max-w-md text-center">
+              初始化错误: {debugInfo.lastError}
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    // 渲染 Mol* Plugin（官方完整 UI）
+    return (
+      <div className={`relative w-full h-full bg-white ${className}`}>
+        {/* Mol* Plugin 组件 - 官方完整 UI */}
+        <Plugin plugin={plugin} />
+
+        {/* Debug 面板 */}
+        <div className="absolute bottom-4 right-4 z-50">
+          <details className="bg-slate-900/95 text-white rounded-lg shadow-xl border border-cyan-500/30">
+            <summary className="px-3 py-2 cursor-pointer text-sm font-medium hover:bg-slate-800/80 rounded-t-lg">
+              🔧 Debug 面板
+            </summary>
+            <div className="p-3 text-xs max-w-md max-h-80 overflow-y-auto">
+              <div className="space-y-2">
+                <div>
+                  <span className="text-cyan-400">最后加载来源:</span>
+                  <span className="ml-2">{debugInfo.lastLoadSource}</span>
+                </div>
+                <div>
+                  <span className="text-cyan-400">Worker 状态:</span>
+                  <span className={`ml-2 ${
+                    debugInfo.workerStatus === 'loaded' ? 'text-green-400' :
+                    debugInfo.workerStatus === 'failed' ? 'text-red-400' :
+                    'text-yellow-400'
+                  }`}>
+                    {debugInfo.workerStatus}
+                  </span>
+                </div>
+                <div>
+                  <span className="text-cyan-400">WASM 状态:</span>
+                  <span className={`ml-2 ${
+                    debugInfo.wasmStatus === 'loaded' ? 'text-green-400' :
+                    debugInfo.wasmStatus === 'failed' ? 'text-red-400' :
+                    'text-yellow-400'
+                  }`}>
+                    {debugInfo.wasmStatus}
+                  </span>
+                </div>
+                <div>
+                  <span className="text-cyan-400">结构已加载:</span>
+                  <span className={`ml-2 ${debugInfo.structureLoaded ? 'text-green-400' : 'text-gray-400'}`}>
+                    {debugInfo.structureLoaded ? '是' : '否'}
+                  </span>
+                </div>
+                {debugInfo.lastError && (
+                  <div>
+                    <span className="text-red-400">最后错误:</span>
+                    <div className="mt-1 p-2 bg-red-900/30 rounded text-red-300 break-words">
+                      {debugInfo.lastError}
+                    </div>
+                  </div>
+                )}
+                <div>
+                  <span className="text-cyan-400">日志:</span>
+                  <div className="mt-1 p-2 bg-slate-800 rounded max-h-40 overflow-y-auto font-mono">
+                    {debugInfo.logMessages.length === 0 ? (
+                      <span className="text-gray-500">无日志</span>
+                    ) : (
+                      debugInfo.logMessages.map((msg, i) => (
+                        <div key={i} className="text-gray-300">{msg}</div>
+                      ))
+                    )}
+                  </div>
+                </div>
+                <div className="pt-2 border-t border-slate-700">
+                  <div className="text-cyan-400 mb-1">自检清单:</div>
+                  <ul className="text-gray-300 space-y-1 ml-4">
+                    <li>✓ DevTools Network 中 molstar.css 应为 200</li>
+                    <li>✓ DevTools Network 中 worker.js 应为 200</li>
+                    <li>✓ 上传 PDB 后日志应显示"结构加载成功"</li>
+                    <li>✓ 如果加载失败，查看"最后错误"字段</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    );
+  }
+);
+
+MolStarViewer.displayName = 'MolStarViewer';
+
+export default MolStarViewer;

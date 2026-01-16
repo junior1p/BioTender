@@ -1,0 +1,563 @@
+'use client';
+
+import { useState, useCallback } from 'react';
+import { MolStarViewerRef, ViewType } from './MolStarViewer';
+
+// 交互类型
+export type InteractionType = 'protein-ligand' | 'protein-protein' | 'nucleic-ligand';
+
+// 氢键阈值设置
+export interface HBondThresholds {
+  distance: { max: number; min: number };
+  angle: { min: number };
+}
+
+// 疏水相互作用阈值
+export interface HydrophobicThresholds {
+  maxDistance: number;
+}
+
+// π-堆积阈值
+export interface PiStackingThresholds {
+  maxDistance: number;
+  maxAngle: number;
+}
+
+// 盐桥阈值
+export interface SaltBridgeThresholds {
+  maxDistance: number;
+}
+
+// 所有交互阈值设置
+export interface InteractionThresholds {
+  hBond: HBondThresholds;
+  hydrophobic: HydrophobicThresholds;
+  piStacking: PiStackingThresholds;
+  saltBridge: SaltBridgeThresholds;
+}
+
+// 交互显示设置
+export interface InteractionDisplay {
+  enabled: boolean;
+  color: string;
+  radius: number;
+  label: boolean;
+}
+
+// 所有交互显示设置
+export interface InteractionDisplays {
+  hBond: InteractionDisplay;
+  hydrophobic: InteractionDisplay;
+  piStacking: InteractionDisplay;
+  saltBridge: InteractionDisplay;
+}
+
+// 默认阈值
+const defaultThresholds: InteractionThresholds = {
+  hBond: {
+    distance: { max: 3.5, min: 2.0 },
+    angle: { min: 120 },
+  },
+  hydrophobic: {
+    maxDistance: 4.5,
+  },
+  piStacking: {
+    maxDistance: 5.5,
+    maxAngle: 30,
+  },
+  saltBridge: {
+    maxDistance: 4.0,
+  },
+};
+
+// 默认显示设置
+const defaultDisplays: InteractionDisplays = {
+  hBond: { enabled: true, color: '#06b6d4', radius: 0.5, label: true },
+  hydrophobic: { enabled: true, color: '#22c55e', radius: 0.5, label: false },
+  piStacking: { enabled: true, color: '#f59e0b', radius: 0.5, label: true },
+  saltBridge: { enabled: true, color: '#ef4444', radius: 0.5, label: true },
+};
+
+interface InteractionPanelProps {
+  viewerRef: React.RefObject<MolStarViewerRef | null>;
+  onInteractionTypeChange?: (type: InteractionType) => void;
+  onViewChange?: (view: ViewType) => void;
+}
+
+export default function InteractionPanel({
+  viewerRef,
+  onInteractionTypeChange,
+  onViewChange,
+}: InteractionPanelProps) {
+  // 基础状态
+  const [pdbId, setPdbId] = useState('');
+  const [interactionType, setInteractionType] = useState<InteractionType>('protein-ligand');
+  const [currentView, setCurrentView] = useState<ViewType>('cartoon');
+
+  // 阈值状态
+  const [thresholds, setThresholds] = useState<InteractionThresholds>(defaultThresholds);
+
+  // 显示状态
+  const [displays, setDisplays] = useState<InteractionDisplays>(defaultDisplays);
+
+  // 加载 PDB ID
+  const handleLoadPdbId = useCallback(async () => {
+    if (!pdbId.trim() || !viewerRef.current) return;
+    try {
+      await viewerRef.current.loadFromPdbId(pdbId.trim());
+    } catch (error) {
+      console.error('Failed to load structure:', error);
+      alert('加载结构失败，请检查 PDB ID 是否正确');
+    }
+  }, [pdbId, viewerRef]);
+
+  // 文件上传处理
+  const handleFileUpload = useCallback(
+    async (e: React.ChangeEvent<HTMLInputElement>) => {
+      const file = e.target.files?.[0];
+      if (!file || !viewerRef.current) return;
+
+      try {
+        await viewerRef.current.loadStructure(file);
+      } catch (error) {
+        console.error('Failed to load file:', error);
+        alert('加载文件失败，请确保文件格式正确');
+      }
+    },
+    [viewerRef]
+  );
+
+  // 交互类型变更
+  const handleInteractionTypeChange = (type: InteractionType) => {
+    setInteractionType(type);
+    onInteractionTypeChange?.(type);
+  };
+
+  // 视图切换
+  const handleViewChange = (view: ViewType) => {
+    setCurrentView(view);
+    if (viewerRef.current) {
+      viewerRef.current.setView(view);
+    }
+    onViewChange?.(view);
+  };
+
+  // 切换显示状态
+  const toggleDisplay = (key: keyof InteractionDisplays) => {
+    setDisplays((prev) => ({
+      ...prev,
+      [key]: { ...prev[key], enabled: !prev[key].enabled },
+    }));
+  };
+
+  // 更新颜色
+  const updateColor = (key: keyof InteractionDisplays, color: string) => {
+    setDisplays((prev) => ({
+      ...prev,
+      [key]: { ...prev[key], color },
+    }));
+  };
+
+  // 更新半径
+  const updateRadius = (key: keyof InteractionDisplays, radius: number) => {
+    setDisplays((prev) => ({
+      ...prev,
+      [key]: { ...prev[key], radius },
+    }));
+  };
+
+  // 更新阈值
+  const updateThreshold = <K extends keyof InteractionThresholds>(
+    key: K,
+    value: InteractionThresholds[K]
+  ) => {
+    setThresholds((prev) => ({
+      ...prev,
+      [key]: value,
+    }));
+  };
+
+  // 重置设置
+  const resetSettings = () => {
+    setThresholds(defaultThresholds);
+    setDisplays(defaultDisplays);
+  };
+
+  // 导出图片
+  const handleExportImage = async () => {
+    if (viewerRef.current) {
+      await viewerRef.current.exportImage();
+    }
+  };
+
+  // 全屏切换
+  const handleToggleFullscreen = () => {
+    if (viewerRef.current) {
+      viewerRef.current.toggleFullscreen();
+    }
+  };
+
+  return (
+    <div className="flex flex-col gap-4 h-full overflow-y-auto">
+      {/* 基础选项 */}
+      <section className="glass rounded-lg p-4">
+        <h3 className="text-lg font-semibold text-white mb-4">基础选项</h3>
+
+        {/* PDB ID 输入 */}
+        <div className="mb-4">
+          <label className="block text-sm text-gray-300 mb-2">PDB ID</label>
+          <div className="flex gap-2">
+            <input
+              type="text"
+              value={pdbId}
+              onChange={(e) => setPdbId(e.target.value)}
+              onKeyDown={(e) => e.key === 'Enter' && handleLoadPdbId()}
+              placeholder="例如: 1ABC"
+              className="flex-1 px-3 py-2 bg-slate-800/50 border border-slate-600 rounded text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-cyan-500"
+            />
+            <button
+              onClick={handleLoadPdbId}
+              className="px-4 py-2 bg-cyan-600 hover:bg-cyan-700 text-white rounded transition-colors"
+            >
+              加载
+            </button>
+          </div>
+        </div>
+
+        {/* 文件上传 */}
+        <div className="mb-4">
+          <label className="block text-sm text-gray-300 mb-2">上传本地文件</label>
+          <input
+            type="file"
+            accept=".pdb,.cif,.mmcif"
+            onChange={handleFileUpload}
+            className="w-full px-3 py-2 bg-slate-800/50 border border-slate-600 rounded text-gray-300 file:mr-4 file:py-1 file:px-3 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-cyan-600 file:text-white hover:file:bg-cyan-700 cursor-pointer"
+          />
+        </div>
+
+        {/* 交互类型选择 */}
+        <div className="mb-4">
+          <label className="block text-sm text-gray-300 mb-2">交互类型</label>
+          <select
+            value={interactionType}
+            onChange={(e) => handleInteractionTypeChange(e.target.value as InteractionType)}
+            className="w-full px-3 py-2 bg-slate-800/50 border border-slate-600 rounded text-white focus:outline-none focus:ring-1 focus:ring-cyan-500"
+          >
+            <option value="protein-ligand">蛋白 - 配体</option>
+            <option value="protein-protein">蛋白 - 蛋白</option>
+            <option value="nucleic-ligand">核酸 - 配体</option>
+          </select>
+        </div>
+
+        {/* 视图选择 */}
+        <div>
+          <label className="block text-sm text-gray-300 mb-2">视图类型</label>
+          <div className="grid grid-cols-3 gap-2">
+            {(['cartoon', 'surface', 'ball-and-stick'] as ViewType[]).map((view) => (
+              <button
+                key={view}
+                onClick={() => handleViewChange(view)}
+                className={`px-3 py-2 rounded text-sm transition-colors ${
+                  currentView === view
+                    ? 'bg-cyan-600 text-white'
+                    : 'bg-slate-800/50 text-gray-300 hover:bg-slate-700/50'
+                }`}
+              >
+                {view === 'cartoon' && '卡通'}
+                {view === 'surface' && '表面'}
+                {view === 'ball-and-stick' && '球棍'}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 操作按钮 */}
+      <section className="glass rounded-lg p-4">
+        <div className="grid grid-cols-2 gap-2">
+          <button
+            onClick={handleExportImage}
+            className="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded transition-colors"
+          >
+            导出图片
+          </button>
+          <button
+            onClick={handleToggleFullscreen}
+            className="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded transition-colors"
+          >
+            全屏切换
+          </button>
+        </div>
+      </section>
+
+      {/* 交互显示设置 */}
+      <section className="glass rounded-lg p-4">
+        <h3 className="text-lg font-semibold text-white mb-4">交互显示</h3>
+
+        <div className="space-y-3">
+          {/* 氢键 */}
+          <div className="flex items-center justify-between p-2 bg-slate-800/30 rounded">
+            <div className="flex items-center gap-2">
+              <input
+                type="checkbox"
+                checked={displays.hBond.enabled}
+                onChange={() => toggleDisplay('hBond')}
+                className="w-4 h-4 accent-cyan-500"
+              />
+              <span className="text-gray-300">氢键 (H-bond)</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <input
+                type="color"
+                value={displays.hBond.color}
+                onChange={(e) => updateColor('hBond', e.target.value)}
+                className="w-8 h-8 rounded cursor-pointer"
+                disabled={!displays.hBond.enabled}
+              />
+              <input
+                type="number"
+                value={displays.hBond.radius}
+                onChange={(e) => updateRadius('hBond', parseFloat(e.target.value))}
+                min="0.1"
+                max="2"
+                step="0.1"
+                className="w-16 px-2 py-1 bg-slate-800/50 border border-slate-600 rounded text-white text-sm"
+                disabled={!displays.hBond.enabled}
+              />
+            </div>
+          </div>
+
+          {/* 疏水相互作用 */}
+          <div className="flex items-center justify-between p-2 bg-slate-800/30 rounded">
+            <div className="flex items-center gap-2">
+              <input
+                type="checkbox"
+                checked={displays.hydrophobic.enabled}
+                onChange={() => toggleDisplay('hydrophobic')}
+                className="w-4 h-4 accent-cyan-500"
+              />
+              <span className="text-gray-300">疏水作用</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <input
+                type="color"
+                value={displays.hydrophobic.color}
+                onChange={(e) => updateColor('hydrophobic', e.target.value)}
+                className="w-8 h-8 rounded cursor-pointer"
+                disabled={!displays.hydrophobic.enabled}
+              />
+              <input
+                type="number"
+                value={displays.hydrophobic.radius}
+                onChange={(e) => updateRadius('hydrophobic', parseFloat(e.target.value))}
+                min="0.1"
+                max="2"
+                step="0.1"
+                className="w-16 px-2 py-1 bg-slate-800/50 border border-slate-600 rounded text-white text-sm"
+                disabled={!displays.hydrophobic.enabled}
+              />
+            </div>
+          </div>
+
+          {/* π-堆积 */}
+          <div className="flex items-center justify-between p-2 bg-slate-800/30 rounded">
+            <div className="flex items-center gap-2">
+              <input
+                type="checkbox"
+                checked={displays.piStacking.enabled}
+                onChange={() => toggleDisplay('piStacking')}
+                className="w-4 h-4 accent-cyan-500"
+              />
+              <span className="text-gray-300">π-堆积</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <input
+                type="color"
+                value={displays.piStacking.color}
+                onChange={(e) => updateColor('piStacking', e.target.value)}
+                className="w-8 h-8 rounded cursor-pointer"
+                disabled={!displays.piStacking.enabled}
+              />
+              <input
+                type="number"
+                value={displays.piStacking.radius}
+                onChange={(e) => updateRadius('piStacking', parseFloat(e.target.value))}
+                min="0.1"
+                max="2"
+                step="0.1"
+                className="w-16 px-2 py-1 bg-slate-800/50 border border-slate-600 rounded text-white text-sm"
+                disabled={!displays.piStacking.enabled}
+              />
+            </div>
+          </div>
+
+          {/* 盐桥 */}
+          <div className="flex items-center justify-between p-2 bg-slate-800/30 rounded">
+            <div className="flex items-center gap-2">
+              <input
+                type="checkbox"
+                checked={displays.saltBridge.enabled}
+                onChange={() => toggleDisplay('saltBridge')}
+                className="w-4 h-4 accent-cyan-500"
+              />
+              <span className="text-gray-300">盐桥</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <input
+                type="color"
+                value={displays.saltBridge.color}
+                onChange={(e) => updateColor('saltBridge', e.target.value)}
+                className="w-8 h-8 rounded cursor-pointer"
+                disabled={!displays.saltBridge.enabled}
+              />
+              <input
+                type="number"
+                value={displays.saltBridge.radius}
+                onChange={(e) => updateRadius('saltBridge', parseFloat(e.target.value))}
+                min="0.1"
+                max="2"
+                step="0.1"
+                className="w-16 px-2 py-1 bg-slate-800/50 border border-slate-600 rounded text-white text-sm"
+                disabled={!displays.saltBridge.enabled}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 高级选项：阈值设置 */}
+      <section className="glass rounded-lg p-4">
+        <h3 className="text-lg font-semibold text-white mb-4">阈值设置</h3>
+
+        <div className="space-y-4">
+          {/* 氢键阈值 */}
+          <div>
+            <h4 className="text-sm font-medium text-cyan-300 mb-2">氢键 (H-bond)</h4>
+            <div className="grid grid-cols-2 gap-2 text-sm">
+              <div>
+                <label className="text-gray-400">最大距离 (Å)</label>
+                <input
+                  type="number"
+                  value={thresholds.hBond.distance.max}
+                  onChange={(e) =>
+                    updateThreshold('hBond', {
+                      ...thresholds.hBond,
+                      distance: { ...thresholds.hBond.distance, max: parseFloat(e.target.value) },
+                    })
+                  }
+                  min="2"
+                  max="5"
+                  step="0.1"
+                  className="w-full mt-1 px-2 py-1 bg-slate-800/50 border border-slate-600 rounded text-white"
+                />
+              </div>
+              <div>
+                <label className="text-gray-400">最小角度 (°)</label>
+                <input
+                  type="number"
+                  value={thresholds.hBond.angle.min}
+                  onChange={(e) =>
+                    updateThreshold('hBond', {
+                      ...thresholds.hBond,
+                      angle: { min: parseFloat(e.target.value) },
+                    })
+                  }
+                  min="90"
+                  max="180"
+                  step="5"
+                  className="w-full mt-1 px-2 py-1 bg-slate-800/50 border border-slate-600 rounded text-white"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* 疏水作用阈值 */}
+          <div>
+            <h4 className="text-sm font-medium text-cyan-300 mb-2">疏水作用</h4>
+            <div>
+              <label className="text-gray-400 text-sm">最大距离 (Å)</label>
+              <input
+                type="number"
+                value={thresholds.hydrophobic.maxDistance}
+                onChange={(e) =>
+                  updateThreshold('hydrophobic', { maxDistance: parseFloat(e.target.value) })
+                }
+                min="3"
+                max="6"
+                step="0.1"
+                className="w-full mt-1 px-2 py-1 bg-slate-800/50 border border-slate-600 rounded text-white"
+              />
+            </div>
+          </div>
+
+          {/* π-堆积阈值 */}
+          <div>
+            <h4 className="text-sm font-medium text-cyan-300 mb-2">π-堆积</h4>
+            <div className="grid grid-cols-2 gap-2 text-sm">
+              <div>
+                <label className="text-gray-400">最大距离 (Å)</label>
+                <input
+                  type="number"
+                  value={thresholds.piStacking.maxDistance}
+                  onChange={(e) =>
+                    updateThreshold('piStacking', {
+                      ...thresholds.piStacking,
+                      maxDistance: parseFloat(e.target.value),
+                    })
+                  }
+                  min="4"
+                  max="7"
+                  step="0.1"
+                  className="w-full mt-1 px-2 py-1 bg-slate-800/50 border border-slate-600 rounded text-white"
+                />
+              </div>
+              <div>
+                <label className="text-gray-400">最大角度 (°)</label>
+                <input
+                  type="number"
+                  value={thresholds.piStacking.maxAngle}
+                  onChange={(e) =>
+                    updateThreshold('piStacking', {
+                      ...thresholds.piStacking,
+                      maxAngle: parseFloat(e.target.value),
+                    })
+                  }
+                  min="10"
+                  max="45"
+                  step="5"
+                  className="w-full mt-1 px-2 py-1 bg-slate-800/50 border border-slate-600 rounded text-white"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* 盐桥阈值 */}
+          <div>
+            <h4 className="text-sm font-medium text-cyan-300 mb-2">盐桥</h4>
+            <div>
+              <label className="text-gray-400 text-sm">最大距离 (Å)</label>
+              <input
+                type="number"
+                value={thresholds.saltBridge.maxDistance}
+                onChange={(e) =>
+                  updateThreshold('saltBridge', { maxDistance: parseFloat(e.target.value) })
+                }
+                min="3"
+                max="6"
+                step="0.1"
+                className="w-full mt-1 px-2 py-1 bg-slate-800/50 border border-slate-600 rounded text-white"
+              />
+            </div>
+          </div>
+        </div>
+
+        <button
+          onClick={resetSettings}
+          className="mt-4 w-full px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded transition-colors"
+        >
+          重置所有设置
+        </button>
+      </section>
+    </div>
+  );
+}

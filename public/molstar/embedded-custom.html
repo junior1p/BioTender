@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Mol* Viewer - Embedded</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #app {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="molstar.css">
+</head>
+<body>
+    <div id="app"></div>
+    <script type="text/javascript" src="./molstar.js"></script>
+    <script type="text/javascript">
+        let viewer = null;
+        let viewerReady = false;
+
+        // Initialize Mol* Viewer
+        molstar.Viewer.create('app', {
+            disabledExtensions: [],
+            layoutShowControls: true,
+            layoutShowSequence: true,
+            layoutShowLog: false,
+            layoutShowLeftPanel: true,
+            viewportShowExpand: false,
+            collapseLeftPanel: false,
+            pdbProvider: 'pdbe',
+            pixelScale: 1,
+            pickScale: 0.25,
+            pickPadding: 1,
+        }).then(function(createdViewer) {
+            viewer = createdViewer;
+            viewerReady = true;
+
+            console.log('[Mol*] Viewer initialized successfully');
+
+            // Notify parent that viewer is ready
+            window.parent.postMessage({
+                type: 'molstar-ready',
+                version: molstar.__VERSION__
+            }, '*');
+
+            // Set up message listener
+            window.addEventListener('message', handleParentMessage);
+
+            // Cleanup on unload
+            window.addEventListener('unload', function() {
+                if (viewer) {
+                    viewer.dispose();
+                    viewer = null;
+                }
+            });
+        }).catch(function(error) {
+            console.error('[Mol*] Initialization failed:', error);
+            window.parent.postMessage({
+                type: 'molstar-error',
+                error: error.message || 'Failed to initialize Mol* viewer'
+            }, '*');
+        });
+
+        function handleParentMessage(event) {
+            // Basic security check - allow same origin
+            // In production, you should check event.origin against your domain
+            const data = event.data;
+
+            if (!data || !data.type) return;
+
+            try {
+                switch (data.type) {
+                    case 'load-structure':
+                        loadStructure(data.data);
+                        break;
+                    case 'load-pdb':
+                        loadPdb(data.data);
+                        break;
+                    case 'reset-camera':
+                        if (viewer && viewer.canvas3d) {
+                            viewer.canvas3d.camera.reset();
+                        }
+                        break;
+                }
+            } catch (error) {
+                console.error('[Mol*] Error handling message:', error);
+                window.parent.postMessage({
+                    type: 'molstar-error',
+                    error: error.message || 'Unknown error'
+                }, '*');
+            }
+        }
+
+        function loadStructure(data) {
+            console.log('[Mol*] Loading structure from file:', data.fileName, data.format);
+
+            if (!viewer || !viewerReady) {
+                throw new Error('Viewer not ready');
+            }
+
+            // Convert array back to Uint8Array
+            var fileData = new Uint8Array(data.fileData);
+
+            // Create a blob URL for the file data
+            var blob = new Blob([fileData], { type: 'application/octet-stream' });
+            var blobUrl = URL.createObjectURL(blob);
+
+            // Load structure from blob URL
+            viewer.loadStructureFromUrl(blobUrl, data.format, false).then(function() {
+                console.log('[Mol*] Structure loaded successfully');
+                window.parent.postMessage({
+                    type: 'molstar-structure-loaded',
+                    fileName: data.fileName
+                }, '*');
+
+                // Clean up blob URL after a delay
+                setTimeout(function() {
+                    URL.revokeObjectURL(blobUrl);
+                }, 5000);
+            }).catch(function(error) {
+                console.error('[Mol*] Failed to load structure:', error);
+                throw error;
+            });
+        }
+
+        function loadPdb(data) {
+            console.log('[Mol*] Loading PDB:', data.pdbId);
+
+            if (!viewer || !viewerReady) {
+                throw new Error('Viewer not ready');
+            }
+
+            viewer.loadPdb(data.pdbId).then(function() {
+                console.log('[Mol*] PDB loaded successfully:', data.pdbId);
+                window.parent.postMessage({
+                    type: 'molstar-structure-loaded',
+                    pdbId: data.pdbId
+                }, '*');
+            }).catch(function(error) {
+                console.error('[Mol*] Failed to load PDB:', error);
+                throw error;
+            });
+        }
+    </script>
+</body>
+</html>
