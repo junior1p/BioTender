@@ -16,6 +16,12 @@ export default function ToolsPage() {
       path: '/tools/interaction-analyzer',
       icon: '🧬',
     },
+    {
+      title: 'mmCIF → PDB',
+      description: '纯前端将 mmCIF 文件转换为 PDB 格式，支持 .cif/.mmcif 文件',
+      path: '/tools/mmcif-to-pdb',
+      icon: '🔄',
+    },
   ];
 
   return (
