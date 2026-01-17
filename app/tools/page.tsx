@@ -22,6 +22,12 @@ export default function ToolsPage() {
       path: '/tools/mmcif-to-pdb',
       icon: '🔄',
     },
+    {
+      title: 'DEG Interpreter',
+      description: '上传 DEG 表 → QC + 火山图 + Top 基因（支持 CSV/TSV）',
+      path: '/tools/deg-interpreter',
+      icon: '📊',
+    },
   ];
 
   return (
